@@ -3,7 +3,9 @@ services:
 
     # Cells image with one named volume for the data
     cells:
-        image: pydio/cells:latest
+        # image: pydio/cells:latest
+        build:
+            context: cells/.
         restart: always    
         volumes: ["data:/root/.config/pydio/cells/data"]      
         ports: ["8080:8080"]
@@ -11,7 +13,7 @@ services:
             - CELLS_BIND=localhost:8080
             - CELLS_EXTERNAL=localhost:8080
 
-    # MySQL image with a default database cells and a dedicated user pydio
+   # MySQL image with a default database cells and a dedicated user pydio
     mysql:
         image: mysql:5.7
         restart: always
