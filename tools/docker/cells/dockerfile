@@ -7,10 +7,11 @@ ENV CELLS_VERSION ${version}
 
 WORKDIR /pydio
 
-RUN wget "https://download.pydio.com/pub/cells-enterprise/release/1.6.2/linux-amd64/cells-enterprise"
-RUN wget "https://download.pydio.com/pub/cells-enterprise/release/1.6.2/linux-amd64/cells-ctl"
+RUN wget "https://download.pydio.com/pub/cells-enterprise/release/1.6.1/linux-amd64/cells-enterprise"
+RUN wget "https://download.pydio.com/pub/cells-enterprise/release/1.6.1/linux-amd64/cells-enterprise-ctl"
 
 RUN mv /pydio/cells-enterprise /pydio/cells
+RUN mv /pydio/cells-enterprise-ctl /pydio/cells-ctl
 
 RUN chmod +x /pydio/cells
 RUN chmod +x /pydio/cells-ctl
