@@ -1,0 +1,47 @@
+{
+  "Update.Config.Title": {
+    "other": "Atjaunot konfigurāciju"
+  },
+  "Update.Config.Url.Label": {
+    "other": "Atjaunot serveri"
+  },
+  "Update.Config.Url.Description": {
+    "other": "Atjaunošanas servera URL"
+  },
+  "Update.Config.PublicKey.Label": {
+    "other": "Publiskā atslēga"
+  },
+  "Update.Config.PublicKey.Description": {
+    "other": "Oficiālā atslēga ar kuru pārbaudīt datu parakstu."
+  },
+  "Update.Config.Channel.Label": {
+    "other": "Atjauninājumu kanāls"
+  },
+  "Update.Config.Channel.Description": {
+    "other": "Kanāls no kura izmanto atjauninājumus. Palieciet pie Stabila ja neesat pārliecināts."
+  },
+  "Update.Config.Channel.ValueStable": {
+    "other": "Stabila"
+  },
+  "Update.Config.Channel.ValueDev": {
+    "other": "Dev (lietojiet paši uz savu risku)"
+  },
+  "Update.Config.ProxyHost.Label": {
+    "other": "Starpniekserveris"
+  },
+  "Update.Config.ProxyHost.Description": {
+    "other": "Starpniekservera nosaukums ja nepieciešams priekš izejošajiem pieslēgumiem"
+  },
+  "Update.Config.ProxyUser.Label": {
+    "other": "Starpniekservera lietotājs"
+  },
+  "Update.Config.ProxyUser.Description": {
+    "other": "Nepieciešams starpniekservera identifikācijai"
+  },
+  "Update.Config.ProxyPassword.Label": {
+    "other": "Starpniekservera parole"
+  },
+  "Update.Config.ProxyPassword.Description": {
+    "other": "Parole kas nepieciešama starpniekservera identifikācijai"
+  }
+}

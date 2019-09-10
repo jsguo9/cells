@@ -1,0 +1,179 @@
+{
+  "39": {
+    "other": "Šīs ir darbvirsmas kurām Jums ir piekļuve. Tās var būt personīgās vai koplietotas ar/no citiem lietotājiem."
+  },
+  "40": {
+    "other": "Sveiki, %s! "
+  },
+  "41": {
+    "other": "Lietot šo kā noklusēto darbvirsmu"
+  },
+  "42": {
+    "other": "Ienākt"
+  },
+  "43": {
+    "other": "Mans Profils"
+  },
+  "43t": {
+    "other": "Mani personīgie dati"
+  },
+  "44": {
+    "other": "Mans konts"
+  },
+  "45": {
+    "other": "Personīgie dati"
+  },
+  "46": {
+    "other": "Adresu grāmata"
+  },
+  "47": {
+    "other": "Jūsu izveidotie lietotāji un komandas"
+  },
+  "48": {
+    "other": "Mani lietotāji"
+  },
+  "49": {
+    "other": "Jūsu izveidotie ārējie lietotāji"
+  },
+  "50": {
+    "other": "Manas komandas"
+  },
+  "51": {
+    "other": "Lietotāju komandas, lieto kā saīsnes koplietošanai"
+  },
+  "52": {
+    "other": "Vai vēlaties dzēst šo komandu? Lietotāji netiks dzēsti."
+  },
+  "53": {
+    "other": "Sākt"
+  },
+  "54": {
+    "other": "Sākt darbu ar APPLICATION_TITLE izmantojot palīdzības video"
+  },
+  "55": {
+    "other": "Kā darboties ar APPLICATION_TITLE? <a>Skatīties instrukciju</a>!"
+  },
+  "56": {
+    "other": "Sākt darbu ar APPLICATION_TITLE? Te būs pāris palīdzības video!"
+  },
+  "57": {
+    "other": "Lejupielādēt APPLICATION_TITLE priekš..."
+  },
+  "58": {
+    "other": "Android"
+  },
+  "59": {
+    "other": "iPhone/iPad"
+  },
+  "60": {
+    "other": "Mac OS"
+  },
+  "61": {
+    "other": "Windows"
+  },
+  "62": {
+    "other": "<h2>[How-to] Kas ir darbvirsma?</h2>\n            Palīdzība par darbvismām APPLICATION_TITLE\n            <ul>\n                <li>Kapēc darbvirsmas APPLICATION_TITLE ir centralizētas?</li>\n                <li>Kas ir darbvirsmas no tehniskā skatījuma?</li>\n                <li>Kā tās ļauj organizēt darbu un datus?</li>\n            </ul>\n            "
+  },
+  "63": {
+    "other": "<h2>[How-to] Failu augšupielāde uz APPLICATION_TITLE</h2>\n            Darbojieties ar APPLICATION_TITLE un augšupielādējiet failus\n            <ul>\n                <li>Ievelciet failus APPLICATION_TITLE</li>\n                <li>Izveidot jaunu direktoriju</li>\n                <li>Pārsaukt failus un direktorijas</li>\n                <li>Lejupielādēt failus uz Jūsu datora</li>\n            </ul>\n            "
+  },
+  "64": {
+    "other": "<h2>[How-to] Meklēšana, pārlūkošana un filu pārvaldība</h2>\n            Kā APPLICATION_TITLE efektīvi pārvaldīt failus un datus\n            <ul>\n                <li>Meklēšana starp darbvirsmām</li>\n                <li>Satura attēlošanas veidi, klaviatūras saīsnes</li>\n                <li>Failu šķirošana</li>\n                <li>Meta dati, Grāmatzīmes</li>\n            </ul>\n            "
+  },
+  "65": {
+    "other": "Atklājiet vairāk APPLICATION_TITLE kanālā!"
+  },
+  "66": {
+    "other": "<h2>[How-to] APPLICATION_TITLE lietošana uz iOS ierīcēm</h2>\n                            Palīdzība par APPLICATION_TITLE aplikācijas lietošanu (pieejama App Store). Uz Android ierīcēm šis process ir tāds pats.\n<ul><li>Izveidot servera pieslēgumu</li>\n<li>Navigācija</li>\n<li>Failu saglabāšana bezsaistē un darbs ar ārējā aplikācijām</li>\n<li>Aplikācijas aizsardzība ar PIN kodu</li>\n<li>Grāmatzīmju un meklēšanas lietošana</li></ul>"
+  },
+  "67": {
+    "other": "Ja Jūs neesat %s, %logout."
+  },
+  "68": {
+    "other": "Lejupielādēt Windows Sinhronizācijas klientu"
+  },
+  "69": {
+    "other": "Lejupielādēt Mac OSX Sinhronizācijas klientu"
+  },
+  "70": {
+    "other": "Aplikācija iOS iekārtām"
+  },
+  "71": {
+    "other": "Aplikācija Android iekārtām"
+  },
+  "72": {
+    "other": "Servera QR Kods"
+  },
+  "73": {
+    "other": "Pieslēgt mobilās aplikācijas"
+  },
+  "74": {
+    "other": "Noskanē šo QR Kodu lai nokonfigurētu mobilo aplikāciju"
+  },
+  "75": {
+    "other": "Meklēt visus failus..."
+  },
+  "76": {
+    "other": "Piekļūt %1 no augšējās labās izvēlnes"
+  },
+  "77": {
+    "other": "admin pārvaldības panelis"
+  },
+  "78": {
+    "other": "Izvēlēties darba virsmu"
+  },
+  "79": {
+    "other": "<h2>[How-to] Failu un direktoriju koplietošana</h2>\n            Pamācība par failu un direktoriju koplietošanu sistēmā un ārpus tās\n            <ul>\n                <li>Izveidot koplietošanas saites ārējiem lietotājiem</li>\n                <li>Failu un direktoriju koplietošana ar iekšējiem lietotājiem</li>\n                <li>Koplietot direktoriju kā darbvirsmu</li>\n                <li>Izkārtojuma opcijas koplietotām direktorijām</li>\n                <li>Izveidot augšupielādes direktoriju</li>\n                <li>Pārvaldīt lietotājus un koplietošanas tiesības</li>\n            </ul>\n            "
+  },
+  "80": {
+    "other": "<h2>[How-to] Koplietošana : drošības iespējas</h2>\n            Pamācības par koplietošanas drošības iespējām\n            <ul>\n                <li>Aizsardzība ar paroli</li>\n                <li>Beigu datums</li>\n                <li>Lejupielāžu skaita limitēšana</li>\n            </ul>\n            "
+  },
+  "81": {
+    "other": "<h2>[How-to] Pielāgot koplietošanas saites nosaukumu</h2>\n            Apskatiet kā Jūs varat mainīt saiti lai tās būtu draudzīgas lietotājiem.\n            "
+  },
+  "82": {
+    "other": "<h2>[How-to] Koplietoto saišu pielāgota piekļuve</h2>\n            Pamācība par koplietošanas atļaujām\n            <ul>\n                <li>Priekšskats</li>\n                <li>Lejpielāde</li>\n                <li>Augšupielāde / Labošana</li>\n            </ul>\n            "
+  },
+  "83": {
+    "other": "<h2>[How-to] Valoda</h2>\n            APPLICATION_TITLE ir pieejama 29 valodās. Parādīts kā pārslēgt APPLICATION_TITLE valodu.\n            "
+  },
+  "84": {
+    "other": "<h2>[How-to] Brīdinājumi</h2>\n            Pamācība kā uzlikt failam brīdinājumus lai zinātu kad kāds ir modificējis vai piekļuvis failiem.\n            "
+  },
+  "85": {
+    "other": "<h2>[How-to] Sadarbība</h2>\n            Instrukcijā paskaidrots kā sadarboties komandā ar ofisa dokumentiem. Tiek izmantota Collabora ofisa tiešsaistes platforma\n            <ul>\n                <li>Darbs ar teksta dokumentiem, prezentācijām, izklājlapām</li>\n                <li>Labojiet dokumentus kopīgi reālā laikā</li>\n                <li>Izveidojiet jaunus dokumentus tieši interneta pārlūkā</li>\n            </ul>\n            "
+  },
+  "86": {
+    "other": "Atskaņot video"
+  },
+  "87": {
+    "other": "Manas pēdējās aktivitātes"
+  },
+  "88": {
+    "other": "Ievilkt failu no Jūsu datora"
+  },
+  "89": {
+    "other": "Izvēlēties failu augšupielādei"
+  },
+  "90": {
+    "other": "Izvēlēties darba virsmu"
+  },
+  "91": {
+    "other": "Uzglabājiet failus bezsaistē izmantojot Darbvirsmas Sinhrinozācijas Klientu"
+  },
+  "92": {
+    "other": "Aplikāciju lejupielāde"
+  },
+  "93": {
+    "other": "Ātrā augšupielāde"
+  },
+  "94": {
+    "other": "Video apmācība"
+  },
+  "desc": {
+    "other": "Sākuma lapa"
+  },
+  "title": {
+    "other": "Sākums"
+  }
+}

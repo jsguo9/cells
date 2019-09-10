@@ -717,14 +717,14 @@ service InstallService {
             body: "*"
         };
     }
-    // Perform a check during install (like DB connection, php-fpm detection, etc)
+    // Perform a check during install (like a valid DB connection)
     rpc PerformInstallCheck(install.PerformCheckRequest) returns (install.PerformCheckResponse) {
         option(google.api.http) = {
             post: "/install/check"
             body: "*"
         };
     }
-    // Perform a check during install (like DB connection, php-fpm detection, etc)
+    // Load a textual agreement for using the software
     rpc GetAgreement(install.GetAgreementRequest) returns (install.GetAgreementResponse) {
         option(google.api.http) = {
             get: "/install/agreement"
@@ -737,13 +737,15 @@ service UpdateService {
     // Check the remote server to see if there are available binaries
     rpc UpdateRequired(update.UpdateRequest) returns (update.UpdateResponse) {
         option(google.api.http) = {
-            get: "/update"
+            post: "/update"
+            body:"*"
         };
     }
     // Apply an update to a given version
     rpc ApplyUpdate(update.ApplyUpdateRequest) returns (update.ApplyUpdateResponse) {
         option(google.api.http) = {
-            get: "/update/{TargetVersion}"
+            patch: "/update/{TargetVersion}"
+            body:"*"
         };
     }
 }

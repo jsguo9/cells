@@ -1,0 +1,68 @@
+{
+  "AccessedBy": {
+    "other": "Piekļuva {{.Actor}}"
+  },
+  "AccessedObject": {
+    "other": "Piekļūts {{.Object}}"
+  },
+  "AccessedObjectBy": {
+    "other": "{{.Object}} piekļuva {{.Actor}}"
+  },
+  "Cell": {
+    "other": "Šūna"
+  },
+  "CreatedBy": {
+    "other": "Izveidoja {{.Actor}}"
+  },
+  "CreatedObject": {
+    "other": "Izveidots {{.Object}}"
+  },
+  "CreatedObjectBy": {
+    "other": "{{.Object}} izveidoja {{.Actor}}"
+  },
+  "DeletedBy": {
+    "other": "Nodzēsa {{.Actor}}"
+  },
+  "DeletedObject": {
+    "other": "Nodzēsts {{.Object}}"
+  },
+  "DeletedObjectBy": {
+    "other": "{{.Object}} nodzēsa {{.Actor}}"
+  },
+  "SharedWs": {
+    "other": "Koplietots {{.Object}}"
+  },
+  "SharedWsWithYou": {
+    "other": "{{.Actor}} koplietoja ar Tevi {{.Object}}"
+  },
+  "DigestTitle": {
+    "other": "Šī ir Pydio ikdienas atskaite"
+  },
+  "Document": {
+    "other": "Dokuments"
+  },
+  "Folder": {
+    "other": "Direktorija"
+  },
+  "ModifiedBy": {
+    "other": "Laboja {{.Actor}}"
+  },
+  "ModifiedObject": {
+    "other": "Labots {{.Object}}"
+  },
+  "ModifiedObjectBy": {
+    "other": "{{.Object}} laboja {{.Actor}}"
+  },
+  "MovedBy": {
+    "other": "Pārvietoja {{.Actor}}"
+  },
+  "MovedObject": {
+    "other": "Pārvietots {{.Object}}"
+  },
+  "MovedObjectBy": {
+    "other": "{{.Object}} pārvietoja {{.Actor}}"
+  },
+  "Workspace": {
+    "other": "Darbvirsma"
+  }
+}

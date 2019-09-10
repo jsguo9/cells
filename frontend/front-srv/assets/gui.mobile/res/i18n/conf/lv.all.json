@@ -1,0 +1,32 @@
+{
+  "1.android": {
+    "other": "Ir pieejama APPLICATION_TITLE klienta aplikācija lai piekļūtu %s uz Android OS sistēmas."
+  },
+  "1.ios": {
+    "other": "Ir pieejama klienta aplikācija lai piekļūtu %s ar iPhone/iPad!"
+  },
+  "2.android": {
+    "other": "Man jau tā ir, atvērt to un pievienot šo serveri jau pie esošajiem saglabātajiem serveriem"
+  },
+  "2.ios": {
+    "other": "Man jau tā ir, atvērt to un pievienot šo serveri jau pie esošajiem saglabātajiem serveriem"
+  },
+  "3.android": {
+    "other": "Man tās nav, pāriet uz Play Store veikalu!"
+  },
+  "3.ios": {
+    "other": "Man tās nav, pāriet uz App Store veikalu!"
+  },
+  "4.android": {
+    "other": "Turpināt izmantot %s web versiju."
+  },
+  "4.ios": {
+    "other": "Turpināt izmantot %s web versiju."
+  },
+  "Mobile": {
+    "other": "Mobilais"
+  },
+  "Template extending gui.ajax for small screen terminals.": {
+    "other": "Šablona paplašinājums gui.ajax priekš maza ekrāna izmēra termināliem."
+  }
+}

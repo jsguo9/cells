@@ -1,0 +1,80 @@
+{
+  "1": {
+    "other": "Augšupielādes rindā %s faili"
+  },
+  "10": {
+    "other": ""
+  },
+  "11": {
+    "other": "Sākt"
+  },
+  "12": {
+    "other": "Notīrīt sarakstu"
+  },
+  "13": {
+    "other": "Direktorija izveidota"
+  },
+  "14": {
+    "other": "Apstrādā"
+  },
+  "15": {
+    "other": "Gaida"
+  },
+  "16": {
+    "other": "Apstrādāts"
+  },
+  "17": {
+    "other": "Rādīt/slēpt apstrādātos failus"
+  },
+  "options.existing": {
+    "other": "Ja eksistē fails ar tādu pašu nosaukumu:"
+  },
+  "options.existing.alert": {
+    "other": "Apstādināt augšupielādi un rādīt brīdinājumu"
+  },
+  "options.existing.folders": {
+    "other": "Pārsaukt vispirms direktorijas un pēc tam failus"
+  },
+  "options.existing.merge": {
+    "other": "Pārsaukt tikai failus (apvienot direktorijas)"
+  },
+  "2": {
+    "other": "Augšupielādē %s failus"
+  },
+  "options.existing.overwrite": {
+    "other": "Pārrakstīt esošo failus bez brīdinājuma"
+  },
+  "22": {
+    "other": "Opcijas"
+  },
+  "23": {
+    "other": "Kļūdas"
+  },
+  "3": {
+    "other": "Jums nav tiesību šeit augšupielādēt šo failu"
+  },
+  "4": {
+    "other": "Izvēlieties failu"
+  },
+  "5": {
+    "other": "Izvēlieties direktoriju"
+  },
+  "6": {
+    "other": "Nevar pārtraukt direktorijas izveidošanu"
+  },
+  "7": {
+    "other": "Augšupielādē filus uz servera..."
+  },
+  "8": {
+    "other": "Izskatās ka pārlūks neatbalsta direktoriju ievilkšanu logā"
+  },
+  "9": {
+    "other": ""
+  },
+  "analyze.step": {
+    "other": "Sagatavo failus un direktorijas augšupielādei..."
+  },
+  "drophere": {
+    "other": "Ievilkt failus"
+  }
+}

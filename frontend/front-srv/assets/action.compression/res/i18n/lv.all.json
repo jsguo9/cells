@@ -1,0 +1,53 @@
+{
+  "1": {
+    "other": "Arhivēt"
+  },
+  "10": {
+    "other": "Atpakot izvēlētos arhīvus"
+  },
+  "11": {
+    "other": "Ceļš uz atarhivētajiem failiem "
+  },
+  "12": {
+    "other": "Sāk atarhivēšanu..."
+  },
+  "13": {
+    "other": "Atarhivē failus ... %s "
+  },
+  "14": {
+    "other": "Atarhivēšana veiksmīgi pabeigta direktorijā '%s'."
+  },
+  "15": {
+    "other": "Izvēlētais fails nav ne TAR, TAR.GZ, ne TAR.BZ2 arhīvs."
+  },
+  "16": {
+    "other": "Var kompresēt tikai TAR, TAR.GZ vai TAR.BZ2 formātos."
+  },
+  "17": {
+    "other": "Nevar kompresēt tukšas direktorijas."
+  },
+  "2": {
+    "other": "Arhivēt atlasītos"
+  },
+  "3": {
+    "other": "Formāts"
+  },
+  "4": {
+    "other": "Arhīva nosaukums"
+  },
+  "5": {
+    "other": "Sāk arhivēšanu..."
+  },
+  "6": {
+    "other": "Pievieno failus arhīvam... %s "
+  },
+  "7": {
+    "other": "Kompresējot %s ..."
+  },
+  "8": {
+    "other": "Arhivēšana veiksmīgi pabeigta !!"
+  },
+  "9": {
+    "other": "Atarhivēt"
+  }
+}

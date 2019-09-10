@@ -1,0 +1,68 @@
+{
+  "Jobs.Default.Thumbs": {
+    "other": "Izvilkt attēla priekšskatu un Exif datus"
+  },
+  "Jobs.Default.ThumbsCache": {
+    "other": "Iztīrīt nodzēsto attēlu kešu"
+  },
+  "Jobs.Default.Directories": {
+    "other": "Sinhronizēt ārējās direktorijas"
+  },
+  "Jobs.Default.PruneJobs": {
+    "other": "Notīrīt darbus un uzdevumus plānotājā"
+  },
+  "Jobs.Default.FakeLongJob": {
+    "other": "Simulē ilgu darbību (testēšanai)"
+  },
+  "Jobs.Default.FakeUsersJob": {
+    "other": "Brīvi izvēlētu lietotāju izveidošana (testēšanai)"
+  },
+  "Jobs.Default.FakeGrpcJob": {
+    "other": "RPC darbības paraugs (testēšanai)"
+  },
+  "Jobs.Default.ArchiveJobs": {
+    "other": "Automātisks izmaiņu arhivēšanas serviss"
+  },
+  "Jobs.User.Compress": {
+    "other": "Kompresē atlasītos datus..."
+  },
+  "Jobs.User.Extract": {
+    "other": "Atpako arhīvu..."
+  },
+  "Jobs.User.Delete": {
+    "other": "Dzēša atlasītos datus..."
+  },
+  "Jobs.User.DirCopy": {
+    "other": "Kopē direktoriju..."
+  },
+  "Jobs.User.DirMove": {
+    "other": "Pārvieto direktoriju..."
+  },
+  "Jobs.User.FileCopy": {
+    "other": "Kopē failu..."
+  },
+  "Jobs.User.FileMove": {
+    "other": "Pārvieto failu..."
+  },
+  "Jobs.User.MultipleCopy": {
+    "other": "Kopē atlasītos datus..."
+  },
+  "Jobs.User.MultipleMove": {
+    "other": "Pārvieto atlasītos datus..."
+  },
+  "Jobs.User.MoveRecycle": {
+    "other": "Pārvieto uz miskasti..."
+  },
+  "Jobs.User.ResyncDS": {
+    "other": "Datu pārindeksācija {{.DsName}}..."
+  },
+  "Jobs.User.Wget": {
+    "other": "Lejupielādē failu fonā..."
+  },
+  "Jobs.User.DeletingItem": {
+    "other": "Dzēš %s"
+  },
+  "Jobs.User.CopyingItem": {
+    "other": "Kopē %s"
+  }
+}

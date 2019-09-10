@@ -1,0 +1,908 @@
+{
+  "1": {
+    "other": "%s Publiska lejupielāde"
+  },
+  "10": {
+    "other": "Direktorija tiek koplietota"
+  },
+  "100": {
+    "other": "Koplietotie faili"
+  },
+  "101": {
+    "other": "Visi faili ir koplietoti kā publiskas saites"
+  },
+  "102": {
+    "other": "Koplietotās direktorijas"
+  },
+  "103": {
+    "other": "Visas direktorijas tiek koplietotas kā darbvirsmas vai minilapas."
+  },
+  "104": {
+    "other": "Rāda pirmo saiti, pieejamas vēl %s saites"
+  },
+  "105": {
+    "other": "Rāda pirmo saiti, pieejama vēl viena saite"
+  },
+  "106": {
+    "other": "Vai notīrīt lejupielāžu skaitītāju?"
+  },
+  "107": {
+    "other": "Lejupielāžu limitam jābūt starp 1 un %s"
+  },
+  "108": {
+    "other": "Lietojiet QR kodu kuru skaneris var nolasīt "
+  },
+  "109": {
+    "other": "Minilapas lietotājs"
+  },
+  "11": {
+    "other": "Derīgums"
+  },
+  "110": {
+    "other": "Koplietot"
+  },
+  "110b": {
+    "other": "Koplietot"
+  },
+  "111": {
+    "other": "Koplietot šo lapu ar citiem lietotājiem"
+  },
+  "112": {
+    "other": "Koplietot šo lapu"
+  },
+  "113": {
+    "other": "Kā jauna darbvirsma"
+  },
+  "114": {
+    "other": "Kopleitot šo direktoriju ar iekšējiem lietotājiem"
+  },
+  "115": {
+    "other": "Kā saiti"
+  },
+  "116": {
+    "other": "Publicēt direktorijas saturu kā minilapu"
+  },
+  "117": {
+    "other": "Kā privātā minilapa"
+  },
+  "118": {
+    "other": "Ar paroli aizsargāta minilapa"
+  },
+  "119": {
+    "other": "Lejupielādes saite"
+  },
+  "12": {
+    "other": "Parole"
+  },
+  "120": {
+    "other": "Vienkārša lejupielādes lapa"
+  },
+  "121": {
+    "other": "Publiska saite"
+  },
+  "122": {
+    "other": "Izveidot publisku saiti"
+  },
+  "123": {
+    "other": "Izvēle kā minilapa"
+  },
+  "124": {
+    "other": "Publicēt esošo izvēli"
+  },
+  "125": {
+    "other": "Labot koplietošanas iestatījumus"
+  },
+  "126": {
+    "other": "Labot/ apstādināt esošo, jau konfigurēto koplietošanu"
+  },
+  "127": {
+    "other": "Migrēt mantoto"
+  },
+  "128": {
+    "other": "Migrēt mantotās koplietošanas"
+  },
+  "129": {
+    "other": "Nokopēt saiti"
+  },
+  "13": {
+    "other": "Jā"
+  },
+  "130": {
+    "other": "Kopēt saiti"
+  },
+  "131": {
+    "other": "Nav koplietotu failu vai direktoriju."
+  },
+  "132": {
+    "other": "Darbvirsma"
+  },
+  "133": {
+    "other": "Kā publiska saite"
+  },
+  "134": {
+    "other": "Kā darbvirsma"
+  },
+  "135": {
+    "other": "Direktorija būs redzama kā minilapa lietotāja pārlūkā"
+  },
+  "136": {
+    "other": "Direktorijas saturs priekš aplikācijas lietotājiem būs redzams jaunā darbvirsmā"
+  },
+  "137": {
+    "other": "Koplietot izvēlēto failu ar publisku saiti"
+  },
+  "138": {
+    "other": "Jūs koplietojāt šo direktoriju kā publisko saiti (minilapa)"
+  },
+  "138b": {
+    "other": "Jūs koplietojāt šo direktoriju kā publisko saiti, bet šobrīd tā ir neaktīva (beigusies)."
+  },
+  "139": {
+    "other": "Jūs koplietojāt šo direktoriju kā darbvirsmu ar aplikācijas lietotājiem"
+  },
+  "139b": {
+    "other": "Jūs koplietojāt šo direktoriju kā darbvirsmu ar aplikācijas lietotājiem, bet šobrīd tā ir neaktīva (beigusies)."
+  },
+  "14": {
+    "other": "Nē"
+  },
+  "140": {
+    "other": "Jūs koplietojāt šo failu kā publisko saiti"
+  },
+  "140b": {
+    "other": "Jūs koplietojāt šo failu kā publisko saiti, bet šobrīd tā ir neaktīva (beigusies)."
+  },
+  "141": {
+    "other": "Labot parametrus"
+  },
+  "142": {
+    "other": "Slēpt parametrus"
+  },
+  "143": {
+    "other": "Lietojiet <kbd>Ctrl</kbd>+<kbd>C</kbd> lai nokopētu saiti"
+  },
+  "144": {
+    "other": "Lietojiet <kbd>&#8984;</kbd>+<kbd>C</kbd> lai nokopētu saiti"
+  },
+  "145": {
+    "other": "Apraksts"
+  },
+  "146": {
+    "other": "Tiks parādīts koplietotajiem lietotājiem"
+  },
+  "147": {
+    "other": "Drošība"
+  },
+  "148": {
+    "other": "(Opcijas)"
+  },
+  "149": {
+    "other": "Atstāt 0 lai nebūtu ierobežojumu"
+  },
+  "15": {
+    "other": "Fails tika lejupielādēts %s reizes"
+  },
+  "150": {
+    "other": "Piekļuves tiesības"
+  },
+  "151": {
+    "other": "Izkārtojums"
+  },
+  "152": {
+    "other": "Atjaunot"
+  },
+  "153": {
+    "other": "Standarta (failu saraksts ar aplikācijas izvēlni)"
+  },
+  "154": {
+    "other": "Lentas izkārtojums (priekš attēlu galerijām)"
+  },
+  "155": {
+    "other": "Iekļauts (mazāka izvēlne, priekš rīklogiem)"
+  },
+  "156": {
+    "other": "Saite %s veiksmīgi publicēta"
+  },
+  "157": {
+    "other": "Šī direktorija tiek koplietota. Ja Jūs to nodzēsīsiet, tās koplietošana tiks izslēgta."
+  },
+  "158": {
+    "other": "Šis fails tiek koplietots. Ja Jūs to nodzēsīsiet, tā koplietošana tiks izslēgta. "
+  },
+  "159": {
+    "other": "Īpašnieks"
+  },
+  "16": {
+    "other": "atiestatīt"
+  },
+  "160": {
+    "other": "Jums nav tiesību nodzēst šo koplietoto failu/direktoriju"
+  },
+  "161": {
+    "other": "Novecojusi saite"
+  },
+  "162": {
+    "other": "Šim failam ir viena vai vairākas mantotās saites. Saites ir aktīvas, bet Jūs varat tās aizvietot tās ar jaunām pārtraucot esošo koplietošanu un izveidojot jaunas. Nokopējiet saites 'kontrolsummu' (saites pēdējo daļu, piem. http://yourpydio.com/data/public/<em style='color:red;'>206a51</em>.php) un izmainiet jauno saiti lietojot 'Mainīt parametrus' formu."
+  },
+  "163": {
+    "other": "Ievilkt failus (minilapām ar ieslēgtu augšupielādi)"
+  },
+  "164": {
+    "other": "Aizliegts: skripts ir modificēts!"
+  },
+  "165": {
+    "other": "Atvainojiet, šī saite ir beigusies!"
+  },
+  "166": {
+    "other": "Nevar atrast norādīto saiti!"
+  },
+  "167": {
+    "other": "Saite ir novecojusi!"
+  },
+  "168": {
+    "other": "Sasniegts atļauto lejupielāžu limits. Notīriet skaitītāju un aktivizējiet saiti."
+  },
+  "169": {
+    "other": "Pienācis saites izbeigšanās datums. Mainiet parametros jaunu datumu ja vēlaties aktivizēt saiti no jauna."
+  },
+  "17": {
+    "other": "Notīrīt lejupielāžu skaitītāju"
+  },
+  "170": {
+    "other": "Saite ir aizsargāta ar paroli."
+  },
+  "171": {
+    "other": "Saites nosaukums"
+  },
+  "172": {
+    "other": "Saite jau tiek lietota, izvēlieties citu nosaukumu."
+  },
+  "173": {
+    "other": "Ja vēlaties labi iegaumējamu un lasāmu saiti (piemēram https://.../mana-saite), Jūs varat lietot šo lauku. Saites nosaukums tiks ģenerēts automātiski ja tas tiks atstāts tukšs."
+  },
+  "174": {
+    "other": "Atiestatīt"
+  },
+  "175": {
+    "other": "Ievadiet pietiekami garu paroli!"
+  },
+  "176": {
+    "other": "(Obligāts)"
+  },
+  "177": {
+    "other": "Skatīt parametrus"
+  },
+  "178": {
+    "other": "ieslēgts"
+  },
+  "179": {
+    "other": "Atgriezt"
+  },
+  "18": {
+    "other": "Direktorija ir koplietota kā jauna darbvirsma"
+  },
+  "180": {
+    "other": "Notīrīt sarakstu"
+  },
+  "181": {
+    "other": "Mainīt"
+  },
+  "182": {
+    "other": "Izmantojiet šo lauku lai izvēlētos sistēmas lietotāju vai lietotāju no Jūsu adresu grāmatas. Ja vēlaties izveidot jaunu lietotāju, ievadiet pāris burtus un nospiediet ievades taustiņu."
+  },
+  "183": {
+    "other": "Paziņot par satura mainīšanu"
+  },
+  "184": {
+    "other": "Paziņot ja saturs tiek mainīts vai tam piekļūst"
+  },
+  "185": {
+    "other": "Paziņot ja tiek piekļūts saturam"
+  },
+  "186": {
+    "other": "Paziņot ja tiek mainīts saturs"
+  },
+  "187": {
+    "other": "Neziņot man"
+  },
+  "188": {
+    "other": "Saņemt paziņojumus ja kāds maina koplietoto saturu."
+  },
+  "189": {
+    "other": "Ieslēgt publisku saiti"
+  },
+  "19": {
+    "other": "Koplietotās darbvirsmas opcijas veiksmīgi izmainītas"
+  },
+  "190": {
+    "other": "Šis fails šobrīd nav pieejams publiski. Ieslēdzot publisko saiti tiks izveidota unikāla piekļuve kuru var nosūtīt lietotājiem. Ja vēlaties koplietot to ar esošajiem Pydio lietotājiem, nospiediet \"Lietotāji\" tabu."
+  },
+  "191": {
+    "other": "Kopēt saiti"
+  },
+  "192": {
+    "other": "Saite ir nokopēta"
+  },
+  "193": {
+    "other": "Labot saiti"
+  },
+  "194": {
+    "other": "Lai saite izskatītos lasāmāka, Jūs varat mainīt tās beigu daļu"
+  },
+  "195": {
+    "other": "Uzmanību, šim failam nav iekļauta apskatīšanas aplikācija, izņemot atvēršanu jaunā pārlūka logā: fails var tikt lejupielādēts ja atvērsiet saiti."
+  },
+  "196": {
+    "other": "Droša piekļuve"
+  },
+  "197": {
+    "other": "Lietot saiti lai nosūtītu papildu komentārus"
+  },
+  "198": {
+    "other": "Jūs varat izvēlēties kā izskatīsies saite pārlūkā."
+  },
+  "199": {
+    "other": "Koplietot redzamību"
+  },
+  "2": {
+    "other": "Uzspiediet uz attēla lai lejupielādētu <b>%s</b>"
+  },
+  "20": {
+    "other": "Fails kuru meklējāt nav atrodams! Iespējams ka tas ir nodzēsts vai netiek vairs koplietots."
+  },
+  "200": {
+    "other": "Redzams pārējiem lietotājiem"
+  },
+  "201": {
+    "other": "Pārējie lietotāji kuri piekļūst šai darbvirsmai var mainīt saites parametrus, bet tie nevar to nodzēst. Tikai Jūs varat pārtraukt šo koplietošanu un tās redzamību"
+  },
+  "202": {
+    "other": "Pārējie lietotāji kuri piekļūst šai darbvirsmai var mainīt saites parametrus. Jūs neesat tās īpašnieks un nevarat pārtraukt tās koplietošanu un tās redzamību"
+  },
+  "203": {
+    "other": "Pārcelt īpašnieka tiesības"
+  },
+  "203b": {
+    "other": "Pārcelt"
+  },
+  "204": {
+    "other": "Ja koplietošana ir publiski redzama un Jūs vēlaties nodot pārvaldību citam lietotājam, Jūs varat nodot šīs tiesības."
+  },
+  "205": {
+    "other": "Nodot tiesības ... (lietotājs)"
+  },
+  "206": {
+    "other": "Koplietošana pēc noklusējuma ir 'privāta': tikai Jūs varat to redzēt. Ja vēlaties ļaut piekļuvi citiem lietotājiem šai darbvirsmai lai to redzētu un pārvaldītu, pārslēdziet redzamību."
+  },
+  "207": {
+    "other": "Attālinātie lietotāji"
+  },
+  "208": {
+    "other": "Koplietot ar lietotājiem no citām failu koplietošanas platformām (savietojama ar Federated Sharing API)."
+  },
+  "209": {
+    "other": "Attālinātā adrese"
+  },
+  "21": {
+    "other": "Beigsies"
+  },
+  "210": {
+    "other": "Identifikators"
+  },
+  "211": {
+    "other": "gaida"
+  },
+  "212": {
+    "other": "akceptēts"
+  },
+  "213": {
+    "other": "noraidīts"
+  },
+  "214": {
+    "other": "nav nosūtīts"
+  },
+  "215": {
+    "other": "Lai ieslēgtu publisku saiti failam vai direktorijai, Jums vispirms ir jāiestata parole."
+  },
+  "216": {
+    "other": "Koplietošana veiksmīgi pārtraukta"
+  },
+  "217": {
+    "other": "Lokālie lietotāji"
+  },
+  "218": {
+    "other": "Paziņojums"
+  },
+  "219": {
+    "other": "Kļūda ielādējot koplietojamo objektu. Kļūda (%s)."
+  },
+  "21b": {
+    "other": "Beidzās"
+  },
+  "22": {
+    "other": "Atļautās lejupielādes"
+  },
+  "220": {
+    "other": "Jums nav tiesību izveidot lietotājus"
+  },
+  "221": {
+    "other": "Jums nav atļauta koplietošana ar citiem lietotājiem, tikai ar Jūsu ārējiem lietotājiem"
+  },
+  "222": {
+    "other": "Lietotājs %s jau eksistē, izvēlieties citu vārdu"
+  },
+  "223": {
+    "other": "Pielāgotā saite ir par īsu, tai jābūt vismaz %s simboliem garai"
+  },
+  "224": {
+    "other": "Jums nav atļauts pārvaldīt šo koplietošanu, jautājiet saites īpašniekam veikt izmaiņas, vai nodot Jums saites īpašumtiesības."
+  },
+  "225": {
+    "other": "Jums nav tiesību izveidot publiskas saites failiem"
+  },
+  "226": {
+    "other": "Jums nav tiesību izveidot publiskas saites direktorijām"
+  },
+  "227": {
+    "other": "Jums nav tiesību koplietot failus iekšējā sistēmā"
+  },
+  "228": {
+    "other": "Jums nav tiesību koplietot direktorijas iekšējā sistēmā"
+  },
+  "229": {
+    "other": "Pievienojiet faila priekšskatu iekopējot kodu HTML lapā."
+  },
+  "22b": {
+    "other": "Lejupielādes vairs nav pieejamas"
+  },
+  "23": {
+    "other": "Parole"
+  },
+  "230": {
+    "other": "Saglabājiet pirms sūtīt ielūgumu"
+  },
+  "231": {
+    "other": "Sākt lejupielādi"
+  },
+  "232": {
+    "other": "Koplietošanā nav objektu, iespējams Jūs esat nodzēsis kādus lietotājus?"
+  },
+  "233": {
+    "other": "Atiestatīt šo koplietošanu"
+  },
+  "234": {
+    "other": "Tika pievienots Jūsu %s darbvirsmai."
+  },
+  "235": {
+    "other": "Ģenerēt unikālas saites lai identificētu lietotājus"
+  },
+  "236": {
+    "other": "Ļaut piekļuvi tikai identificētiem lietotājiem"
+  },
+  "237": {
+    "other": "Lietot nejauši izvēlētu atslēgu, nevis e-pastu saitē"
+  },
+  "238": {
+    "other": "Koplietojumu veidi"
+  },
+  "24": {
+    "other": "Iestatīt izbeigšanās limitu vai definējiet paroli lai piekļūtu šim koplietojumam."
+  },
+  "240": {
+    "other": "Grupēt pēc..."
+  },
+  "241": {
+    "other": "Koplietojumu saraksts"
+  },
+  "242": {
+    "other": "Ielādēt vairāk rezultātu"
+  },
+  "243": {
+    "other": "Publiskās saites"
+  },
+  "244": {
+    "other": "Koplietotās direktorijas"
+  },
+  "245": {
+    "other": "Nosūtīti %s personīgi ielūgumi"
+  },
+  "246": {
+    "other": "Atvērt šūnu"
+  },
+  "247": {
+    "other": "Labot šūnu"
+  },
+  "248": {
+    "other": "Dzēst šūnu"
+  },
+  "249": {
+    "other": "Saturs"
+  },
+  "25": {
+    "other": "Bez limita"
+  },
+  "250": {
+    "other": "Šūnas"
+  },
+  "251": {
+    "other": "Saite"
+  },
+  "252": {
+    "other": "Piekļuve"
+  },
+  "253": {
+    "other": "Redzamība"
+  },
+  "254": {
+    "other": "Koplietots šūnās"
+  },
+  "255": {
+    "other": "Vai vēlaties nodzēst visas šūnas un saites šim objektam?"
+  },
+  "256": {
+    "other": "%s koplietošana"
+  },
+  "257": {
+    "other": "Izveidots %s"
+  },
+  "258": {
+    "other": "Labot šūnas lietotājus"
+  },
+  "259": {
+    "other": "Noņemt no šīs šūnas"
+  },
+  "26": {
+    "other": "Izvēlieties lietotājus vai grupas un iestatiet piekļuves tiesības. Tikai 'Rakstīt' izveidos direktoriju tikai augšupielādei."
+  },
+  "260": {
+    "other": "Direktorija ir koplietota sekojošās šūnās. Jūs varat labot lietotājus vai izveidot jaunu šūnu."
+  },
+  "261": {
+    "other": "Atlasiet lietotājus kuriem būs piekļuve šai šūnai"
+  },
+  "262": {
+    "other": "Koplietot šo direktoriju ar vitiem lietotājiem veidojot jaunu šūnu"
+  },
+  "263": {
+    "other": "Pievienot šūnai..."
+  },
+  "264": {
+    "other": "+ Jauna šūna"
+  },
+  "265": {
+    "other": "Saites nosaukums"
+  },
+  "266": {
+    "other": "Saites apraksts"
+  },
+  "267": {
+    "other": "Šūnas nosaukums"
+  },
+  "268": {
+    "other": "Šūnas apraksts"
+  },
+  "269": {
+    "other": "Jūs izveidosiet šūnu kura tiks koplietota ar %USERS. Izvēlieties direktorijas kuras vēlaties koplietot vai ļaujiet Pydio izveidot tukšu direktoriju!"
+  },
+  "27": {
+    "other": "Koplietot failu"
+  },
+  "270": {
+    "other": "lietotāji"
+  },
+  "271": {
+    "other": "grupas"
+  },
+  "272": {
+    "other": "komandas"
+  },
+  "273": {
+    "other": "neviens"
+  },
+  "274": {
+    "other": " un "
+  },
+  "275": {
+    "other": "Veidojiet šūnas lai sadarbotos ar citiem lietotājiem. Vispirms aprakstiet objektus šajā šūnā."
+  },
+  "276": {
+    "other": "Šūnas nosaukums"
+  },
+  "277": {
+    "other": "Pievienot aprakstu"
+  },
+  "278": {
+    "other": "Izvēlaties ar ko koplietosiet datus"
+  },
+  "279": {
+    "other": "Izveidot šūnu!"
+  },
+  "28": {
+    "other": "Koplietot direktoriju"
+  },
+  "280": {
+    "other": "Šunai ir pašai sava direktorija"
+  },
+  "281": {
+    "other": "Šūna tiks izveidota jaunā direktorijā"
+  },
+  "282": {
+    "other": "Piuevienot esošu direktoriju..."
+  },
+  "283": {
+    "other": "Izvēlieties atrašanās vietu struktūrā..."
+  },
+  "284": {
+    "other": "Redzams %s šūnās"
+  },
+  "29": {
+    "other": "Saites"
+  },
+  "3": {
+    "other": "Nepareiza parole"
+  },
+  "30": {
+    "other": "Koplietot ar..."
+  },
+  "31": {
+    "other": "Lasīt"
+  },
+  "32": {
+    "other": "Rakstīt"
+  },
+  "33": {
+    "other": "Skatīties"
+  },
+  "34": {
+    "other": "Eksistējošs vai jauns lietotājs"
+  },
+  "35": {
+    "other": "Nosaukums"
+  },
+  "36": {
+    "other": "Iestatiet nosaukumu un īsu aprakstu"
+  },
+  "37": {
+    "other": "Apstiprināt"
+  },
+  "38": {
+    "other": "Skatīt direktorijas saturu"
+  },
+  "39": {
+    "other": "Skatīt šī faila aktivitāti"
+  },
+  "4": {
+    "other": "Ievadiet paroli un nospiediet uz attēla lai lejupielādētu <b>%s</b>"
+  },
+  "40": {
+    "other": "Ielūgumi"
+  },
+  "41": {
+    "other": "Nosūtītielūgumus par koplietotajiem failiem e-pastā."
+  },
+  "42": {
+    "other": "%s lietotājs koplietoja ar Jums failu"
+  },
+  "43": {
+    "other": "%s lietotājs koplietoja ar Jums direktoriju"
+  },
+  "44": {
+    "other": "%s koplietošana"
+  },
+  "45": {
+    "other": "Nosūtīt ielūgumu"
+  },
+  "46": {
+    "other": "Atvērt darbvirsmu %s1 pa tiešo iekš %s2"
+  },
+  "46_file": {
+    "other": "Atvērt failu %s1"
+  },
+  "46_mini": {
+    "other": "Atvērt mini %s1"
+  },
+  "47": {
+    "other": "Monitorēšanas statuss veiksmīgi atjaunots"
+  },
+  "48": {
+    "other": "Jums nav tiesību piekļūt šiem datiem"
+  },
+  "49": {
+    "other": "izveidot lietotāju"
+  },
+  "5": {
+    "other": "parole"
+  },
+  "50": {
+    "other": "Koplietots"
+  },
+  "51": {
+    "other": "Lejuplādēts"
+  },
+  "52": {
+    "other": "Konfigurācija"
+  },
+  "53": {
+    "other": "neviens"
+  },
+  "54": {
+    "other": "Koplietots ar"
+  },
+  "55": {
+    "other": "Koplietots..."
+  },
+  "56": {
+    "other": "Konfigurēt koplietošanu..."
+  },
+  "57": {
+    "other": "reizes"
+  },
+  "58": {
+    "other": "Izvēlieties vismaz vienu atļauju!"
+  },
+  "59": {
+    "other": "Lejuplādes lapa"
+  },
+  "6": {
+    "other": "Pārtraukt koplietošanu"
+  },
+  "60": {
+    "other": "Tiešā lejupielādes saite"
+  },
+  "61": {
+    "other": "HTML iekļauts kods"
+  },
+  "62": {
+    "other": "Minilapas adrese"
+  },
+  "63": {
+    "other": "Jauna Darbvirsma"
+  },
+  "64": {
+    "other": "Priekš iekšējiem un ārējiem lietotājiem direktorija tiks attēlota kā jauna darbvirsma lietotāja darbvirsmu sarakstā."
+  },
+  "65": {
+    "other": "Publiskā minilapa (autentifikācija nav nepieciešama)"
+  },
+  "66": {
+    "other": "Ārējiem lietotājiem direktorija tiks attēlota kā vienkāršots failu saraksts jaunā publiskā adresē."
+  },
+  "67": {
+    "other": "Privātā minilapa (nepieciešama autentifikācija)"
+  },
+  "68": {
+    "other": "Priekš iekšējiem un ārējiem lietotājiem direktorija tiks attēlota kā vienkāršots failu saraksts jaunā adresē, bet bez autentifikācijas"
+  },
+  "69": {
+    "other": "Konfigurēt minilapu"
+  },
+  "69r": {
+    "other": "Saites parametri"
+  },
+  "7": {
+    "other": "Koplietošanas pārtraukšana nenodzēsīs failu. Ja vēlaties mainīt parametrus, koplietojiet failu no jauna."
+  },
+  "70": {
+    "other": "Piešķiriet šai direktorijai atļaujas preikš publiskās piekļuves. Ja atzīmēsiet tikai 'Augšupielāde' šī direktorija būs tukša un lietotāji tajā varēs augšupielādēt failus."
+  },
+  "70r": {
+    "other": "Lietotājiem piešķirtās tiesības lai piekļūtu šim failam"
+  },
+  "71": {
+    "other": "Atļaujas"
+  },
+  "72": {
+    "other": "Priekšskats"
+  },
+  "73": {
+    "other": "Lejuplādēt"
+  },
+  "74": {
+    "other": "Augšupielādēt failus"
+  },
+  "74b": {
+    "other": "Labot"
+  },
+  "75": {
+    "other": "Darbības laika un Lejupielādes skaita limitam lietojiet pozitīvas vērtības."
+  },
+  "76": {
+    "other": "Ieslēdziet sīkdatnes (cookies) lai piekļūtu šai aplikācijai"
+  },
+  "77": {
+    "other": "Ieslēdziet JavaScript lai piekļūtu šai aplikācijai"
+  },
+  "78": {
+    "other": "Uzmanību, lietotājiem var lietot tikai standarta simbolus. '%CURRENT%' tiks aizvietots ar '%NEW%'"
+  },
+  "79": {
+    "other": "ielūgt"
+  },
+  "8": {
+    "other": "Fails ir koplietots"
+  },
+  "80": {
+    "other": "Nosūtīt saiti e-pastā šiem lietotājiem vai adresēm"
+  },
+  "80b": {
+    "other": "Ielūdziet ar e-pasta palīdzību lietotājus apmeklēt šo darbvirsmu"
+  },
+  "81": {
+    "other": "pārtraukt monitorēšanu"
+  },
+  "82": {
+    "other": "skatīt"
+  },
+  "83": {
+    "other": "Pārslēgt monitorēšanas statusu lai saņemtu/nesaņemtu paziņojumus vai fails ir lejupielādēts"
+  },
+  "83b": {
+    "other": "Pārslēgt monitorēšanas statusu lai saņemtu/nesaņemtu paziņojumus vai darbvirsmā ir darbība"
+  },
+  "84": {
+    "other": "parole"
+  },
+  "85": {
+    "other": "Saitei ir parole"
+  },
+  "86": {
+    "other": "beidzas"
+  },
+  "87": {
+    "other": "Saites automātiksi beigsies..."
+  },
+  "88": {
+    "other": "lejupielādes"
+  },
+  "89": {
+    "other": "Neautorizēto/autorizēto lejupielāžu skaits. Nospiediet lai notīrītu skaitītāju."
+  },
+  "9": {
+    "other": "Nospiediet šo pogu lai pārstātu koplietošanu"
+  },
+  "90": {
+    "other": "Saite"
+  },
+  "91": {
+    "other": "Tagi (Ievades taustiņš lai saglabātu)"
+  },
+  "92": {
+    "other": "Izveidot saiti"
+  },
+  "93": {
+    "other": "Esošās saites"
+  },
+  "94": {
+    "other": "QR kods"
+  },
+  "95": {
+    "other": "QR kods"
+  },
+  "96": {
+    "other": "pārtraukt koplietošanu"
+  },
+  "97": {
+    "other": "Pārtraukt failu koplietošanu ar citiem lietotājiem"
+  },
+  "98": {
+    "other": "Manas koplietošanas"
+  },
+  "99": {
+    "other": "Visi koplietotie lementi"
+  },
+  "cells.create.advanced": {
+    "other": "Pievienot lietotājus/datus"
+  },
+  "cells.create.buttons.separator": {
+    "other": "vai"
+  },
+  "cells.create.title.fill.folders": {
+    "other": "Koplietot eksistējošās direktorijas"
+  },
+  "cell.visibility.advanced": {
+    "other": "Šī opcija ļauj izvēlēties kurš var labot šīs Šūnas opcijas (tiesības pievienot/dzēst lietotājus un pievienot/dzēst direktorijas šūnas pamatā). Priek; s vienkāršotas piekļuves datiem lietojiet 'Koplietot ar' tabu."
+  },
+  "link.visibility.advanced": {
+    "other": "Šī paplašinātā funkcija ļauj izvēlēties vai saite ir redzama citiem lietotājiem kad tier skatās failu un vai tie var labot tās opcijas. Pēc noklusējuma izveidotās saites ir redzamas tikai Jums. Jūs varat pārcelt saites piederību to ļaujot labot citiem."
+  }
+}

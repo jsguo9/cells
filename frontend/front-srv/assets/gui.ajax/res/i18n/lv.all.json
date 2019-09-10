@@ -1,0 +1,107 @@
+{
+  "tour.create-menu": {
+    "other": "Sākt pievienot failus vai direktorijas esošajai darbvirsmai."
+  },
+  "tour.create-menu.title": {
+    "other": "Pievienot failus"
+  },
+  "tour.display-bar": {
+    "other": "Rīkjosla ļauj mainīt izskatu: pārslēgites uz priekšskatu vai detalizētas informācijas skatu atkarībā no pielietojuma un ļauj šķirot failus pēc nosaukuma, datuma, u.t.t. ..."
+  },
+  "tour.display-bar.title": {
+    "other": "Attēlošanas iestatījumi"
+  },
+  "tour.globsearch.1": {
+    "other": "Lietojiet šo meklēšanas formu lai atrastu failus vai direktorijas visās darbvirsmās un šūnās. Attēloti tiek tikai pirmie 5 rezultāti. Lai iegūtu vairāk rezultātus un meklēšanas opciju ieejiet darbvirsmā."
+  },
+  "tour.globsearch.2": {
+    "other": "Ja nav uzsākta meklēšana, tiks attēloti pēdējās direktorijas un faili kuri tika atvērti."
+  },
+  "tour.globsearch.title": {
+    "other": "Globāla meklēšana"
+  },
+  "tour.infopanel.1": {
+    "other": "Šeit tiek attēlota informācija par esošo statusu: failu informācija, koplietošanas statuss, lietotāju veidotie meta dati, u.t.t. ..."
+  },
+  "tour.infopanel.2": {
+    "other": "Paneli var aizvērt lietojot info pogu rīkjoslā"
+  },
+  "tour.infopanel.file": {
+    "other": "Fails"
+  },
+  "tour.infopanel.folder": {
+    "other": "Direktorija"
+  },
+  "tour.infopanel.search": {
+    "other": "Meklēt"
+  },
+  "tour.infopanel.title": {
+    "other": "Info Panelis"
+  },
+  "tour.locale.back": {
+    "other": "Atpakaļ"
+  },
+  "tour.locale.close": {
+    "other": "Aizvērt"
+  },
+  "tour.locale.last": {
+    "other": "Pabeigt"
+  },
+  "tour.locale.next": {
+    "other": "Tālāk"
+  },
+  "tour.locale.skip": {
+    "other": "Izlaist"
+  },
+  "tour.openworkspace": {
+    "other": "Pirmo reizi pieslēdzoties darbību vēsture netiks parādīta. Ejiet uz darbvirsmu vai šūnu lai pievienotu failus."
+  },
+  "tour.openworkspace.title": {
+    "other": "Atvērt darbvirsmā"
+  },
+  "tour.uwidget.addressbook": {
+    "other": "Visu lietotāju direktorija kuri piekļūst platformai. Izveidojiet savus lietotājus un veidojiet komandas kuras var lietot resursu koplietošanai"
+  },
+  "tour.uwidget.alerts": {
+    "other": "Brīdinājumu panelis informē lietotāju ja kāds ir piekļuvis Jūsu koplietotajiem resursiem. Tos var sūtīt pa tiešo uz e-pastu."
+  },
+  "tour.uwidget.home": {
+    "other": "Iet atpakaļ uz sākuma paneli ar šīs pogas palīdzību"
+  },
+  "tour.uwidget.menu": {
+    "other": "Piekļūt citām opcijām : pārvaldīt profilu un drošības iestatījumus, pārskatīt koplietotos resursus, atslēgties no sistēmas."
+  },
+  "tour.uwidget.title": {
+    "other": "Lietotāja Rotājums"
+  },
+  "tour.welcomemodal.skip": {
+    "other": "Izlaist"
+  },
+  "tour.welcomemodal.start": {
+    "other": "Sākt apskati"
+  },
+  "tour.welcomemodal.subtitle": {
+    "other": "Ievietojiet savu labāko bildi priekš profila! Šī īsā instrukcija Jūs iepazīstinās ar aplikācijas interfeisu."
+  },
+  "tour.welcomemodal.title": {
+    "other": "Laipni lūgti APPLICATION_TITLE"
+  },
+  "tour.widget-cards": {
+    "other": "Šeit Jūs varat pievienot vai noņemt Logrīkus. Tos var pārkārto vienkārši pārvelkot."
+  },
+  "tour.widget-cards.title": {
+    "other": "Logrīki"
+  },
+  "tour.workspaces.1": {
+    "other": "Darbvirsmas ir augstākā līmeņa direktorijas kuras palīdz organizēt Jūsu datus. Tām varat piekļūt tikai Jūs, vai arī koplietot ar citiem cilvēkiem."
+  },
+  "tour.workspaces.2": {
+    "other": "Šūnas ir sadarbības vietnes kuras varat koplietot ar citiem lietotājiem. Izveidojiet savas šūnas par pamatu ņemot direktorijas, komandu, lietotājus vai atbilstošu tematu."
+  },
+  "tour.workspaces.title": {
+    "other": "Darbvirsmas un Šūnas"
+  },
+  "background.jobs.title": {
+    "other": "Notiekošās darbības"
+  }
+}

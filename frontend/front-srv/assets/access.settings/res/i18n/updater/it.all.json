@@ -1,68 +1,113 @@
 {
-  "1": {
-    "other": "Aggiornamento"
+  "title": {
+    "other": "Software Updates"
   },
-  "10": {
-    "other": "Questa è una procedura di test. Controlla i log di tutte le azioni eseguite, e se tutto va a buon fine premi 'Avvia importazione reale'"
+  "legend": {
+    "other": "In-app binary updates"
   },
-  "11": {
-    "other": "Eseguire la migrazione di meta.serial"
+  "current.version": {
+    "other": "Current Version"
   },
-  "12": {
-    "other": "I vecchi plugin meta.serial sono stati rimossi e divisi in metastore.serial e meta.user"
+  "confirm.update": {
+    "other": "Are you sure that you want to perform the update?"
   },
-  "13": {
-    "other": "Simulazione della migrazione"
+  "packages.available": {
+    "other": "Following packages are available for update"
   },
-  "14": {
-    "other": "Eseguire la migrazione ora"
+  "checking": {
+    "other": "Checking for available updates..."
   },
-  "15": {
-    "other": "Sei sicuro di voler eseguire l'aggiornamento?"
+  "noupdates": {
+    "other": "No necessary update detected: click to perform a new check."
   },
-  "16": {
-    "other": "I seguenti pacchetti sono disponibili per l'aggiornamento"
+  "alert.noselect": {
+    "other": "Please select at least one package!"
   },
-  "17": {
-    "other": "Verifica degli aggiornamenti disponibili..."
+  "package.released": {
+    "other": "Released"
   },
-  "18": {
-    "other": "Non c'è nessun aggiornamento necessario: clicca per eseguire una nuova verifica."
+  "package.revision": {
+    "other": "Revision"
   },
-  "19": {
-    "other": "Clicca per verificare la presenza di un nuovo aggiornamento"
+  "check.legend": {
+    "other": "Click to check for new update"
   },
-  "2": {
-    "other": "Aggiornamento automatico del software"
+  "check.button": {
+    "other": "Check now"
   },
-  "20": {
-    "other": "Verifica adesso"
+  "start.update": {
+    "other": "Start Upgrade"
   },
-  "21": {
-    "other": "Attualmente in modalità sviluppo."
+  "configs.save": {
+    "other": "Save configs"
   },
-  "22": {
-    "other": "La versione corrente è %1 (%2)."
+  "upgrade.ed.title": {
+    "other": "Upgrade to Cells Enterprise"
   },
-  "3": {
-    "other": "Clicca sul pulsante per avviare la procedura di aggiornamento automatico. Assicurati che la cartella del software sia installata prima di iniziare. Nel caso di un avviso 'Linux Package', l'aggiornamento non può essere eseguito in-app, ma è necessario utilizzare il comando yum/apt-get del vostro server."
+  "upgrade.ed.button.next": {
+    "other": "Next"
   },
-  "4": {
-    "other": "Avvia Aggiornamento"
+  "upgrade.ed.button.start": {
+    "other": "Start"
   },
-  "5": {
-    "other": "Da 3.2.4"
+  "upgrade.ed.button.cancel": {
+    "other": "Cancel"
   },
-  "6": {
-    "other": "Importa le configurazioni da 3.2.4"
+  "upgrade.ed.button.install": {
+    "other": "Install now"
   },
-  "7": {
-    "other": "Simula l'importazione del dati"
+  "upgrade.ed.button.close": {
+    "other": "Close"
   },
-  "8": {
-    "other": "Inserisci il percorso assoluto (dalla root del server) della precedente locazione, quindi avvia la simulazione"
+  "upgrade.ed.eula.title": {
+    "other": "Please Accept End-User License Agreement"
   },
-  "9": {
-    "other": "Avvia importazione reale"
+  "upgrade.ed.eula.check": {
+    "other": "I thereby accept this EULA"
+  },
+  "upgrade.ed.key.title": {
+    "other": "Enter a valid license key (provided by a Pydio sales representative)"
+  },
+  "upgrade.ed.key.legend": {
+    "other": "If you do not own one, you can receive a trial key by contacting sales using the button below or directly via "
+  },
+  "upgrade.ed.key.hint": {
+    "other": "Paste provided key here..."
+  },
+  "upgrade.ed.version.loading": {
+    "other": "Looking for the closest Cells Enterprise version"
+  },
+  "upgrade.ed.version.error": {
+    "other": "Cannot load available versions for Cells Enterprise!"
+  },
+  "upgrade.ed.version.error.string": {
+    "other": "Error was"
+  },
+  "upgrade.ed.version.available": {
+    "other": "Ready to install %s"
+  },
+  "upgrade.ed.version.released": {
+    "other": "Released"
+  },
+  "upgrade.ed.version.arch": {
+    "other": "Architecture"
+  },
+  "upgrade.ed.version.description": {
+    "other": "Description"
+  },
+  "upgrade.ed.version.legend": {
+    "other": "Hitting Next will now download this new version and replace your current Cells binary. A backup of the original executable will be made inside your cells config folder (under %s), if you need to recover it."
+  },
+  "upgrade.ed.version.nomatch": {
+    "other": "Could not find a similar version for Cells Enterprise"
+  },
+  "upgrade.ed.version.nomatch.legend1": {
+    "other": "To avoid mixing upgrade and updates, we recommend upgrading Cells Home to Enterprise on the same version."
+  },
+  "upgrade.ed.version.nomatch.legend2": {
+    "other": "Please first update your current version to one of the following, then retry upgrading to Cells Enterprise."
+  },
+  "upgrade.ed.installing": {
+    "other": "Installing upgrade, please wait..."
   }
 }

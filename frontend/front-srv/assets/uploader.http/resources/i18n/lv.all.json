@@ -1,0 +1,68 @@
+{
+  "1": {
+    "other": "Attālināts DL"
+  },
+  "10": {
+    "other": "Lejupielādēt uz APPLICATION_TITLE"
+  },
+  "10a": {
+    "other": "Lejupielādēt uz %s"
+  },
+  "10b": {
+    "other": "DL uz %s"
+  },
+  "10c": {
+    "other": "DL uz %s"
+  },
+  "10d": {
+    "other": "AjXp Lejupielāde (%s)"
+  },
+  "11": {
+    "other": "Ievilkt saiti grāmatzīmju joslā : "
+  },
+  "12": {
+    "other": "Sākt attālināta faila lejupielādi"
+  },
+  "13": {
+    "other": "No datora"
+  },
+  "14": {
+    "other": "No attālināta servera"
+  },
+  "15": {
+    "other": "Vai izveidojiet grāmatžimi manuāli un lietojiet zemākesošo kodu kā saiti : "
+  },
+  "16": {
+    "other": "Ievilkt grāmatzīmju joslā!"
+  },
+  "17": {
+    "other": "Lejupielādēt failu"
+  },
+  "18": {
+    "other": "Daļējs fails"
+  },
+  "2": {
+    "other": "Lejupielādēt failu(s) no attālināta servera"
+  },
+  "3": {
+    "other": "m"
+  },
+  "4": {
+    "other": "Ievadiet vismaz vienu URL kas norāda uz failu kuru vēlaties lejupielādēt pa tiešo no ārējā HTTP servera uz esošo direktoriju. Šī darbība tiks izpildīta fonā un Jums būs iespēja lietot APPLICATION_TITLE šīs lejupielādes laikā."
+  },
+  "5": {
+    "other": "URL"
+  },
+  "6": {
+    "other": "Lejpielādē"
+  },
+  "7": {
+    "other": "uz serveri"
+  },
+  "8": {
+    "other": "Fails lejupielādēts, pārlādē klientu!"
+  },
+  "9": {
+    "other": "Ģenerēt Grāmatzīmi"
+  }
+}

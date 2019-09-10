@@ -1,0 +1,104 @@
+{
+  "cont.btn.fb": {
+    "other": "Sekot mums"
+  },
+  "cont.btn.github": {
+    "other": "Github Star"
+  },
+  "cont.btn.tw": {
+    "other": "Twitter"
+  },
+  "cont.intro": {
+    "other": "Kods ir publiski pieejams Github. Vēlaties labot kļūdu, palīdzēt citiem forumā vai pievienot jaunu funkciju? Iesaisties!\n                            Vai arī atbalsti mūs sociālajos tīklos!"
+  },
+  "cont.subtitle": {
+    "other": "Pydio Cells ir atvērtā koda programmatūra. Palīdzi ar ieguldījumu!"
+  },
+  "cont.title": {
+    "other": "Palīdzi ar ieguldījumu!"
+  },
+  "cont.topic.pr": {
+    "other": "Es implementēju jaunu iespēju: github Pull Requests"
+  },
+  "cont.topic.report": {
+    "other": "Es atradu kļūdu! Paziņot forumā."
+  },
+  "cont.topic.report.2": {
+    "other": "Kļūda ir atzīta: atvērt github notikumu."
+  },
+  "cont.topic.translate": {
+    "other": "Kā izveidot vai iztulkot papildu valodu?"
+  },
+  "ent.advanced": {
+    "other": "Paplašināts administrācijas panelis"
+  },
+  "ent.advanced.legend": {
+    "other": "Unikāls administrācija spenelis ar iespēju monitorēt platformu reālā laikā."
+  },
+  "ent.btn.contact": {
+    "other": "Sazināties ar pārdošanas daļu"
+  },
+  "ent.btn.more": {
+    "other": "Uzziniet vairāk"
+  },
+  "ent.features": {
+    "other": "Iespējas lieliem uzņēmumiem"
+  },
+  "ent.features.legend": {
+    "other": "Iespējas lieliem uzņēmumiem: AD/LDAP pieslēgumi, Auditējami log faili atbilstībām, Easy Transfer..."
+  },
+  "ent.subtitle": {
+    "other": "VAIRĀK IESPĒJAS - GDPR ATBILSTĪBA - PAPLAŠINĀTA ZĪMOLOŠANA"
+  },
+  "ent.support": {
+    "other": "Atbalsts un Uzturēšana"
+  },
+  "ent.support.legend": {
+    "other": "Saņemiet palīdzību no izstrādātāju komandas"
+  },
+  "ent.title": {
+    "other": "Uzziniet par Pydio Cells Enterprise"
+  },
+  "kb.btn.alldocs": {
+    "other": "Visa dokumentācija"
+  },
+  "kb.btn.forum": {
+    "other": "Uz forumu"
+  },
+  "kb.intro": {
+    "other": "Papildus formuma lapā ir pieejama plaša informācija. Parbaudiet vai risinājums ir jau minēts pirms nosūtat jautājumu ;-)"
+  },
+  "kb.subtitle": {
+    "other": "B.U.J. un instrukcija, zināms arī kā RTFM"
+  },
+  "kb.title": {
+    "other": "Saņemiet palīdzību"
+  },
+  "welc.btn.advanced": {
+    "other": "Paplašināti temati"
+  },
+  "welc.btn.parameters": {
+    "other": "Par parametriem"
+  },
+  "welc.btn.start": {
+    "other": "Sākt"
+  },
+  "welc.btn.users": {
+    "other": "Par lietotāju pārvaldību"
+  },
+  "welc.btn.ws": {
+    "other": "Par darbvirsmām"
+  },
+  "welc.guide": {
+    "other": "Ja nezinat ar ko sākt, iesakām izlasīt Administratora instrukciju:"
+  },
+  "welc.intro": {
+    "other": "Šis ir Pydio pārvaldības panelis. Kreisās puses izvēlnē var izveidot <a class=\"doc-link\" data-path=\"/data/workspaces\">darbvirsmas</a> un <a class=\"doc-link\" data-path=\"/idm/users\">lietotājus</a>,\n                            pārbaudīt <a class=\"doc-link\" data-path=\"/admin/logs\">notikumus</a> uz servera, unpārvaldīt <a class=\"doc-link\" data-path=\"/parameters/core\">konfigurācijas</a> un <a class=\"doc-link\" data-path=\"/plugins/manager\">spraudņus</a>."
+  },
+  "welc.subtitle": {
+    "other": "Vieta kurā administrēt un monitorēt platformu"
+  },
+  "welc.title": {
+    "other": "Laipni lūgti Pydio Cells darbvirsmā"
+  }
+}

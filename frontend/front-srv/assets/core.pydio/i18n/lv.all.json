@@ -1,0 +1,2273 @@
+{
+  "0": {
+    "other": "Pēdējā versija"
+  },
+  "1": {
+    "other": "Faila nosaukums"
+  },
+  "10": {
+    "other": "Teksta fails"
+  },
+  "100": {
+    "other": "Nevar atrast failu "
+  },
+  "101": {
+    "other": "Oriģinālā un mērķa direktorija ir viena un tā pati!"
+  },
+  "102": {
+    "other": "Kļūda izveidojot failu :"
+  },
+  "103": {
+    "other": "Nevar atrast folderi "
+  },
+  "104": {
+    "other": "Iet uz norādīto lokāciju"
+  },
+  "105": {
+    "other": "Nosūtīt saiti ar tiešu piekļuvi šai vietai."
+  },
+  "106": {
+    "other": "Sūtīt e-pastu"
+  },
+  "107": {
+    "other": "Jūsu vārds un/vai e-pastu"
+  },
+  "108": {
+    "other": "Mērķa e-pasts"
+  },
+  "109": {
+    "other": "Klikšķināma saite"
+  },
+  "11": {
+    "other": "Javascript"
+  },
+  "110": {
+    "other": "Pievienot komentāru"
+  },
+  "111": {
+    "other": "Nosūtīts sekojošs e-pasts :"
+  },
+  "112": {
+    "other": "Kļūda nosūtot e-pastu : "
+  },
+  "113": {
+    "other": "Nav veikta izvēle!"
+  },
+  "114": {
+    "other": "Nezināma kļūda kopēšanas laikā!"
+  },
+  "115": {
+    "other": "Fails veiksmīgi saglabāts"
+  },
+  "116": {
+    "other": "faili"
+  },
+  "117": {
+    "other": "Direktorija"
+  },
+  "118": {
+    "other": "Lejupielādēt vairākus failus"
+  },
+  "119": {
+    "other": "Uzspiediet uz faila lai to lejupielādētu."
+  },
+  "12": {
+    "other": "GIF attēls"
+  },
+  "120": {
+    "other": "Jums nav atļauts nodzēst visu direktoriju koku!"
+  },
+  "121": {
+    "other": "Attēla fails "
+  },
+  "122": {
+    "other": "Miskaste"
+  },
+  "123": {
+    "other": "tika pārvietots uz "
+  },
+  "124": {
+    "other": "Pārrakstīt esošos failus?"
+  },
+  "125": {
+    "other": "Fails/direktorija ar tādu nosaukumu jau eksistē (nosaukumi ir reģistrjūtīgi). Izmantojiet citu nosaukumu!"
+  },
+  "126": {
+    "other": "Sīktēli"
+  },
+  "127": {
+    "other": "Izmērs"
+  },
+  "128": {
+    "other": "izvēlētie faili."
+  },
+  "129": {
+    "other": "Skatīt"
+  },
+  "13": {
+    "other": "JPG attēls"
+  },
+  "130": {
+    "other": "Direktorijas"
+  },
+  "131": {
+    "other": "Papildu informācija"
+  },
+  "132": {
+    "other": "Nav faila vai direktorijas"
+  },
+  "133": {
+    "other": "Nosaukums"
+  },
+  "134": {
+    "other": "Veids"
+  },
+  "135": {
+    "other": "Izmēri"
+  },
+  "136": {
+    "other": "Skatīt lielāku attēlu"
+  },
+  "138": {
+    "other": "Pēdējo reizi modificēts"
+  },
+  "139": {
+    "other": "Labot tiešsaistē"
+  },
+  "14": {
+    "other": "HTML lapa"
+  },
+  "140": {
+    "other": "Atskaņot visu direktoriju"
+  },
+  "141": {
+    "other": "Lasa direktoriju"
+  },
+  "142": {
+    "other": "Pieslēdzies kā "
+  },
+  "143": {
+    "other": "Pārlūko kā viesis. Pieslēdzieties."
+  },
+  "144": {
+    "other": "Nav pieslēdzies."
+  },
+  "145": {
+    "other": "Manas grāmatzīmes"
+  },
+  "146": {
+    "other": "Dzēst grāmatzīmi"
+  },
+  "147": {
+    "other": "Grāmatzīmes"
+  },
+  "148": {
+    "other": "Augstāk esošs"
+  },
+  "149": {
+    "other": "Pārlādēt"
+  },
+  "15": {
+    "other": "HTML lapa"
+  },
+  "150": {
+    "other": "Rādīt"
+  },
+  "151": {
+    "other": "Pārslēgt parādīšanas režīmu..."
+  },
+  "152": {
+    "other": "Parslēgt grāmatzīmi"
+  },
+  "153": {
+    "other": "Pievienot/noņemt no Manām Grāmatzīmēm"
+  },
+  "154": {
+    "other": "Jauna direktorija"
+  },
+  "155": {
+    "other": "Izveidot jaunu direktoriju"
+  },
+  "156": {
+    "other": "Jauns tukšs fails"
+  },
+  "157": {
+    "other": "Izveidot jaunu tukšu failu"
+  },
+  "158": {
+    "other": "Pārsaukt izvēlēto failu vai direktoriju"
+  },
+  "159": {
+    "other": "Kopēt izvēlētos uz..."
+  },
+  "16": {
+    "other": "REAL fails"
+  },
+  "160": {
+    "other": "Pārvietot izvēlētos failus uz..."
+  },
+  "161": {
+    "other": "Dzēst izvēlētos failus."
+  },
+  "162": {
+    "other": "Labot teksta failus tiešsaistē."
+  },
+  "163": {
+    "other": "Pieslēgties"
+  },
+  "164": {
+    "other": "Atvienoties"
+  },
+  "165": {
+    "other": "Iestatījumi"
+  },
+  "166": {
+    "other": "Par"
+  },
+  "167": {
+    "other": "Par Pydio"
+  },
+  "168": {
+    "other": "Pieslēgties APPLICATION_TITLE"
+  },
+  "169": {
+    "other": "Atslēgties no APPLICATION_TITLE"
+  },
+  "17": {
+    "other": "REAL fails"
+  },
+  "170": {
+    "other": "Patreizējā direktorija"
+  },
+  "171": {
+    "other": "Pārlūkot"
+  },
+  "172": {
+    "other": "Jūsu izvēle"
+  },
+  "173": {
+    "other": "Jaunas direktorijas nosaukums"
+  },
+  "174": {
+    "other": "Jauna faila nosaukums"
+  },
+  "175": {
+    "other": "Norādīt mērķa direktoriju"
+  },
+  "176": {
+    "other": "Izvēlētais fails tiks pārvietots uz Miskasti."
+  },
+  "177": {
+    "other": "Vai vēlaties dzēst šos failus neatgriezeniski?"
+  },
+  "178": {
+    "other": "Iepriekšējā"
+  },
+  "179": {
+    "other": "Nākamā"
+  },
+  "18": {
+    "other": "PERL skripts"
+  },
+  "180": {
+    "other": "Ievadiet lietotāju/paroli"
+  },
+  "181": {
+    "other": "Pieslēgties"
+  },
+  "182": {
+    "other": "Parole"
+  },
+  "183": {
+    "other": "Izvēlieties direktoriju kura nav tā pati kurā atrodaties!"
+  },
+  "184": {
+    "other": "Meklēt esošajā direktorijā un apakšdirektorijās"
+  },
+  "185": {
+    "other": "Apturēt meklēšanu"
+  },
+  "186": {
+    "other": "Attēla priekšskats"
+  },
+  "187": {
+    "other": "Online Edition - "
+  },
+  "189": {
+    "other": "Labot iestatījumus"
+  },
+  "19": {
+    "other": "ZIP fails"
+  },
+  "190": {
+    "other": "Valoda"
+  },
+  "191": {
+    "other": "Noklusētais skats"
+  },
+  "192": {
+    "other": "Saraksts"
+  },
+  "193": {
+    "other": "Sīktēli"
+  },
+  "194": {
+    "other": "Mainīt paroli"
+  },
+  "195": {
+    "other": "Lietotāja iestatījumi"
+  },
+  "196": {
+    "other": "Jūsu valoda atsķiras no esošās valodas!\\n Vai vēlaties pārlādēt lapu lai pārslēgtu valodu?"
+  },
+  "197": {
+    "other": "Paroles maiņa tiks apstiprināta pēc tam kad atslēgsieties no sistēmas."
+  },
+  "198": {
+    "other": "Jauns"
+  },
+  "199": {
+    "other": "Apstiprināt"
+  },
+  "2": {
+    "other": "Izmērs"
+  },
+  "20": {
+    "other": "WAV fails"
+  },
+  "200": {
+    "other": "Pārslēgt repozitoiju uz..."
+  },
+  "201": {
+    "other": "Uzmanību, atsevišķas izmaiņas nav saglabātas!\\n Vai vēlaties aizvērt?"
+  },
+  "202": {
+    "other": "Uzmanību, rekursīva kopija!"
+  },
+  "203": {
+    "other": "Mērķa direktorija ir tā pati kas oriģinālā!"
+  },
+  "204": {
+    "other": "Fails \""
+  },
+  "205": {
+    "other": "\" pārsniedz izmēra limitu ("
+  },
+  "206": {
+    "other": "Mb).\\nIt netiks augšupielādēts."
+  },
+  "207": {
+    "other": "Jums nav rakstīšanas tiesību šajā direktorijā"
+  },
+  "208": {
+    "other": "Jums nav lasīšanas tiesību šajā direktorijā"
+  },
+  "209": {
+    "other": "Iekšējā servera kļūda, sazinieties ar Administratoru!"
+  },
+  "21": {
+    "other": "PHP skripts"
+  },
+  "210": {
+    "other": "Augšupielāde neizdevās"
+  },
+  "211": {
+    "other": "Fails ir par lielu! Sazinieties ar administratoru vai izmantojiet datora sinhronozācijas klientu."
+  },
+  "212": {
+    "other": "Fails uz servera nav atrasts!"
+  },
+  "213": {
+    "other": "Kļūda kopējot failu uz direktoriju"
+  },
+  "214": {
+    "other": "Pārlūkot"
+  },
+  "215": {
+    "other": "Sākt augšupielādi"
+  },
+  "216": {
+    "other": "Notīrīt"
+  },
+  "217": {
+    "other": "Notīrīšana paveikta"
+  },
+  "218": {
+    "other": "Noņemt no rindas"
+  },
+  "219": {
+    "other": "Izpildīts"
+  },
+  "22": {
+    "other": "PHP skripts"
+  },
+  "220": {
+    "other": "Tukšs"
+  },
+  "221": {
+    "other": "Iztīrīt miskasti"
+  },
+  "222": {
+    "other": "Atjaunot"
+  },
+  "223": {
+    "other": "Atjaunot failu uz oriģinālo vietu"
+  },
+  "224": {
+    "other": "Iet uz"
+  },
+  "225": {
+    "other": "Pārsaukt grāmatzīmi"
+  },
+  "226": {
+    "other": "Papildu informācija"
+  },
+  "227": {
+    "other": "Pārslēgt uz detalizētu tabulas skatu"
+  },
+  "228": {
+    "other": "Sīktēli"
+  },
+  "229": {
+    "other": "Pārslēgt uz sīktēlu skatu"
+  },
+  "23": {
+    "other": "Fails"
+  },
+  "230": {
+    "other": "Atskaņot"
+  },
+  "231": {
+    "other": "Atskaņot slaidšovu"
+  },
+  "232": {
+    "other": "Stop"
+  },
+  "233": {
+    "other": "Apstādināt slaidšovu"
+  },
+  "234": {
+    "other": "Skatīt izvēlētos attēlus"
+  },
+  "235": {
+    "other": "Pilna ekrāna skats"
+  },
+  "236": {
+    "other": "Atjaunot"
+  },
+  "237": {
+    "other": "Vecā parole"
+  },
+  "238": {
+    "other": "Paroles atšķirās!"
+  },
+  "239": {
+    "other": "Ieraksties esošo paroli"
+  },
+  "24": {
+    "other": "Augstāk esoša direktorija"
+  },
+  "240": {
+    "other": "Nepareiza parole!"
+  },
+  "241": {
+    "other": "Jūsu iestatījumi tika saglabāti!"
+  },
+  "242": {
+    "other": "Svn Log faisl"
+  },
+  "243": {
+    "other": "Revīzija"
+  },
+  "244": {
+    "other": "Autors"
+  },
+  "245": {
+    "other": "Datums"
+  },
+  "246": {
+    "other": "Ziņa"
+  },
+  "247": {
+    "other": "Atarhivēt"
+  },
+  "248": {
+    "other": "Atarhivēt atzīmētos no zip faila uz..."
+  },
+  "249": {
+    "other": "Lietotāji"
+  },
+  "25": {
+    "other": "Augšupielādēt vienu vai vairākus failus (maks. %s direktorijā : "
+  },
+  "250": {
+    "other": "Darbvirsmas"
+  },
+  "251": {
+    "other": "Notikumu žurnāls"
+  },
+  "252": {
+    "other": "Kopējais apjoma limits ir sasniegts."
+  },
+  "253": {
+    "other": "HTTP kļūda:"
+  },
+  "254": {
+    "other": "IO kļūda:"
+  },
+  "255": {
+    "other": "Drošības kļūda:"
+  },
+  "256": {
+    "other": "Augšupielādēts"
+  },
+  "257": {
+    "other": "Dzēst"
+  },
+  "258": {
+    "other": "Failu skaits:"
+  },
+  "259": {
+    "other": "Kopējais apjoms :"
+  },
+  "26": {
+    "other": "Izveidot jaunu direktoriju : "
+  },
+  "260": {
+    "other": "baiti"
+  },
+  "261": {
+    "other": "Atceries mani"
+  },
+  "262": {
+    "other": "Veins vai vairāki faili jau \\neksistē mērķa direktorijā.\\n Ko vēlaties darīt?"
+  },
+  "263": {
+    "other": "Pārrakstīt"
+  },
+  "264": {
+    "other": "Izlaist"
+  },
+  "265": {
+    "other": "Faili"
+  },
+  "266": {
+    "other": "B"
+  },
+  "267": {
+    "other": "Izveidot"
+  },
+  "268": {
+    "other": "Izveidot jaunu tabulu"
+  },
+  "269": {
+    "other": "Struktūra"
+  },
+  "27": {
+    "other": "Augšupielādēt"
+  },
+  "270": {
+    "other": "Labot tabulas struktūru"
+  },
+  "271": {
+    "other": "Nodzēst"
+  },
+  "272": {
+    "other": "Nodzēst atvērtu tabulu"
+  },
+  "273": {
+    "other": "Ievietot"
+  },
+  "274": {
+    "other": "Ievietot jaunu ierakstu"
+  },
+  "275": {
+    "other": "Vai vēlaties nodzēst izvēlētās tabulas?"
+  },
+  "276": {
+    "other": "Labot izvēlēto ierakstu"
+  },
+  "277": {
+    "other": "Dzēst izvēlēto ierakstu"
+  },
+  "278": {
+    "other": "Vai vēlaties dzēst izvēlētos ierakstu(s)?"
+  },
+  "279": {
+    "other": "Tabulas"
+  },
+  "28": {
+    "other": "Izveidot jaunu failu : "
+  },
+  "280": {
+    "other": "Ieraksti"
+  },
+  "281": {
+    "other": "Augšupielādes limiti"
+  },
+  "282": {
+    "other": "Lielums katram failam"
+  },
+  "283": {
+    "other": "Kopējais lielums"
+  },
+  "284": {
+    "other": "Failu skaits"
+  },
+  "285": {
+    "other": "Nevar atrast lietotāju, mēģiniet vēlreiz.\\nPārliecinieties vai nav ieslēgti lielie burti!"
+  },
+  "286": {
+    "other": "Lietotājam ir mainījusies faila esošā versija, izmantojiet faila atjaunošanu."
+  },
+  "287": {
+    "other": "Failu atļaujas"
+  },
+  "288": {
+    "other": "Lietotājs"
+  },
+  "289": {
+    "other": "Grupa"
+  },
+  "29": {
+    "other": "Izveidot"
+  },
+  "290": {
+    "other": "Visi"
+  },
+  "291": {
+    "other": "Pielietot rekursīvi?"
+  },
+  "292": {
+    "other": "Koplietot"
+  },
+  "293": {
+    "other": "Izveidot failam publisku saiti"
+  },
+  "294": {
+    "other": "Saites izbeigšanās termiņš (dienās) un parole (atstājiet tukšu ja nav nepieciešama)."
+  },
+  "295": {
+    "other": "Derīgums"
+  },
+  "296": {
+    "other": "Nokopēt saiti:"
+  },
+  "297": {
+    "other": "Jauns lietotājs"
+  },
+  "298": {
+    "other": "Izveidot jaunu lietotāju"
+  },
+  "299": {
+    "other": "Darbvirsmas"
+  },
+  "3": {
+    "other": "Veids"
+  },
+  "30": {
+    "other": "Ierakstiet direktorijas nosaukumu un nospiediet &quot;Izveidot&quot;"
+  },
+  "300": {
+    "other": "Izveidot jaunu darbvirsmu"
+  },
+  "301": {
+    "other": "Labot konfigurāciju"
+  },
+  "302": {
+    "other": "Kopēt kā tekstu"
+  },
+  "303": {
+    "other": "Kopēt izvēlētos kā ar tabu atdalītu vērtību tekstu."
+  },
+  "304": {
+    "other": "Atpakaļ"
+  },
+  "305": {
+    "other": "Atgriezties galvenajā lapā"
+  },
+  "306": {
+    "other": "Pārāk daudz objektu"
+  },
+  "307": {
+    "other": "Aizpildīt neobligātos laukus"
+  },
+  "308": {
+    "other": "Ģenerēt saiti"
+  },
+  "309": {
+    "other": "Ģenerēt"
+  },
+  "31": {
+    "other": "Ir jāizvēlas failu"
+  },
+  "310": {
+    "other": "Opcijas"
+  },
+  "311": {
+    "other": "Augšupielādēt failu kad tas ir pievienots"
+  },
+  "312": {
+    "other": "Augšupielādētāja opcijas"
+  },
+  "313": {
+    "other": "Arhivēt..."
+  },
+  "314": {
+    "other": "Arhivēt atzīmētos zip failā..."
+  },
+  "315": {
+    "other": "Arhivēt atzīmētos uz"
+  },
+  "316": {
+    "other": "Skatīt/Labot"
+  },
+  "317": {
+    "other": "Koda redaktors"
+  },
+  "318": {
+    "other": "CodePress koda skatītājs"
+  },
+  "319": {
+    "other": "HTML redaktors"
+  },
+  "32": {
+    "other": "Aplūkot"
+  },
+  "320": {
+    "other": "WYSIWYG redaktors priekš HTML"
+  },
+  "321": {
+    "other": "Izvēlēties"
+  },
+  "322": {
+    "other": "Izvēlēties šo failu"
+  },
+  "323": {
+    "other": "Nosūtīt saiti"
+  },
+  "324": {
+    "other": "Nav pieejams redaktors"
+  },
+  "325": {
+    "other": "Ietilpināt"
+  },
+  "326": {
+    "other": "Neietilpināt"
+  },
+  "327": {
+    "other": "100%"
+  },
+  "328": {
+    "other": "Dokumentu lasītājs"
+  },
+  "329": {
+    "other": "Skatīt pdf, svg, tif un citus failus pārlūkā"
+  },
+  "33": {
+    "other": "Kļūda augšuplādējot failu!"
+  },
+  "330": {
+    "other": "Lūdzu pagaidiet kamēr lapas tiek ģenerētas..."
+  },
+  "331": {
+    "other": "Lapa"
+  },
+  "332": {
+    "other": "no"
+  },
+  "333": {
+    "other": "Pixlr attēlu redaktors"
+  },
+  "334": {
+    "other": "vairāk"
+  },
+  "335": {
+    "other": "Ievadiet lapas numuru no 1 līdz "
+  },
+  "336": {
+    "other": "Atvainojiet, nevar ievilkt direktorijas, tikai failus!"
+  },
+  "337": {
+    "other": "Sākt automātisku augšupielādi"
+  },
+  "338": {
+    "other": "Aizvērt paneli pēc augšupielādes pabeigšanas"
+  },
+  "339": {
+    "other": "Esošie faili"
+  },
+  "34": {
+    "other": "Fails"
+  },
+  "340": {
+    "other": "Brīdinājums"
+  },
+  "341": {
+    "other": "Faila informācija"
+  },
+  "342": {
+    "other": "Direktorijas informācija"
+  },
+  "343": {
+    "other": "Attēla informācija"
+  },
+  "344": {
+    "other": "Meklēt uz"
+  },
+  "345": {
+    "other": "Nevar iegūt versiju informāciju"
+  },
+  "346": {
+    "other": "Šī versija ir visjaunākā"
+  },
+  "347": {
+    "other": "Ir pieejama jauna versija (%s)! Apmeklējiet %s"
+  },
+  "348": {
+    "other": "Izveidot jauna darbvirsma."
+  },
+  "349": {
+    "other": "Uzmanību, nepietiekami argumenti"
+  },
+  "35": {
+    "other": "veiksmīgi izveidota direktorijā"
+  },
+  "350": {
+    "other": "Jums nepiederošs lietotājs ar šādu vārdu jau eksistē, izvēlieties citu vārdu."
+  },
+  "351": {
+    "other": "Jums nav tiesības publiski koplietot datus."
+  },
+  "352": {
+    "other": "Darbvirsma ar šādu nosaukum jau eksistē, izvēlieties citu nosaukumu."
+  },
+  "353": {
+    "other": "Lietotājs"
+  },
+  "354": {
+    "other": "Izveidot jaunu vai izvēlēties jau esošu lietotāju no saraksta."
+  },
+  "355": {
+    "other": "Lietotājvārds"
+  },
+  "356": {
+    "other": "Parole"
+  },
+  "357": {
+    "other": "Mērķa repozitorijs"
+  },
+  "358": {
+    "other": "Izvēlieties nosaukumu koplietotajai darbvirsmai."
+  },
+  "359": {
+    "other": "Nosaukums"
+  },
+  "36": {
+    "other": "Apjoms"
+  },
+  "360": {
+    "other": "Tiesības"
+  },
+  "361": {
+    "other": "Lasīt"
+  },
+  "362": {
+    "other": "Rakstīt"
+  },
+  "363": {
+    "other": "Koplietots"
+  },
+  "364": {
+    "other": "Jums nav tiesību veikt šo darbību"
+  },
+  "365": {
+    "other": "Jums nav atļauts augšupielādēt vienā reizē vairāk kā %s failus."
+  },
+  "366": {
+    "other": "Šim lietotājam nav nevienas aktīvas darbvirsmas."
+  },
+  "367": {
+    "other": "Jums nav atļauts augšupielādēt šo faila veidu. Izvēlieties kādu no sekojošiem paplašinājumiem : "
+  },
+  "368": {
+    "other": "Izvēlētie dati no arhīva %s ir veiksmīgi atpakoti uz direktoriju %s"
+  },
+  "369": {
+    "other": "Īsceļš"
+  },
+  "37": {
+    "other": "Ierakstiet derīgu vārdu"
+  },
+  "370": {
+    "other": "APPLICATION_TITLE publiskā lejupielāde"
+  },
+  "371": {
+    "other": "Šai lejupielādei nepieciešama parole"
+  },
+  "372": {
+    "other": "Pašreizējā darbvirsma"
+  },
+  "373": {
+    "other": "Mērķis"
+  },
+  "374": {
+    "other": "Jūs nevarat kopēt direktorijas starp darbvirsmām"
+  },
+  "375": {
+    "other": "Jūs esat neaktīvs jau __IDLE__. Drošības apsvērumu pēc Jūs tiksiet atslēgts no sistēmas __LOGOUT__"
+  },
+  "375t": {
+    "other": "Vai Jūs vēl darbojaties sistēmā?"
+  },
+  "376": {
+    "other": "Nospiediet jebkur lai turpinātu sesiju"
+  },
+  "378": {
+    "other": "Uzmanību, parole ir tukša vai par īsu!"
+  },
+  "379": {
+    "other": "Nedrošs vārds!"
+  },
+  "38": {
+    "other": "Direktorija"
+  },
+  "380": {
+    "other": "Par īsu"
+  },
+  "381": {
+    "other": "Par vāju"
+  },
+  "382": {
+    "other": "Vāja"
+  },
+  "383": {
+    "other": "Vide'ja"
+  },
+  "384": {
+    "other": "Spēcīga"
+  },
+  "385": {
+    "other": "Ļoti spēcīga"
+  },
+  "validation.login.lowercase": {
+    "other": "Lai pieslēgtos lietojiet tikai mazos burtus"
+  },
+  "validation.login.format": {
+    "other": "Lietojiet burtu un ciparu kombināciju vai e-pastu priekš lietotājvārda"
+  },
+  "386": {
+    "other": "Jums neizdevās pieslēgties 3 reizes.\\nDrošības apsvērumu dēļ ievadiet kodu kas redzams attēlā."
+  },
+  "389": {
+    "other": "Izlasīt zemākesošo kodu :"
+  },
+  "39": {
+    "other": "tika izveidots"
+  },
+  "390": {
+    "other": "Kods"
+  },
+  "391": {
+    "other": "Nav repozitorija"
+  },
+  "392": {
+    "other": "Uzmanību, APPLICATION_TITLE versija mainījās (patreiz %s), iztīriet pārlūka kešu un atjaunojiet lapu lai pārliecinātos vai viss darbojas pareizi!"
+  },
+  "393": {
+    "other": "Uzmanību, nosaukuma garumam jābūt mazākam par %s simboliem, šis vārds tiks samazināts līdz atļautajam simbolu skaitam!"
+  },
+  "394": {
+    "other": "Atvainojiet, šobrīd direktoriju koplietošana nav pieejama izmantojot esošo autorizācijas dzinēju (lietotāji nav labojami). Failu koplietošana joprojām ir pieejama."
+  },
+  "395": {
+    "other": "Dati kurus pievienojāt ir direktorija un tās uz servera augšupielādēt nav iespējams! Vai vēlaties augšupielādēt?"
+  },
+  "396": {
+    "other": "Autentifikācijas veids"
+  },
+  "397": {
+    "other": "Dalīta lejupielāde"
+  },
+  "398": {
+    "other": "Lejupielādēt izvēlēto failu pa daļām"
+  },
+  "399": {
+    "other": "Izvēlieties cik daļās vēlaties lejupielādēt failu un tad spiediet uz pogas un izvēlieties katru failu kuru lejupielādēt."
+  },
+  "4": {
+    "other": "Labots"
+  },
+  "40": {
+    "other": "Šāda direktorija jau eksistē (nosaukumi ir reģistrjūtīgi)"
+  },
+  "400": {
+    "other": "Daļu skaits:"
+  },
+  "401": {
+    "other": "Jūs varat ielādēt šo aplikāciju lai savienotu darbvirsmas ar datoru : "
+  },
+  "402": {
+    "other": "http://www.hjsplit.org/"
+  },
+  "403": {
+    "other": "WebDAV"
+  },
+  "404": {
+    "other": "WebDAV ir protokols kurš ļauj pieslēgt APPLICATION_TITLE darbvirsmas kā 'tīkla diskus' pa tiešo uz Jūsu datora. Lai ieslēgtu šo iespēju, atzīmējiet zemākesošo iespēju un ievadiet savu paroli ja nepieciešams."
+  },
+  "405": {
+    "other": "Jebkurš WebDAV klients Jums pieprasīs adresi, lietotājvārdu un paroli. Lietojiet zemākesošo saiti kopā ar savu lietotājvārdu un paroli."
+  },
+  "406": {
+    "other": "Ieslēgt WebDAV koplietošanu"
+  },
+  "407": {
+    "other": "ievadiet paroli ja pirmo reizi aktivizējat WebDAV koplietošanu, vai ja vēlaties, ievadiet jaunu paroli:"
+  },
+  "408": {
+    "other": "WebDAV koplietošnaa veiksmīgi aktivizēta"
+  },
+  "409": {
+    "other": "WebDAV koplietošana veiksmīgi atslēgta"
+  },
+  "41": {
+    "other": "tika pārsaukts par"
+  },
+  "410": {
+    "other": "WebDAV parole veiksmīgi atjaunota"
+  },
+  "411": {
+    "other": "Atvērt"
+  },
+  "412": {
+    "other": "Tikai augšupielāde"
+  },
+  "413": {
+    "other": "Koplietoja"
+  },
+  "414": {
+    "other": "Lietojiet bultas lai pārvietotos un +/- lai mainītu pietuvinājumu"
+  },
+  "415": {
+    "other": "Pārslēgt kreisā paneļa redzamību"
+  },
+  "416": {
+    "other": "Kreisais panelis"
+  },
+  "417": {
+    "other": "Izveidot šūnu..."
+  },
+  "418": {
+    "other": "Izveidot šūnu"
+  },
+  "419": {
+    "other": "Ielādē šablonus..."
+  },
+  "42": {
+    "other": "uz"
+  },
+  "420": {
+    "other": "Izvēlieties šablonu no saraksta"
+  },
+  "421": {
+    "other": "Jauns %s"
+  },
+  "422": {
+    "other": "Aizpildiet nepieciešamos parametrus. Novietojiet peles kursoru virs lauka lai iegūtu vairāk informācijas."
+  },
+  "423": {
+    "other": "Dzēst darbvirsmu"
+  },
+  "424": {
+    "other": "Vai vēlaties dzēst šo darbvirsmu? Darbība ir neatgriezeniska."
+  },
+  "425": {
+    "other": "Darbvirsma ir izveidota un pievienota darbvirsmu sarakstam. Ja vēlaties to nodzēst, pārslēdzieties uz citu darbvirsmu un nospiediet sarkano krustiņu pie dzēšamās darbvirsmas nosaukuma."
+  },
+  "426": {
+    "other": "Kļūda izveidojot darbvirsmu"
+  },
+  "427": {
+    "other": "Kļūda dzēšot darbvirsmu"
+  },
+  "428": {
+    "other": "Darbvirsma veiksmīgi nodzēsta"
+  },
+  "429": {
+    "other": "Šādi darbvirsma izskatīsies Jūsu darbvirsmu sarakstā."
+  },
+  "43": {
+    "other": "jau eksistē (nosaukumi ir reģistrjūtīgi)"
+  },
+  "430": {
+    "other": "Kopējie faili"
+  },
+  "431": {
+    "other": "Parauga šablons"
+  },
+  "432": {
+    "other": "Mani faili"
+  },
+  "433": {
+    "other": "gatavs"
+  },
+  "434": {
+    "other": "sūta"
+  },
+  "435": {
+    "other": "pabeigts"
+  },
+  "436": {
+    "other": "kļūda"
+  },
+  "437": {
+    "other": "Šķiet ka drošības kods ir beidzies! Nospiediet %s vai F5 lai atjauninātu lapu!"
+  },
+  "438": {
+    "other": "pārlādēt lapu"
+  },
+  "439": {
+    "other": "Pamata opcijas"
+  },
+  "44": {
+    "other": "tika nodzēsts"
+  },
+  "440": {
+    "other": "Jā"
+  },
+  "441": {
+    "other": "Nē"
+  },
+  "442": {
+    "other": "Mans konts"
+  },
+  "443": {
+    "other": "Atjaunot Jūsu personīgo informāciju"
+  },
+  "444": {
+    "other": "Atjaunojiet Jūsu paroli. Neatjaunotjot paroli Jūs nevarēsiet pieslēgties sistēmai."
+  },
+  "445": {
+    "other": "Jūs tiksiet atslēgts no sistēmas. Pēc tam pieslēdzieties ar jauno paroli!"
+  },
+  "446": {
+    "other": "Prezentācija"
+  },
+  "447": {
+    "other": "Mana grupa"
+  },
+  "448": {
+    "other": "izveidot lietotāju"
+  },
+  "449": {
+    "other": "Izveido %s, izvēlieties paroli"
+  },
+  "45": {
+    "other": "direktorija"
+  },
+  "450": {
+    "other": "Kārtot pēc..."
+  },
+  "451": {
+    "other": "Kārtot priekšskatus pēc ..."
+  },
+  "452": {
+    "other": "Priekšskatu izmērs"
+  },
+  "453": {
+    "other": "Iestatīt priekšskatu izmēru"
+  },
+  "454": {
+    "other": "Izvēlieties failus uz datora"
+  },
+  "455": {
+    "other": "Darbvirsmas"
+  },
+  "456": {
+    "other": "Vairāk"
+  },
+  "457": {
+    "other": "atjaunot"
+  },
+  "458": {
+    "other": "noņemt"
+  },
+  "459": {
+    "other": "Augstākā direktorija"
+  },
+  "46": {
+    "other": "fails"
+  },
+  "460": {
+    "other": "Saraksts"
+  },
+  "461": {
+    "other": "Pārslēgties uz saraksta skatu"
+  },
+  "462": {
+    "other": "Priekšskats"
+  },
+  "463": {
+    "other": "Lejupielādēt visu"
+  },
+  "464": {
+    "other": "Lejupielādēt visu darbvirsmas saturu vienā reizē (ar zip arhivēts fails)"
+  },
+  "465": {
+    "other": "Rādīt alternatīvas saites (pievienot darbvirsmas atsevišķi)"
+  },
+  "466": {
+    "other": "Ielādē..."
+  },
+  "467": {
+    "other": "Visi koplietotie elementi"
+  },
+  "468": {
+    "other": "Darbvirsmas"
+  },
+  "469": {
+    "other": "Šūnas"
+  },
+  "47": {
+    "other": "Vai Jūs tiešām vēlaties izdzēst"
+  },
+  "470": {
+    "other": "Izveidots %date"
+  },
+  "471": {
+    "other": "Izveidoja %user %date"
+  },
+  "472": {
+    "other": "Koplietoja %user"
+  },
+  "473": {
+    "other": "Koplietoja %user %date"
+  },
+  "474": {
+    "other": "Apraksts nav pieejams"
+  },
+  "475": {
+    "other": "Starp visiem lietotājiem koplietotie faili"
+  },
+  "476": {
+    "other": "Jūsu personīgās darbvirsmas"
+  },
+  "477": {
+    "other": "Izvēlieties failu vai direktoriju lai apskatītu papildu informāciju"
+  },
+  "478": {
+    "other": "Nav rezultātu"
+  },
+  "479": {
+    "other": "Aizmirsāt paroli?"
+  },
+  "48": {
+    "other": "OK"
+  },
+  "480": {
+    "other": "Pārlūkot visas esošās darbvirsmas direktorijas."
+  },
+  "481": {
+    "other": "Visi Jūsu koplietotie faili un direktorijas"
+  },
+  "482": {
+    "other": "Ātrā piekļuve Jūsu grāmatzīmēm"
+  },
+  "483": {
+    "other": "Jums nav atļauts veidot vēl vairāk lietotājus!"
+  },
+  "484": {
+    "other": "Izveidot lietotāju"
+  },
+  "485": {
+    "other": "Izveidot koplietojamu lietotāju"
+  },
+  "486": {
+    "other": "Papildu"
+  },
+  "487": {
+    "other": "Pamata"
+  },
+  "488": {
+    "other": "Paplašināts filtrs"
+  },
+  "489": {
+    "other": "Metadati"
+  },
+  "49": {
+    "other": "ATCELT"
+  },
+  "490": {
+    "other": "Datumu periods"
+  },
+  "491": {
+    "other": "Pēc"
+  },
+  "492": {
+    "other": "līdz"
+  },
+  "493": {
+    "other": "Šodien"
+  },
+  "494": {
+    "other": "Vakar"
+  },
+  "495": {
+    "other": "Iepriekšējā nedēļa"
+  },
+  "496": {
+    "other": "Iepriekšējā mēnesī"
+  },
+  "497": {
+    "other": "Pagājušajā gadā"
+  },
+  "498": {
+    "other": "Dokumenta opcijas"
+  },
+  "499": {
+    "other": "Fails"
+  },
+  "5": {
+    "other": "Darbības"
+  },
+  "50": {
+    "other": "Exe fails"
+  },
+  "500": {
+    "other": "Paplašinājums"
+  },
+  "501": {
+    "other": "vai"
+  },
+  "502": {
+    "other": "Tikai direktorijas"
+  },
+  "503": {
+    "other": "Izmērs"
+  },
+  "504": {
+    "other": "1k,1M,1G"
+  },
+  "505": {
+    "other": "uz"
+  },
+  "506": {
+    "other": "Aplikācijas parametri (lietotāji, darbvirsmas, konfigurācijas)"
+  },
+  "507": {
+    "other": "Sveicināti %s"
+  },
+  "508": {
+    "other": "Jums ir izveidots lietotāja konts uz %s. Lai pieslēgtos nospiediet uz saites %link un lietojiet šo pieslēgšanās informāciju: <br><br> Lietotājvārds: %user <br><br> Parole: %pass"
+  },
+  "509": {
+    "other": "Saglabāt kā komandu"
+  },
+  "51": {
+    "other": "Teksta redaktors"
+  },
+  "510": {
+    "other": "Ievadiet komandas nosaukumu"
+  },
+  "511": {
+    "other": "Mans %s"
+  },
+  "512": {
+    "other": "Pilnekrāna darbvirsma"
+  },
+  "513": {
+    "other": "rādīt"
+  },
+  "514": {
+    "other": "slēpt"
+  },
+  "515": {
+    "other": "Nav grāmatzīmju - Ievelciet šeit failus vai direktorijas priekš ātras piekļuves."
+  },
+  "516": {
+    "other": "izvērst"
+  },
+  "517": {
+    "other": "sakļaut"
+  },
+  "518": {
+    "other": "Kā alternatīvu Jūs varat <a class='create_file_alt_link'>izveidot jaunu tukšu failu</a>."
+  },
+  "519": {
+    "other": "Atjaunot lietotāju"
+  },
+  "52": {
+    "other": "Labo failu"
+  },
+  "520": {
+    "other": "Atjaunot lietotāja datus un paroli"
+  },
+  "521": {
+    "other": "Lietotājs veiksmīgi atjaunots"
+  },
+  "522": {
+    "other": "Lietotāja ID"
+  },
+  "523": {
+    "other": "Parole"
+  },
+  "524": {
+    "other": "Atjaunot paroli"
+  },
+  "525": {
+    "other": "Rādīt oriģinālo attēlu"
+  },
+  "526": {
+    "other": "Zemas izšķirtspējas versija"
+  },
+  "527": {
+    "other": "Koplietots ar"
+  },
+  "528": {
+    "other": "Iekšējie lietotāji"
+  },
+  "53": {
+    "other": "Saglabāt"
+  },
+  "530": {
+    "other": "Ārējie lietotāji"
+  },
+  "531": {
+    "other": "Lietotāji"
+  },
+  "532": {
+    "other": "Grupas"
+  },
+  "533": {
+    "other": "Lietotājvārds, lietojiet burtu un ciparu kombināciju vai e-pastu ar mazajiem burtiem."
+  },
+  "534": {
+    "other": "Parole ar kuru pieslēgties"
+  },
+  "535": {
+    "other": "Sūtīt paroli e-pastā"
+  },
+  "536": {
+    "other": "Sūtīt sveiciena e-pastu iekļaujot jaunā lietotāja paroli"
+  },
+  "537": {
+    "other": "Fails ir par lielu! Maksimālais pieļaujamais izmērs %i"
+  },
+  "538": {
+    "other": "Augšupielādes kļūda: fails uz servera nav atrasts!"
+  },
+  "539": {
+    "other": "Augšupielādes kļūda: fails ir daļējs"
+  },
+  "54": {
+    "other": "Atcelt"
+  },
+  "540": {
+    "other": "Augšupielādes kļūda: nevar atrast pagaidu (tmp) direktoriju"
+  },
+  "541": {
+    "other": "Augšupielādes kļūda: nevar ierakstīt pagaidu (tmp) direktorijā"
+  },
+  "542": {
+    "other": "Augšupielādes kļūda: PHP paplašinājums pārtrauca procesu."
+  },
+  "543": {
+    "other": "Rezultāti limitēti līdz %s."
+  },
+  "544": {
+    "other": "Rādīt vairāk"
+  },
+  "545": {
+    "other": "Attālināta koplietošana"
+  },
+  "546": {
+    "other": "Šis objektu ar Jums koplietoja %%OWNER%% no attālināta servera. Vai vēlaties turpināt?"
+  },
+  "547": {
+    "other": "Apstiprināt"
+  },
+  "548": {
+    "other": "Noraidīt"
+  },
+  "549": {
+    "other": "Jūs iepriekš apstiprinājāt ar Jums koplietotus datus no attālināta servera ar lietotāju %%OWNER%%. Vai šoreiz vēlaties noraidīt?"
+  },
+  "55": {
+    "other": "tika modificēts"
+  },
+  "550": {
+    "other": "Noraidīt šo koplietošanu"
+  },
+  "551": {
+    "other": "Noraidīt"
+  },
+  "552": {
+    "other": "Lūdzu, ievadiet paroli."
+  },
+  "553": {
+    "other": "Nepareiza parole, mēģiniet vēlreiz. \\n Pārliecinieties vai nav ieslēgti lielie burti!"
+  },
+  "554": {
+    "other": "%s objekti Miskastē"
+  },
+  "556": {
+    "other": "Palaiž fona uzdevumu %s"
+  },
+  "557": {
+    "other": "Nepieciešami lietotāja dati"
+  },
+  "558": {
+    "other": "Ievadiet paroli lai piekļūtu šai darbvirsmai."
+  },
+  "559": {
+    "other": "Neveiksmīga autentifikācija pieslēdzoties darbvirsmai."
+  },
+  "56": {
+    "other": "BMP attēls"
+  },
+  "560": {
+    "other": "Nepieciešama autentifikācija"
+  },
+  "561": {
+    "other": "Jūs tiksiet pārvirzīts uz pakalpojuma sniedzēja Autentifikācijas lapu. Ja netiekat pārvirzīts automātiski, nospiediet OK lai mēģinātu vēlreiz..."
+  },
+  "562": {
+    "other": "Šī direktorija ir tukša!"
+  },
+  "563": {
+    "other": "Šī darbvirsma ir tukša!"
+  },
+  "564": {
+    "other": "Miskaste ir tukša."
+  },
+  "565": {
+    "other": "Pievienojiet failus vai direktorijas tās izvēloties vai ievelkot šajā logā no datora"
+  },
+  "566": {
+    "other": "Jums nav tiesību šeit pievienot failus"
+  },
+  "567": {
+    "other": "Pārlūkot Miskasti"
+  },
+  "568": {
+    "other": "Komandas"
+  },
+  "569": {
+    "other": "Jauna komanda"
+  },
+  "57": {
+    "other": "PNG attēls"
+  },
+  "570": {
+    "other": "Dzēst komandu"
+  },
+  "571": {
+    "other": "Nav izveidota vēl neviena komanda"
+  },
+  "572": {
+    "other": "Izveidot savas komandas lai būtu vieglāk koplietot datus starp vairākiem lietotājiem"
+  },
+  "573": {
+    "other": "Pievienot lietotāju komandai"
+  },
+  "574": {
+    "other": "Noņemt lietotāju no komandas"
+  },
+  "575": {
+    "other": "Komandas dalībnieki"
+  },
+  "576": {
+    "other": "%s biedri"
+  },
+  "577": {
+    "other": "Nav komandas biedru"
+  },
+  "578": {
+    "other": "Komandas nosaukums"
+  },
+  "579": {
+    "other": "Izveidot komandu"
+  },
+  "58": {
+    "other": "CSS fails"
+  },
+  "580": {
+    "other": "Labot komandas nosaukumu"
+  },
+  "581": {
+    "other": "Lietotājs ir %s komandā(s)"
+  },
+  "582": {
+    "other": "Dzēst lietotāju"
+  },
+  "583": {
+    "other": "Meklēt direktorijā"
+  },
+  "584": {
+    "other": "Direktorija"
+  },
+  "585": {
+    "other": "Nav ārējo lietotāju"
+  },
+  "586": {
+    "other": "Izveidojiet savus lietotājus un koplietojiet failus un direktorijas ar viņiem no savām darbvirsmām."
+  },
+  "587": {
+    "other": "Nav rezultātu"
+  },
+  "588": {
+    "other": "Sāciet rakstīt meklēšanas formā lai meklētu lietotājus direktorijā"
+  },
+  "589": {
+    "other": "Ārējais lietotājs"
+  },
+  "59": {
+    "other": "MP3 fails"
+  },
+  "590": {
+    "other": "Iekšējais lietotājs"
+  },
+  "591": {
+    "other": "Izvēlieties komandas nosaukumu un pēc izveidošanas Jūs varēsiet pievienot jaunus lietotājus."
+  },
+  "592": {
+    "other": "Adresu grāmata"
+  },
+  "593": {
+    "other": "Koplietotie lietotāji"
+  },
+  "594": {
+    "other": "Uzticamie serveri"
+  },
+  "595": {
+    "other": "Meklēt lietotāju..."
+  },
+  "596": {
+    "other": "Serveris '%s'"
+  },
+  "597": {
+    "other": "visi"
+  },
+  "598": {
+    "other": "Sūtīt ziņu"
+  },
+  "599": {
+    "other": "Pievienot lietotāju"
+  },
+  "6": {
+    "other": "Pārsaukt"
+  },
+  "60": {
+    "other": "RAR fails"
+  },
+  "600": {
+    "other": "Labot lietotāju"
+  },
+  "601": {
+    "other": "Viena koplietota šūna"
+  },
+  "602": {
+    "other": "%1 koplietotas šūnas"
+  },
+  "603": {
+    "other": "Komanda"
+  },
+  "604": {
+    "other": "Attālināts lietotājs"
+  },
+  "605": {
+    "other": "Vairāk Meklēšanas Opcijas"
+  },
+  "606": {
+    "other": "Mazāk Meklēšanas Opcijas"
+  },
+  "607": {
+    "other": "Jūsu pēdējās aktivitātes - Rakstiet lai meklētu failus visās darbvirsmās"
+  },
+  "608": {
+    "other": "Patreizējā direktorija"
+  },
+  "609": {
+    "other": "Visa darbvirsma"
+  },
+  "61": {
+    "other": "GZ fails"
+  },
+  "610": {
+    "other": "Visas darbvirsmas"
+  },
+  "611": {
+    "other": "Sāciet rakstīt lai meklētu"
+  },
+  "612": {
+    "other": "Pielēgots apgabals"
+  },
+  "613": {
+    "other": "Lielāks kā..."
+  },
+  "614": {
+    "other": "Mazāks kā..."
+  },
+  "615": {
+    "other": "Izpildīt"
+  },
+  "616": {
+    "other": "Maska"
+  },
+  "617": {
+    "other": "Ievadīt"
+  },
+  "618": {
+    "other": "Mainīt valodu..."
+  },
+  "619": {
+    "other": "Meklēšana limitēta tikai šajā un apakšdirektorijās"
+  },
+  "62": {
+    "other": "Saknes direktorija"
+  },
+  "620": {
+    "other": "Meklēšana limitēta tikai šajā darbvirsmā"
+  },
+  "621": {
+    "other": "Šis lauks nevar būt tukšs"
+  },
+  "622": {
+    "other": "Stack kļūda"
+  },
+  "623": {
+    "other": "Kopēt"
+  },
+  "624": {
+    "other": "Nokopēts!"
+  },
+  "625": {
+    "other": "Burts"
+  },
+  "626": {
+    "other": "Ar mani koplietotie faili"
+  },
+  "627": {
+    "other": "Koplietošanas no attālinātiem serveriem"
+  },
+  "628": {
+    "other": "Atgriezt"
+  },
+  "629": {
+    "other": "Nav ierakstu"
+  },
+  "63": {
+    "other": "Atslēgties"
+  },
+  "630": {
+    "other": "Ar mani koplietotās direktorijas"
+  },
+  "631": {
+    "other": "Šī šūna ir tukša!"
+  },
+  "632": {
+    "other": "Nav šūnu"
+  },
+  "633": {
+    "other": "Šūnas ir koplietotas vietas kurās sadarboties ar citiem lietotājiem dokumentu pārvaldībai"
+  },
+  "634": {
+    "other": "Jūs"
+  },
+  "634b": {
+    "other": "Jūsu grupa"
+  },
+  "634c": {
+    "other": "Visi lietotāji"
+  },
+  "635": {
+    "other": "Sarunu istaba"
+  },
+  "636": {
+    "other": "Sāciet rakstīt un nospiediet ievades taustiņu"
+  },
+  "637": {
+    "other": "Nav ziņu. Sāciet rakstīt lai sazinātot ar šūnas pārējiem lietotājiem!"
+  },
+  "638": {
+    "other": "Šuna satur vairākas pamata direktorijas vai failus. Jūs nevarat šeit augšupielādēt datus."
+  },
+  "639": {
+    "other": "Šajā šūnā"
+  },
+  "64": {
+    "other": "XLS fails"
+  },
+  "640": {
+    "other": "Izveidot šūnu ar %s"
+  },
+  "641": {
+    "other": "Noņemt no šīs šūnas"
+  },
+  "642": {
+    "other": "Pievienot šai šūnai"
+  },
+  "643": {
+    "other": "Jūs koplietojat šūnu ar %s"
+  },
+  "644": {
+    "other": "Nevar izveidot šūnu: %s"
+  },
+  "65": {
+    "other": "Word fails"
+  },
+  "66": {
+    "other": "Kopēt"
+  },
+  "67": {
+    "other": "Izvēlētais fails"
+  },
+  "68": {
+    "other": "Iekopēt"
+  },
+  "69": {
+    "other": "Vai izvēlaties citu direktoriju"
+  },
+  "7": {
+    "other": "Dzēst"
+  },
+  "70": {
+    "other": "Pārvietot"
+  },
+  "71": {
+    "other": "Fails jau eksistē (nosaukumi nav reģistrjūtīgi)"
+  },
+  "72": {
+    "other": "Pamata ceļš nav pareizs. Pārbaudiet conf/conf.php failā"
+  },
+  "73": {
+    "other": "tika nokopēts uz direktoriju"
+  },
+  "74": {
+    "other": "tiks pārvietots uz direktoriju"
+  },
+  "75": {
+    "other": "Fails users.txt neatrodas direktorijā"
+  },
+  "76": {
+    "other": "Šis fails ir nodzēsts"
+  },
+  "77": {
+    "other": "Sūtīt"
+  },
+  "78": {
+    "other": "Parole"
+  },
+  "79": {
+    "other": "PDF fails"
+  },
+  "8": {
+    "other": "Direktorija"
+  },
+  "80": {
+    "other": "MOV fails"
+  },
+  "81": {
+    "other": "AVI fails"
+  },
+  "82": {
+    "other": "MPG fails"
+  },
+  "83": {
+    "other": "MPEG fails"
+  },
+  "84": {
+    "other": "Palīdzība"
+  },
+  "85": {
+    "other": "Atjaunināt"
+  },
+  "86": {
+    "other": "Aizvērt"
+  },
+  "87": {
+    "other": "Meklēt"
+  },
+  "88": {
+    "other": "Lejuplādēt"
+  },
+  "89": {
+    "other": "Nevar atvērt failu"
+  },
+  "9": {
+    "other": "Midi fails"
+  },
+  "90": {
+    "other": "Drukāt"
+  },
+  "91": {
+    "other": "FLASH fails"
+  },
+  "92": {
+    "other": "Valoda"
+  },
+  "93": {
+    "other": "Lai izvēlētos valodu, pārlūkam ir jāizmanto sīkdatnes."
+  },
+  "94": {
+    "other": "Pieslēgties"
+  },
+  "95": {
+    "other": "Izvēlēties valodu :"
+  },
+  "96": {
+    "other": "Izvēlieties no koka mērķa direktoriju : "
+  },
+  "97": {
+    "other": "Augšupielādēt failu"
+  },
+  "98": {
+    "other": "Nospiediet jebkurā vietā lai aizvērtu šo logu."
+  },
+  "99": {
+    "other": "nav rakstāma. Tā varētu būt problēma ar atļaujām, sazinieties ar administratoru."
+  },
+  "about_access_key": {
+    "other": "A"
+  },
+  "bookmarks_access_key": {
+    "other": "B"
+  },
+  "byte_unit_symbol": {
+    "other": "B"
+  },
+  "copy_access_key": {
+    "other": "C"
+  },
+  "create_repo_accesskey": {
+    "other": "R"
+  },
+  "create_user_accesskey": {
+    "other": "U"
+  },
+  "date_format": {
+    "other": "Y/m/d H:i"
+  },
+  "date_intl_locale": {
+    "other": "lv_LV"
+  },
+  "date_relative_date": {
+    "other": "DATE"
+  },
+  "date_relative_date_format": {
+    "other": "F, jS Y"
+  },
+  "date_relative_days_ago": {
+    "other": "Pirms %s dienām"
+  },
+  "date_relative_days_ahead": {
+    "other": "%s dienās"
+  },
+  "date_relative_time": {
+    "other": "TIME"
+  },
+  "date_relative_time_format": {
+    "other": "H:i"
+  },
+  "date_relative_today": {
+    "other": "šodien TIME"
+  },
+  "date_relative_tomorrow": {
+    "other": "rītdien TIME"
+  },
+  "date_relative_yesterday": {
+    "other": "vakardien TIME"
+  },
+  "delete_access_key": {
+    "other": "D"
+  },
+  "detail_access_key": {
+    "other": "L"
+  },
+  "download_access_key": {
+    "other": "w"
+  },
+  "edit_access_key": {
+    "other": "E"
+  },
+  "empty_recycle_access_key": {
+    "other": "y"
+  },
+  "file_access_key": {
+    "other": "F"
+  },
+  "folder_access_key": {
+    "other": "N"
+  },
+  "languageLabel": {
+    "other": "Angļu"
+  },
+  "leftpane_accesskey": {
+    "other": "L"
+  },
+  "list_access_key": {
+    "other": "i"
+  },
+  "move_access_key": {
+    "other": "M"
+  },
+  "open_with_access": {
+    "other": "e"
+  },
+  "parent_access_key": {
+    "other": "P"
+  },
+  "plugtype.desc.access": {
+    "other": "Sparaudnis nosaka kā darbvirsma piekļūs datu krātuvei (diskiem, partīcijām vai citām datu krātuvēm), galvenajiem šabloniem un darbībām."
+  },
+  "plugtype.desc.action": {
+    "other": "Spraudņi ar dažādām iespējām"
+  },
+  "plugtype.desc.auth": {
+    "other": "Kā tiek glabāti lietotāju dati datu krātuvē"
+  },
+  "plugtype.desc.authfront": {
+    "other": "Lietotāju informācijas savākšanas veidi (web formas, api atslēgas, u.t.t.)"
+  },
+  "plugtype.desc.boot": {
+    "other": "Unikāls spraudnis struktūras ielādēšanai"
+  },
+  "plugtype.desc.cache": {
+    "other": "Spraudni kurš paredzēts plikācijas kešošanas serverim"
+  },
+  "plugtype.desc.conf": {
+    "other": "Kā konfigurācijas dati tiks glabāti administrācijas panelī"
+  },
+  "plugtype.desc.cypher": {
+    "other": "Datu šifrēšanas spraudņi"
+  },
+  "plugtype.desc.editor": {
+    "other": "Dažādu mime tipu skatītāji un redaktori"
+  },
+  "plugtype.desc.feed": {
+    "other": "Datu notikumu glabāšanas implementācija (šobrīd tikai SQL)"
+  },
+  "plugtype.desc.gui": {
+    "other": "Galvenais web interfeiss, tēmas un paplašinājumi"
+  },
+  "plugtype.desc.helper": {
+    "other": "Palīdzība administratīviem uzdevumiem"
+  },
+  "plugtype.desc.index": {
+    "other": "Datu indeksācijas un ātras meklēšanas rīki"
+  },
+  "plugtype.desc.log": {
+    "other": "Sūtīt aplikācijas log failus uz dažādiem kanāliem"
+  },
+  "plugtype.desc.mailer": {
+    "other": "Aplikācijas e-pastu sūtīšanas rīki"
+  },
+  "plugtype.desc.meta": {
+    "other": "Papildu iespējas kuras pievienot darbvirsmai"
+  },
+  "plugtype.desc.metastore": {
+    "other": "Dažādi meta datu glabāšanas veidi paralēli failiem un direktorijām"
+  },
+  "plugtype.desc.mq": {
+    "other": "Vienkāršota PUB/SUB servera implementācija"
+  },
+  "plugtype.desc.sec": {
+    "other": "Papildus drošības iespējas"
+  },
+  "plugtype.desc.shorten": {
+    "other": "Web servisi publisko saišu saīsināšanai"
+  },
+  "plugtype.desc.uploader": {
+    "other": "Augšupielādētāji kuri veidoti uz HTML, JavaScript, Java vai citām tehnoloģijām"
+  },
+  "plugtype.title.access": {
+    "other": "Darbvirsmu dzinēji"
+  },
+  "plugtype.title.action": {
+    "other": "Darbību spraudņi"
+  },
+  "plugtype.title.auth": {
+    "other": "Autentifikācija administrācijas panelī"
+  },
+  "plugtype.title.authfront": {
+    "other": "Autentifikācija lapas priekšpusē"
+  },
+  "plugtype.title.boot": {
+    "other": "Ielādētājs"
+  },
+  "plugtype.title.cache": {
+    "other": "Keša serveris"
+  },
+  "plugtype.title.conf": {
+    "other": "Konfigurācijas glabātuve"
+  },
+  "plugtype.title.cypher": {
+    "other": "Šifrēšanas rīki"
+  },
+  "plugtype.title.editor": {
+    "other": "Redaktori"
+  },
+  "plugtype.title.feed": {
+    "other": "Notikumu barotnes glabātuve"
+  },
+  "plugtype.title.gui": {
+    "other": "Lietotāja Grafiskais Interfeiss"
+  },
+  "plugtype.title.helper": {
+    "other": "Palīdzība"
+  },
+  "plugtype.title.index": {
+    "other": "Indeksē"
+  },
+  "plugtype.title.log": {
+    "other": "Logu ierakstīšana"
+  },
+  "plugtype.title.mailer": {
+    "other": "E-pasta nosūtītāji"
+  },
+  "plugtype.title.meta": {
+    "other": "Darbvirsmas Meta Skats"
+  },
+  "plugtype.title.metastore": {
+    "other": "Meta datu glabāšana"
+  },
+  "plugtype.title.mq": {
+    "other": "Paziņojumu sūtīšana"
+  },
+  "plugtype.title.sec": {
+    "other": "Drošība"
+  },
+  "plugtype.title.shorten": {
+    "other": "Saišu saīsināšana"
+  },
+  "plugtype.title.uploader": {
+    "other": "Augšupielādētāji"
+  },
+  "preview_access_key": {
+    "other": "e"
+  },
+  "react.1": {
+    "other": "augstāk esoša direktorija"
+  },
+  "react.2": {
+    "other": "vairākas darbības reizē"
+  },
+  "refresh_access_key": {
+    "other": "h"
+  },
+  "rename_access_key": {
+    "other": "R"
+  },
+  "restore_access_key": {
+    "other": "o"
+  },
+  "settings_access_key": {
+    "other": "g"
+  },
+  "svn_log_access_key": {
+    "other": "L"
+  },
+  "thumbs_access_key": {
+    "other": "T"
+  },
+  "upload_access_key": {
+    "other": "U"
+  },
+  "view_access_key": {
+    "other": "V"
+  },
+  "public_link_user": {
+    "other": "Publiska piekļuve"
+  },
+  "background.move.file": {
+    "other": "Pārvieto failu fonā..."
+  },
+  "background.move.folder": {
+    "other": "Pārvieto direktoriju fonā ..."
+  },
+  "background.copy.selection": {
+    "other": "Kopē atlasītos datus fonā ..."
+  },
+  "overlay.lock.file": {
+    "other": "Fails ir slēgts"
+  },
+  "overlay.lock.folder": {
+    "other": "Direktorija ir slēgta"
+  },
+  "overlay.watch.file": {
+    "other": "Pašlaik šo failu skatās"
+  },
+  "overlay.watch.folder": {
+    "other": "Pašlaik šo direktoriju skatās"
+  },
+  "overlay.shared.file": {
+    "other": "Koplietots fails, nospiest lai labotu"
+  },
+  "overlay.shared.folder": {
+    "other": "Koplietota dirtektorija, nospiest lai labotu"
+  },
+  "overlay.bookmark.file": {
+    "other": "Fails ir grāmatzīmēs"
+  },
+  "overlay.bookmark.folder": {
+    "other": "Direktorija ir grāmatzīmēs"
+  },
+  "mkfile.empty.template.label": {
+    "other": "Tukšs fails"
+  },
+  "mkfile.untitled.document": {
+    "other": "Dokuments bez nosaukuma"
+  },
+  "filename.forbidden.slash": {
+    "other": "Nelietojiet / failu nosaukumos!"
+  },
+  "rename.newvalue.error.similar": {
+    "other": "Pārsaukšanai lietojiet citu vērtību!"
+  },
+  "rename.processing": {
+    "other": "Pārsauc %1 uz %2"
+  },
+  "cells.quick-filter": {
+    "other": "Filtrēt šūnas"
+  },
+  "visibility.panel.title": {
+    "other": "Redzamība"
+  },
+  "visibility.panel.right-read": {
+    "other": "Skatīt"
+  },
+  "visibility.panel.right-edit": {
+    "other": "Labot"
+  },
+  "visibility.panel.list.users": {
+    "other": "Lietotāji"
+  },
+  "visibility.panel.list.teams": {
+    "other": "Jūsu Komandas"
+  },
+  "visibility.panel.edit": {
+    "other": "Mainīt redzamību"
+  },
+  "visibility.panel.save": {
+    "other": "Saglabāt izmaiņas"
+  },
+  "visibility.panel.revert": {
+    "other": "Atsaukt izmaiņas"
+  },
+  "visibility.panel.error": {
+    "other": "Notika kļūda"
+  },
+  "visibility.panel.pickuser": {
+    "other": "Izvēlietie lietotāju..."
+  },
+  "visibility.panel.setvisible": {
+    "other": "Redzams..."
+  },
+  "visibility.users.advanced": {
+    "other": "Šī paplašinātā funkcija ļauj iestatīt vai adresu grāmatā Jūsu pievienotos lietotājus var redzēt un/vai labot citi lietotāji. Pēc noklusējuma šie lietotāji ir redzami tikai Jums."
+  },
+  "user.unknown": {
+    "other": "Nezināms"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "Mail.Main.Copyright": {
+    "other": "Failu Koplietošanas platforma. Darbojas uz Pydio platformas"
+  },
+  "Mail.Main.Troubleshoot": {
+    "other": "Ja {ACTION}-poga nestrādā, vienkārši nokopējiet saiti un atveriet to interneta pārlūkā."
+  },
+  "Mail.Main.Greeting": {
+    "other": "Sveiki"
+  },
+  "Mail.Main.Signature": {
+    "other": "Ar cieņu"
+  },
+  "Mail.ResetPassword.Subject": {
+    "other": "Paroles maiņa pieprasīta priekš {{.Configs.Title}}"
+  },
+  "Mail.ResetPassword.Intros": {
+    "other": "Jūsu kontam uz {{.Configs.Title}} ir pieprasīta paroles maiņa."
+  },
+  "Mail.ResetPassword.Outros": {
+    "other": "Ja neapstiprinat šo pieprasījumu tas tiks ignorēts. Ja Jūs vēl saņemat šādus e-pastus sazinieties ar vietnes administratoru par iespējamiem drošības incidentiem."
+  },
+  "Mail.ResetPassword.LinkLabel": {
+    "other": "Atjaunot paroli"
+  },
+  "Mail.ResetPassword.LinkInstructions": {
+    "other": "Nospiediet lai atjaunotu paroli"
+  },
+  "Mail.ResetPasswordDone.Subject": {
+    "other": "Jūsu parole priekš {{.Configs.Title}} tika atjaunota"
+  },
+  "Mail.ResetPasswordDone.Intros": {
+    "other": "Ņemot vērā Jūsu paroles maiņas pieprasījumu, parole uz servera {{.Configs.Title}} ir mainīta."
+  },
+  "Mail.ResetPasswordDone.Outros": {
+    "other": "Ja Jūs nepieprasījāt šo darbību, sazinieties ar vietnes administratoru jo tas varētu būt drošības incidents."
+  },
+  "Mail.Digest.Subject": {
+    "other": "Jūsu {{.Configs.Title}} paziņojumi"
+  },
+  "Mail.Digest.Intros": {
+    "other": "Šis ir Jums domāto paziņojumu kopsavilkums uz servera {{.Configs.Title}}"
+  },
+  "Mail.Welcome.Subject": {
+    "other": "Sveicināti {{.Configs.Title}}"
+  },
+  "Mail.Welcome.Intros": {
+    "other": "Jums ir izveidots konts uz {{.Configs.Title}}. \n Jūsu lietotājvārds {{.TplData.Login}}{{if .TplData.Password}} un parole: {{.TplData.Password}}. Paroli var nomainīt pirmajā pieslēgšanās reizē {{end}}."
+  },
+  "Mail.Welcome.LinkInstructions": {
+    "other": "Pieslēgties"
+  },
+  "Mail.Welcome.LinkLabel": {
+    "other": "Pieslēgties {{.Configs.Title}}"
+  },
+  "Mail.Welcome.Outros": {
+    "other": "{{.Configs.Title}} Failu koplietošanas platformu lieto visa mūsu komanda lai kopīgi apstrādātu dokumentus. Laipni lūgti komandā!"
+  },
+  "Mail.Invite.Subject": {
+    "other": "{{.TplData.Inviter}} ielūdza Jūs uz {{.Configs.Title}}"
+  },
+  "Mail.Invite.Intros": {
+    "other": "{{.TplData.Inviter}} Jums ir izveidojis kontu uz {{.Configs.Title}}. \n Jūsu lietotājvārds: {{.TplData.Login}}{{if .TplData.Password}} un parole: {{.TplData.Password}}. Pirmo reizi pieslēdzoties paroli var nomainīt {{end}}."
+  },
+  "Mail.Invite.LinkInstructions": {
+    "other": "Pieslēgties"
+  },
+  "Mail.Invite.LinkLabel": {
+    "other": "Pieslēgties {{.Configs.Title}}"
+  },
+  "Mail.Invite.Outros": {
+    "other": "{{.Configs.Title}} Failu koplietošanas platformu lieto {{.TplData.Inviter}} komanda, lai kopīgi apstrādātu dokumentus. Laipni lūgti komandā!"
+  },
+  "Mail.Cell.Subject": {
+    "other": "{{.TplData.Inviter}} pievienoja Jūs šūnai {{.TplData.Cell}}"
+  },
+  "Mail.Cell.Intros": {
+    "other": "{{.TplData.Inviter}} pievinoja Jūs šūnai {{.TplData.Cell}} uz servera {{.Configs.Title}}! Sāciet koplietot failus un veicināt efektīvu sadarbību."
+  },
+  "Mail.Cell.LinkInstructions": {
+    "other": "Nospiest lai atvērtu šūnu"
+  },
+  "Mail.Cell.LinkLabel": {
+    "other": "Atvērt {{.TplData.Cell}}"
+  },
+  "Mail.PublicFile.Subject": {
+    "other": "{{.TplData.Inviter}} koplietoja failu ar Jums"
+  },
+  "Mail.PublicFile.Intros": {
+    "other": "{{.TplData.Inviter}} koplietoja failu ar Jums.\n\n '{{.TplData.Message}}' \n\n {{if .TplData.Expire}}Saites pārstās darboties {{.TplData.Expire}}{{end}}\n\n{{if .TplData.MaxDownloads}}Maksimālais lejupielāžu skaits :{{.TplData.MaxDownloads}}{{end}}"
+  },
+  "Mail.PublicFile.LinkLabel": {
+    "other": "Atvērt {{.TplData.FileName}}"
+  },
+  "Mail.PublicFile.LinkInstructions": {
+    "other": "Nospiest lai apskatītu failu pārlūkā"
+  },
+  "Mail.PublicFile.Outros": {
+    "other": "{{.Configs.Title}} Failu koplietošanas platformu lieto {{.TplData.Inviter}} komanda, lai kopīgi apstrādātu dokumentus."
+  },
+  "Mail.PublicFolder.Subject": {
+    "other": "{{.TplData.Inviter}} koplietoja direktoriju ar Jums"
+  },
+  "Mail.PublicFolder.Intros": {
+    "other": "{{.TplData.Inviter}} koplietoja direktoriju ar Jums.\n\n '{{.TplData.Message}}' \n\n {{if .TplData.Expire}}Saites darbība beigsies {{.TplData.Expire}}{{end}}\n\n{{if .TplData.MaxDownloads}}Maksimālais lejupielāžu skaits :{{.TplData.MaxDownloads}}{{end}}"
+  },
+  "Mail.PublicFolder.LinkLabel": {
+    "other": "Atvērt {{.TplData.FolderName}}"
+  },
+  "Mail.PublicFolder.LinkInstructions": {
+    "other": "Nospiest lai apskatītu failu pārlūkā"
+  },
+  "Mail.PublicFolder.Outros": {
+    "other": "{{.Configs.Title}} Failu koplietošanas platformu lieto {{.TplData.Inviter}} komanda, lai kopīgi apstrādātu dokumentus."
+  },
+  "Mail.AdminTestMail.Subject": {
+    "other": "{{.Configs.Title}} sūta Jums testa e-pastu"
+  },
+  "Mail.AdminTestMail.Intros": {
+    "other": "{{.TplData.Message}}"
+  },
+  "Mail.AdminTestMail.LinkLabel": {
+    "other": "Atvērt Šūnas"
+  },
+  "Mail.AdminTestMail.LinkInstructions": {
+    "other": "Atvērt lapas priekšpusi"
+  },
+  "Mail.AdminTestMail.Outros": {
+    "other": "{{.Configs.Title}} Failu koplietošanas platformu lieto lai kopīgi apstrādātu dokumentus."
+  },
+  "Mail.Config.Title": {
+    "other": "E-pasta nosūtītājs"
+  },
+  "Mail.Config.From.Label": {
+    "other": "Noklusētā NO e-pasta adrese"
+  },
+  "Mail.Config.From.Description": {
+    "other": "Noklusētā adrese kuru lietos sūtot e-pastus. Jālieto regulārs e-pasts nevis no-reply."
+  },
+  "Mail.Config.Queue.Label": {
+    "other": "Rindas veids"
+  },
+  "Mail.Config.Queue.Description": {
+    "other": "Uzturēšanas slānis kurā atrodas e-pasti pirms nosūtīšanas"
+  },
+  "Mail.Config.Queue.ValueBolt": {
+    "other": "On-file datubāze (Bolt)"
+  },
+  "Mail.Config.Queue.ValueMemory": {
+    "other": "Atmiņā"
+  },
+  "Mail.Config.Mailer.Label": {
+    "other": "E-pastu sūtīšanas programma"
+  },
+  "Mail.Config.Mailer.Description": {
+    "other": "Programma kuru izmanto e-pastu sūtīšanai"
+  },
+  "Mail.Config.Smtp.Label": {
+    "other": "SMTP Serveris"
+  },
+  "Mail.Config.Smtp.Host.Label": {
+    "other": "Servera nosaukums"
+  },
+  "Mail.Config.Smtp.Host.Description": {
+    "other": "SMTP servera nosaukums, e.g. smtp.gmail.com"
+  },
+  "Mail.Config.Smtp.Port.Label": {
+    "other": "Servera Ports"
+  },
+  "Mail.Config.Smtp.Port.Description": {
+    "other": "SMTP Servera ports, piem. 587 (bez drošības) vai 465 (TLS)"
+  },
+  "Mail.Config.Smtp.User.Label": {
+    "other": "Pieslēguman lietotājs"
+  },
+  "Mail.Config.Smtp.User.Description": {
+    "other": "Lietotājvārds lai pieslēgtos pie SMTP servera"
+  },
+  "Mail.Config.Smtp.Password.Label": {
+    "other": "Pieslēguma parole"
+  },
+  "Mail.Config.Smtp.Password.Description": {
+    "other": "Lai pieslēgtos SMTP serverim nepieciešama parole"
+  },
+  "Mail.Config.Smtp.SkipVerify.Label": {
+    "other": "Pašu izveidots sertifikāts"
+  },
+  "Mail.Config.Smtp.SkipVerify.Description": {
+    "other": "Izslēgt sertifikāta verifikāciju ja SMTP serverim ir pašu izveidots sertifikāts"
+  },
+  "Mail.Config.SendGrid.Label": {
+    "other": "SendGrid Serviss"
+  },
+  "Mail.Config.SendGrid.ApiKey.Label": {
+    "other": "API atslēga"
+  },
+  "Mail.Config.SendGrid.ApiKey.Description": {
+    "other": "API atslēga no SendGrid lai pieslēgtos servisam"
+  },
+  "Mail.Config.Sendmail.Label": {
+    "other": "Sendmail"
+  },
+  "Mail.Config.Sendmail.Executable.Label": {
+    "other": "Programmas ceļš"
+  },
+  "Mail.Config.Sendmail.Executable.Description": {
+    "other": "Pilns sendmail programmas ceļš uz servera"
+  },
+  "Mail.Config.Sendmail.Executable.Other": {
+    "other": "Cits ceļš (iestatīt manuāli pydio.json konfigurācijas failā)"
+  },
+  "Mail.Config.FromName.Label": {
+    "other": "Noklusētā sūtītāja vārds"
+  },
+  "Mail.Config.FromName.Description": {
+    "other": "Norādiet vārdu kurš tiks lietots kā noklusētais sūtot e-pastus."
+  },
+  "Mail.Config.FromCtl.Label": {
+    "other": "No/Sūtītāja adrese un vārds kuru lietot"
+  },
+  "Mail.Config.FromCtl.Description": {
+    "other": "Definējiet kuru sūtītāja adresi/vārdu lietot. Ja nav nokonfigurētae-pasta adrese tiks lietota noklusētā NO adrese un vārds visos sūtīšanas gadījumos."
+  },
+  "Mail.Config.FromCtlUser.Label": {
+    "other": "Sūtīt e-pastu NO lietotāja"
+  },
+  "Mail.Config.FromCtlSender.Label": {
+    "other": "Sūtīt e-pastu KĀ ATTIECĪGAIS lietotājs"
+  },
+  "Mail.Config.FromCtlDefault.Label": {
+    "other": "Sūtīt vienmēr no noklusētās NO adreses/vārda"
+  }
+}

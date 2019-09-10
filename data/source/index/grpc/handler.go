@@ -469,12 +469,17 @@ func (s *TreeServer) UpdateNode(ctx context.Context, req *tree.UpdateNodeRequest
 		return errors.NotFound(name, "Could not retrieve node %s", req.From.Path)
 	}
 
+	// To Avoid Duplicate error when using a Cache DAO - Flush now and after delete.
+	dao.Flush(false)
+
 	// First of all, we delete the existing node
 	if nodeTo != nil {
 		if err = dao.DelNode(nodeTo); err != nil {
 			return errors.InternalServerError(name, "Could not delete former to node at %s", req.To.Path)
 		}
 	}
+
+	dao.Flush(false)
 
 	nodeFrom.Path = reqFromPath
 	nodeTo.Path = reqToPath
@@ -604,7 +609,11 @@ func (s *TreeServer) FlushSession(ctx context.Context, req *tree.FlushSessionReq
 		log.Logger(ctx).Info("Flushing Indexation Session " + req.GetSession().GetUuid())
 
 		dao := getDAO(ctx, session.GetUuid())
-		dao.Flush(false)
+		err := dao.Flush(false)
+		if err != nil {
+			log.Logger(ctx).Error("Error while flushing indexation Session "+req.GetSession().GetUuid(), zap.Error(err))
+			return err
+		}
 	}
 
 	resp.Session = req.GetSession()
@@ -620,10 +629,14 @@ func (s *TreeServer) CloseSession(ctx context.Context, req *tree.CloseSessionReq
 
 		dao := getDAO(ctx, session.GetUuid())
 
-		dao.Flush(true)
+		err := dao.Flush(true)
 		batcher.Flush(ctx, dao)
 
 		s.sessionStore.DeleteSession(req.GetSession())
+		if err != nil {
+			log.Logger(ctx).Error("Error while closing (flush) indexation Session "+req.GetSession().GetUuid(), zap.Error(err))
+			return err
+		}
 	}
 	resp.Session = req.GetSession()
 	return nil

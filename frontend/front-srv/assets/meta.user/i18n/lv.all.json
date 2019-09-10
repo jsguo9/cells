@@ -1,0 +1,47 @@
+{
+  "1": {
+    "other": "Meta dati"
+  },
+  "10": {
+    "other": "Eksistējošs vai jauns tags"
+  },
+  "11": {
+    "other": "Nav iestatīti meta dati, pievienojiet kādu"
+  },
+  "12": {
+    "other": "Izvēlēties vairākus:"
+  },
+  "13": {
+    "other": "pārbaudiet laukus kurus vēlaties atjaunot, vērtība tiks pielietota visiem izvēlētajiem failiem"
+  },
+  "14": {
+    "other": "Labot meta"
+  },
+  "15": {
+    "other": "Saglabāt meta"
+  },
+  "2": {
+    "other": "Nav nosaukuma"
+  },
+  "3": {
+    "other": "Noņemt vērtējumu"
+  },
+  "4": {
+    "other": "Zems"
+  },
+  "5": {
+    "other": "Uzdevumi"
+  },
+  "6": {
+    "other": "Personīgs"
+  },
+  "7": {
+    "other": "Darbs"
+  },
+  "8": {
+    "other": "Svarīgs"
+  },
+  "9": {
+    "other": "Nav vērtības"
+  }
+}

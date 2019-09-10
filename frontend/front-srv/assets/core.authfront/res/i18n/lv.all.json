@@ -1,0 +1,26 @@
+{
+  "1": {
+    "other": "Paroles maiņa"
+  },
+  "2": {
+    "other": "Iestatīt jaunu paroli"
+  },
+  "3": {
+    "other": "Ievadiet savu lietotājvārdu vai e-pasta adresi, maiņas paroli tiks nosūtīta uz Jūsu e-pastu."
+  },
+  "4": {
+    "other": "Jūsu lietotājvārds vai parole"
+  },
+  "5": {
+    "other": "Paroles maiņas pieprasījums tiks nosūtīts uz lietotāja konta reģistrēto e-pasta adresi. Nospiediet uz saites e-pastā lai atjaunotu paroli."
+  },
+  "6": {
+    "other": "Paldies, pārlādējiet lapu lai pieslēgtos!"
+  },
+  "7": {
+    "other": "Tika veikts paroles maiņas pieprasījums kontam kurš ir reģistrēts ar šo e-pasta adresi. Ja Jūs neesat veicis šo pieprasījumu, ignorējiet šo e-pastu. Ja to izdarījāt Jūs nospiediet uz saites lai mainītu paroli:"
+  },
+  "8": {
+    "other": "Lietojiet formu lai mainītu paroli. Ievadiet savu lietotājvārdu jauno paroli divas reizes."
+  }
+}

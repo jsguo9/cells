@@ -1,0 +1,44 @@
+{
+  "1": {
+    "other": "Izvēlieties citu..."
+  },
+  "2": {
+    "other": "Izvēlieties citu redaktoru"
+  },
+  "3": {
+    "other": "Izvēlieties citu redaktoru lai atvērtu šo failu"
+  },
+  "4": {
+    "other": "Uzmanību, šie radaktori neatbalsta šo faila veidu, to uzvedība nav prognozējama!"
+  },
+  "5": {
+    "other": "Notīrīt asociācijas"
+  },
+  "drop.cell.picker": {
+    "other": "Izvēlieties darbību priekš %s..."
+  },
+  "drop.cell.share.legend": {
+    "other": "Pievienot jaunus objektus šajā šūnā"
+  },
+  "drop.cell.copymove.legend": {
+    "other": "Iekš %s"
+  },
+  "drop.cell.file.share": {
+    "other": "Koplietot failu"
+  },
+  "drop.cell.folder.share": {
+    "other": "Koplietot direktoriju"
+  },
+  "drop.cell.file.move": {
+    "other": "Pārvietot failu"
+  },
+  "drop.cell.folder.move": {
+    "other": "Pārvietot direktoriju"
+  },
+  "drop.cell.file.copy": {
+    "other": "Kopēt failu"
+  },
+  "drop.cell.folder.copy": {
+    "other": "Kopēt direktoriju"
+  }
+}

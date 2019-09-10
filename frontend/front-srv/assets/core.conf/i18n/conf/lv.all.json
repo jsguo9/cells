@@ -1,0 +1,215 @@
+{
+  "Address used for notifications": {
+    "other": "Adrese kuru lieto paziņojumiem"
+  },
+  "All roles": {
+    "other": "Pievienot lomas"
+  },
+  "Allow Group Listing": {
+    "other": "Atļaut Grupu pārskatīšanu"
+  },
+  "Allow Role Listing": {
+    "other": "Atļaut Lomu pārskatīšanu"
+  },
+  "Allow the users to create a new user when sharing a folder": {
+    "other": "Ļaut lietotājiem izveidot jaunu lietotāju kad koplieto direktoriju"
+  },
+  "Allow the users to pick an existing user when sharing a folder": {
+    "other": "Ļaut lietotājiem izvēlēties lietotāju kad koplieto direktoriju"
+  },
+  "Allow to search users from other groups through auto completer (can be handy if previous option is set to false) and share workspaces with them": {
+    "other": "Ļaut meklēt lietotājus no citām grupām ar autoaizpildīšanas palīdzību (var būt noderīga ja ir ieslēgta iepriekšējā funkcija) un koplietot ar tiem darbvirsmas"
+  },
+  "Always Override": {
+    "other": "Vienmēr ignorēt"
+  },
+  "Always override other roles, included group roles.": {
+    "other": "Vienmēr ignorēt citas lomas, tajā skaitā grupu lomas."
+  },
+  "Avatar": {
+    "other": "Avatars"
+  },
+  "Choose the configuration plugin": {
+    "other": "Izvēlieties konfigurācijas spraudni"
+  },
+  "Configuration Store Instance": {
+    "other": "Konfigurācijas saglabāšana"
+  },
+  "Configurations Management": {
+    "other": "Konfigurācijas pārvaldība"
+  },
+  "Core SQL Connexion": {
+    "other": "Pamata SQL pieslēgums"
+  },
+  "Country": {
+    "other": "Valsts"
+  },
+  "Create external users": {
+    "other": "Izveidot ārējos lietotājus"
+  },
+  "Default Workspace": {
+    "other": "Noklusētā darbvirsma"
+  },
+  "Default start repository": {
+    "other": "Noklusētā darbvirsma pēc pieslēgšanās. 'Sākums' ir pirmā lapa ar aktivitātēm un meklēšanu."
+  },
+  "Display roles and/or groups": {
+    "other": "Rādīt lomas un/vai grupas"
+  },
+  "Do not display real login in parenthesis": {
+    "other": "Nerādīt reālo lietotājvārdu iekavās"
+  },
+  "Do not load groups and users list if no regexp is entered. Avoid sending large search on LDAP.": {
+    "other": "Neiielādēt grupu un lietotāju sarakstu ja nav ievadīts meklēšanas parametrs. Izvarieties no plašas meklēšanas LDAP direktorijā."
+  },
+  "Email": {
+    "other": "E-pasts"
+  },
+  "Excluded Roles": {
+    "other": "Neiekļautās lomas"
+  },
+  "External Users Creation": {
+    "other": "Ārējo lietotāju veidošana"
+  },
+  "External users parameters": {
+    "other": "Ārējo lietotāju parametri"
+  },
+  "Full name displayed to others": {
+    "other": "Attēlojamais pilnais vārds"
+  },
+  "Generic Conf Features": {
+    "other": "Pamata konfigurācijas iespējas"
+  },
+  "Hide real login": {
+    "other": "Slēpt reālo lietotājvārdu"
+  },
+  "If previous option is set to True, directly display a full list of users from all groups": {
+    "other": "Ja iepriekšējā opcija ir iestatīta kā True, rādīt pa tiešo visus lietotājus no visām grupām"
+  },
+  "If set, this action will be triggered automatically at users login. Can be logout (to lock out the users), pass_change (to force password change), or anything else": {
+    "other": "Ja ieslēgts, darbība tiks palaista automātiski lietotājam pieslēdzoties. Var būt atslēgšanās (lai izslēgtu lietotājus), pass_change (piespiedu paroles maiņa), vai kāda cita darbība"
+  },
+  "If the 'guest' user is enabled, remember her preferences accross sessions.": {
+    "other": "Ja ir ieslēgts lietotājs 'viesis', atcerēties tā iestatījumus starp sesijām."
+  },
+  "Image displayed next to the user name": {
+    "other": "Pie lietoājvārda parādāmais attēls"
+  },
+  "Included Roles": {
+    "other": "Iekļautās lomas"
+  },
+  "Instance": {
+    "other": "Instance"
+  },
+  "Internal / External Users": {
+    "other": "Iekšjie / Ārējie lietotāji"
+  },
+  "Language": {
+    "other": "Valoda"
+  },
+  "Let user create repositories": {
+    "other": "Ļaut lietotājam veidot darbvirsmas"
+  },
+  "Let user create repositories from templates": {
+    "other": "Ļaut lietotājam veidot repozitorijus no šabloniem"
+  },
+  "List Roles By": {
+    "other": "Lomu saraksts pēc"
+  },
+  "List existing from all groups": {
+    "other": "Skatīt eksistējošos no visām grupām"
+  },
+  "List of parameters to be edited when creating a new shared user.": {
+    "other": "Parametru saraksts kurus var labot izveidojot jaunu kopējo lietotāju."
+  },
+  "Make regexp mandatory": {
+    "other": "Obligāti izmantot regexp"
+  },
+  "Maximum number of shared users per user": {
+    "other": "Maksimālais koplietoto lietotāju skaits katram lietotājam"
+  },
+  "Maximum number of users displayed in the users autocompleter": {
+    "other": "Maksimālais lietotāju skaits kurus parāda automātiskajā aizpildīšanā"
+  },
+  "Minimum number of characters to trigger the auto completion feature": {
+    "other": "Minimālais simbolu skaits lai nostrādātu automātiskā aizpildīšana"
+  },
+  "Name": {
+    "other": "Vārds"
+  },
+  "Preferences Saving": {
+    "other": "Uzstādījumi tiek saglabāti"
+  },
+  "Remember guest preferences": {
+    "other": "Atcerēties viesa iestatījumus"
+  },
+  "Role Label": {
+    "other": "Lomas nosaukums"
+  },
+  "Role/Group Listing": {
+    "other": "Lomu/Grupu saraksts"
+  },
+  "Roles / Groups Directory Listing": {
+    "other": "Lomu / Grupu direktorijas saraksts"
+  },
+  "SQL Connexion": {
+    "other": "SQL pieslēgums"
+  },
+  "See existing users": {
+    "other": "Skatīt eksistējošos lietotājus"
+  },
+  "Sets how the application core data (users,roles,etc) is stored.": {
+    "other": "Iestatījums kā tiek glabāti aplikācijas dati (lietotāji, lomas, u.t.t.)."
+  },
+  "Share with existing users from all groups": {
+    "other": "Koplieltot ar eksistējošiem lietotājiem visās grupās"
+  },
+  "Shared users limit": {
+    "other": "Koplietošanas lietotāju limits"
+  },
+  "Simple SQL Connexion definition that can be used by other sql-based plugins": {
+    "other": "Vienkārša SQl pieslēguma definīcija kuru var lietot sql-balstītos spraudņos"
+  },
+  "Skip user history": {
+    "other": "Izlaist interfeisa iestatījumus"
+  },
+  "Some roles should be disappered in the list.  list separated by ',' or start with 'preg:' for regex.": {
+    "other": "Atsevišķas lomas var neparādīt sarakstā. saraksts atdalīts ar ',' vai sākt ar 'preg:' priekš regex."
+  },
+  "Some roles should be shown in the list.  list separated by ',' or start with 'preg:' for regex.": {
+    "other": "Atsevišķas lomas var parādīt sarakstā. saraksts atdalīts ar ',' vai sākt ar 'preg:' priekš regex."
+  },
+  "Use this option to avoid automatic reloading of the interface state (last folder, opened tabs, etc)": {
+    "other": "Lietojiet šo opciju lai atslēgtu automātisku interfeisa pārlādēšanu (pēdējā direktorija, atvērtie tabi, u. t. t.)"
+  },
+  "User Language": {
+    "other": "Lietotāja valoda"
+  },
+  "User roles only": {
+    "other": "Tikai lietotāju lomas"
+  },
+  "Users Directory Listing": {
+    "other": "Lietotāju direktorijas saraksts"
+  },
+  "Users Lock Action": {
+    "other": "Lietotāju slēgšanas darbība"
+  },
+  "Users completer limit": {
+    "other": "Lietotāju automātiskās aizpildīšanas limits"
+  },
+  "Users completer min chars": {
+    "other": "Lietotāju automātiskās aizpildīšanas minimālais simbolu skaits"
+  },
+  "Users only (do not list groups nor roles)": {
+    "other": "Tikai lietotāji (nerādīt grupas un lomas)"
+  },
+  "Whether users can create their own repositories, based on predefined templates.": {
+    "other": "Vai lietotāji var veidot savus repozitorijus balstoties uz definētiem šabloniem."
+  },
+  "Worskpace creation delegation": {
+    "other": "Darbvirsmu veidošanas deleģēšana"
+  },
+  "role prefix": {
+    "other": "Lomas prefikss"
+  }
+}

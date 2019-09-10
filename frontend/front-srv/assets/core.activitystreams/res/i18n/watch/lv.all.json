@@ -1,0 +1,53 @@
+{
+  "1": {
+    "other": "Monitorēt..."
+  },
+  "10": {
+    "other": "Kāds ir atvēris failu"
+  },
+  "10b": {
+    "other": "Kāds pārlūko direktoriju"
+  },
+  "11": {
+    "other": "Modifikācija"
+  },
+  "12": {
+    "other": "Kāds apstrādā failu"
+  },
+  "12b": {
+    "other": "Kāds apstrādā failu šajā direktorijā"
+  },
+  "13": {
+    "other": "Abi"
+  },
+  "14": {
+    "other": "Kāds ir atvēris failu vai maina tā saturu"
+  },
+  "14b": {
+    "other": "Kāds pārlūko vai modificē direktorijas saturu"
+  },
+  "2": {
+    "other": "Paziņot ja kāds piekļūst šai direktorijai"
+  },
+  "3": {
+    "other": "Pārtraukt monitorēšanu"
+  },
+  "4": {
+    "other": "Pārtraukt monitorēt piekļuvi šai direktorijai"
+  },
+  "5": {
+    "other": "Monitorēt..."
+  },
+  "6": {
+    "other": "Monitorēt izmaiņas šim failam"
+  },
+  "7": {
+    "other": "Pārtraukt monitorēšanu"
+  },
+  "8": {
+    "other": "Pārtraukt monitorēt šī faila izmaiņas"
+  },
+  "9": {
+    "other": "Konsultācija"
+  }
+}

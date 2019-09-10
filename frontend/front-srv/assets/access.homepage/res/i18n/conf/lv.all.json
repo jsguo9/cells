@@ -1,0 +1,56 @@
+{
+  "Android App URL": {
+    "other": "Saite Android aplikāciju"
+  },
+  "Display Server QRCode": {
+    "other": "Parādīt servera QRCode"
+  },
+  "Enable Getting Started": {
+    "other": "Ieslēgt sākuma ievada tūri"
+  },
+  "Enable Global Search": {
+    "other": "Ieslēgt Globālo meklēšanu"
+  },
+  "Enable addition tabulation to access getting started videos": {
+    "other": "Ieslēgt papildu tabulāciju lai piekļūtu iesāktiem video"
+  },
+  "Enable cross-workspaces search form on home page": {
+    "other": "Ieslēgt meklēšanu pa darbvirsmām sākuma lapā"
+  },
+  "Let users connect easily to the latest mobile applications by displaying a QRCode": {
+    "other": "Ļaut pieslēgties lietotājiem pēdējām mobilajām aplikācijām parādot QRCode"
+  },
+  "Mac PydioSync URL": {
+    "other": "Mac PydioSync URL"
+  },
+  "Open workspace by simple click": {
+    "other": "Atvērt darbvirsmu ar klikšķi"
+  },
+  "Open workspace by simple click instead of double click.": {
+    "other": "Atvērt darbvirsmu ar vienkāršu klikšķi nevis dubultklikšķi."
+  },
+  "URL of the Android application": {
+    "other": "Saite uz Android App (atstāt tukšu ja vēlaties slēpt bloku)"
+  },
+  "URL of the iOS application": {
+    "other": "Saite uz iOS App (atstāt tukšu ja vēlaties slēpt bloku)"
+  },
+  "URL of the mac sync application": {
+    "other": "Saite uz Mac sinhronizācijas aplikāciju (atstāt tukšu ja vēlaties slēpt bloku)"
+  },
+  "URL of the windows sync application": {
+    "other": "Saite uz Windows sinhronizācijas aplikāciju (atstāt tukšu ja vēlaties slēpt bloku)"
+  },
+  "Welcome Page": {
+    "other": "Sākuma lapa"
+  },
+  "Welcome Page displaying a list of workspaces": {
+    "other": "Sākuma lpā parāda darbvirsmu sarakstu"
+  },
+  "Windows PydioSync URL": {
+    "other": "Windows PydioSync URL"
+  },
+  "iOS App URL": {
+    "other": "Saite uz iOS App"
+  }
+}

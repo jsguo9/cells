@@ -1,0 +1,32 @@
+{
+  "1": {
+    "other": "E-pasts veiksmīgi nosūtīts %s lietotājam"
+  },
+  "2": {
+    "other": "Nav e-pasta adreses lai nosūtītu ziņu!"
+  },
+  "3": {
+    "other": "Nav nokonfigurēta e-pastu sūtīšana, sazinieties ar administratoru"
+  },
+  "4": {
+    "other": "No"
+  },
+  "5": {
+    "other": "Kam"
+  },
+  "6": {
+    "other": "Temats"
+  },
+  "7": {
+    "other": "Ziņa"
+  },
+  "8": {
+    "other": "Izvēlieties lietotāju vai ierastiet e-pasta adresi"
+  },
+  "9": {
+    "other": "Paziņojumi"
+  },
+  "sender.error": {
+    "other": "Nevar korekti nosūtīt e-pastu!"
+  }
+}

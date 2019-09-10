@@ -1,0 +1,13 @@
+{
+  "Auth.PruneJob.Title": {
+    "other": "Dzēst atteiktos marķierus un paroļu maiņas atslēgas kuras ir beigušās"
+  },
+  "Auth.PruneJob.Revoked": {
+    "one": "Dzēst {{.Count}} beigušos atteikto marķieri",
+    "other": "Dzēst {{.Count}} beigušos atteiktos marķierus"
+  },
+  "Auth.PruneJob.ResetToken": {
+    "one": "Dzēst {{.DeletionCount}} beigušās paroles maiņas pieprasījuma marķieri",
+    "other": "Dzēst {{.DeletionCount}} beigušos paroļu maiņas pieprasījuma marķierus"
+  }
+}
