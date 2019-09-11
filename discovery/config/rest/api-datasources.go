@@ -80,9 +80,11 @@ func (s *Handler) PutDataSource(req *restful.Request, resp *restful.Response) {
 		return
 	}
 
-	if reg, _ := regexp.MatchString("^[0-9a-z]*$", ds.Name); reg {
+	if reg, _ := regexp.MatchString("^[0-9a-z]*$", ds.Name); !reg {
 		service.RestError500(req, resp, fmt.Errorf("datasource name contains an invalid character"))
+		return
 	}
+
 	ctx := req.Request.Context()
 
 	// Handle / and \ for OS
