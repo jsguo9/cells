@@ -24,6 +24,7 @@ import (
 	"context"
 	"fmt"
 	"path/filepath"
+	"regexp"
 	"strings"
 
 	"github.com/emicklei/go-restful"
@@ -79,6 +80,9 @@ func (s *Handler) PutDataSource(req *restful.Request, resp *restful.Response) {
 		return
 	}
 
+	if reg, _ := regexp.MatchString("^[0-9a-z]*$", ds.Name); reg {
+		service.RestError500(req, resp, fmt.Errorf("datasource name contains an invalid character"))
+	}
 	ctx := req.Request.Context()
 
 	// Handle / and \ for OS
