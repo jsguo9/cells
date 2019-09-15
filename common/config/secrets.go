@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-config/reader"
+	"github.com/bsinou/go-config/reader"
 	"github.com/pborman/uuid"
 
 	"github.com/pydio/cells/common"

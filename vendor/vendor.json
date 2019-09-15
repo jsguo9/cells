@@ -674,6 +674,24 @@
 			"revisionTime": "2017-11-20T01:03:07Z"
 		},
 		{
+			"checksumSHA1": "XIDGgbhwFg032RH1gH3YBhNTiJU=",
+			"path": "github.com/bsinou/go-config",
+			"revision": "c9a1ffebd7d851b5bded883a43a724351f1683b0",
+			"revisionTime": "2019-09-13T13:31:36Z"
+		},
+		{
+			"checksumSHA1": "ssgVCYZIheXWOfKF4Sox+F8LeBg=",
+			"path": "github.com/bsinou/go-config/reader",
+			"revision": "be00582225eefd26418a1659dc9292e3c8b35423",
+			"revisionTime": "2019-09-15T14:08:36Z"
+		},
+		{
+			"checksumSHA1": "Pz9LxWHVfjjywDsvjHvdXTHO+KQ=",
+			"path": "github.com/bsinou/go-config/source",
+			"revision": "be00582225eefd26418a1659dc9292e3c8b35423",
+			"revisionTime": "2019-09-15T14:08:36Z"
+		},
+		{
 			"checksumSHA1": "q80QFVMYa7tNChN4JZ28WVgePCs=",
 			"path": "github.com/cenkalti/backoff",
 			"revision": "2146c93394225c3732078705043ce9f26584d334",
@@ -2793,18 +2811,6 @@
 			"path": "github.com/micro/go-api/server",
 			"revision": "1adef4afafd09abaef2d52d911bd00db4acbd9e6",
 			"revisionTime": "2018-04-08T11:38:06Z"
-		},
-		{
-			"checksumSHA1": "jugvy+NKo6OIijYfWBkDAWNi1SY=",
-			"path": "github.com/micro/go-config/reader",
-			"revision": "05803c35ec9dbea47ba1258fc024259e94761892",
-			"revisionTime": "2018-03-21T07:47:09Z"
-		},
-		{
-			"checksumSHA1": "mqM/P0yaj5gyi5M6B+cLJBvOZd0=",
-			"path": "github.com/micro/go-config/source",
-			"revision": "05803c35ec9dbea47ba1258fc024259e94761892",
-			"revisionTime": "2018-03-21T07:47:09Z"
 		},
 		{
 			"checksumSHA1": "XiGYfivLxazG201tsVqbAepweE4=",

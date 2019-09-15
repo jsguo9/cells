@@ -32,7 +32,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-config/reader"
+	"github.com/bsinou/go-config/reader"
 	"github.com/pydio/go-os/config"
 	"github.com/pydio/go-os/config/source/file"
 	"github.com/spf13/viper"

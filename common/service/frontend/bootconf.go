@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/micro/go-config/reader"
+	"github.com/bsinou/go-config/reader"
 	"github.com/pborman/uuid"
 	"go.uber.org/zap"
 
