@@ -81,7 +81,7 @@ func (s *Handler) PutDataSource(req *restful.Request, resp *restful.Response) {
 	}
 
 	if reg, _ := regexp.MatchString("^[0-9a-z]*$", ds.Name); !reg {
-		service.RestError500(req, resp, fmt.Errorf("datasource name contains an invalid character"))
+		service.RestError500(req, resp, fmt.Errorf("datasource name contains an invalid character, please use alphanumeric characters"))
 		return
 	}
 
