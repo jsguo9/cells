@@ -173,9 +173,9 @@ func (s *MySQL) open(logger logrus.FieldLogger) (*conn, error) {
 	dexDSN.MultiStatements = true
 	//dexDSN.Collation = "utf8_general_ci"
 
-	params := make(map[string]string)
-	params["autocommit"] = "false"
-	dexDSN.Params = params
+	// params := make(map[string]string)
+	// params["transaction_isolation"] = "'SERIALIZABLE'"
+	// dexDSN.Params = params
 
 	db, err := sql.Open("mysql", dexDSN.FormatDSN())
 	if err != nil {
@@ -197,10 +197,6 @@ func (s *MySQL) open(logger logrus.FieldLogger) (*conn, error) {
 	}
 
 	c := &conn{db, flavorMySQL, logger, errCheck}
-
-	if _, err := c.Exec("SET SESSION TRANSACTION ISOLATION LEVEL SERIALIZABLE"); err != nil {
-		return nil, fmt.Errorf("failed to set transaction isolation level: %v", err)
-	}
 
 	if _, err := c.migrate(); err != nil {
 		return nil, fmt.Errorf("failed to open migrations: %v", err)
