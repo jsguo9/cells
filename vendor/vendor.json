@@ -3155,10 +3155,10 @@
 			"revisionTime": "2017-06-09T04:59:27Z"
 		},
 		{
-			"checksumSHA1": "Yvzge1YQcD/wSDXLD5qNHqmI/0s=",
+			"checksumSHA1": "J+g0oZePWp2zSIISD2dZZKTxmgg=",
 			"path": "github.com/mitchellh/mapstructure",
-			"revision": "00c29f56e2386353d58c599509e8dc3801b0d716",
-			"revisionTime": "2018-02-20T23:01:11Z"
+			"revision": "3536a929edddb9a5b34bd6861dc4a9647cb459fe",
+			"revisionTime": "2018-10-05T04:51:35Z"
 		},
 		{
 			"checksumSHA1": "mrqMlK6gqe//WsJSrJ1HgkPM0lM=",
@@ -3818,6 +3818,12 @@
 			"revisionTime": "2018-04-10T16:16:42Z"
 		},
 		{
+			"checksumSHA1": "yd5t2POcO9mlvm5scxyP7nf+Wgg=",
+			"path": "github.com/pydio/melody",
+			"revision": "4271c6513fb6ce53f13f99b5c419758c82313e9c",
+			"revisionTime": "2019-09-28T13:35:20Z"
+		},
+		{
 			"checksumSHA1": "cF572fAv+3P9DFqrl9hU9D9m+DQ=",
 			"path": "github.com/pydio/minio-go",
 			"revision": "41cbe90c6ca928f2142e907f12955c35a4ffeee2",
@@ -3860,10 +3866,10 @@
 			"revisionTime": "2018-11-14T16:22:46Z"
 		},
 		{
-			"checksumSHA1": "lZeBPTW+NeAFN2usTC3SQ2beUUY=",
+			"checksumSHA1": "DcVAvW3bdDSblMHWBxKli/5C+7U=",
 			"path": "github.com/pydio/minio-srv",
-			"revision": "7789630ca87c7d02ed87e949cb50b0336b549aa1",
-			"revisionTime": "2019-05-05T08:55:43Z",
+			"revision": "2f2982127574d1ab1a8143de39981107b62cf8e8",
+			"revisionTime": "2019-09-25T08:39:41Z",
 			"tree": true
 		},
 		{
@@ -5310,12 +5316,6 @@
 			"path": "gopkg.in/natefinch/lumberjack.v2",
 			"revision": "a96e63847dc3c67d17befa69c303767e2f84e54f",
 			"revisionTime": "2017-05-31T16:03:50Z"
-		},
-		{
-			"checksumSHA1": "imPi2JDKAJPo4w4tiJWviYRKXOg=",
-			"path": "gopkg.in/olahol/melody.v1",
-			"revision": "d521390733761fe1db13de575c253afd5c743085",
-			"revisionTime": "2017-05-18T10:55:55Z"
 		},
 		{
 			"checksumSHA1": "WrnWl9sC9qr8Ny0wkfKfnuwIxDM=",

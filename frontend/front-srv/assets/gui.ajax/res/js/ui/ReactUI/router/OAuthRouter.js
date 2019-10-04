@@ -32,6 +32,9 @@ export const OAuthLoginRouter = (pydio) => {
             const parsed = qs.parse(location.search);
 
             this.loginChallenge = parsed.login_challenge
+
+            localStorage.setItem("oauthOrigin", document.referrer)
+            localStorage.removeItem("loginOrigin")
         }
 
         authorize() {
@@ -49,6 +52,7 @@ export const OAuthLoginRouter = (pydio) => {
                     headers: { 'Content-Type': 'application/json' }
                 }).
                 then(function (response) {
+                    console.log("Response is ", response)
                     return response.json()
                 }).
                 then(function (response) {
@@ -99,7 +103,7 @@ export const OAuthConsentRouter = (pydio) => {
                     grant_scope: ["openid", "profile", "email", "pydio", "offline"],
                 
                     // Sets the audience the user authorized the client to use. Should be a subset of `requested_access_token_audience`.
-                    // grant_access_token_audience: ["cells-front"],
+                    // grant_access_token_audience: ["cells-sync"],
                 
                     // The session allows you to set additional data in the access and ID tokens.
                     session: {
@@ -107,7 +111,9 @@ export const OAuthConsentRouter = (pydio) => {
                         // refresh grant. Keep in mind that this data will be available to anyone performing OAuth 2.0 Challenge Introspection.
                         // If only your services can perform OAuth 2.0 Challenge Introspection, this is usually fine. But if third parties
                         // can access that endpoint as well, sensitive data from the session might be exposed to them. Use with care!
-                        access_token: {},
+                        access_token: {
+                            name: pydio.user.id
+                        },
                 
                         // Sets session data for the OpenID Connect ID token. Keep in mind that the session'id payloads are readable
                         // by anyone that has access to the ID Challenge. Use with care! Any information added here will be mirrored at

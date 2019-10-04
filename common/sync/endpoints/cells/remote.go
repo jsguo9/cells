@@ -22,8 +22,13 @@ package cells
 
 import (
 	"context"
+	"crypto/tls"
+	"crypto/x509"
 	"fmt"
+	"net"
+	"net/url"
 	"strings"
+	"time"
 
 	"github.com/micro/go-micro/client"
 	"github.com/micro/go-micro/metadata"
@@ -85,6 +90,7 @@ func NewRemote(config RemoteConfig, root string, options Options) *Remote {
 		RefreshToken:   config.RefreshToken,
 		TokenExpiresAt: config.ExpiresAt,
 	}
+
 	c := &Remote{
 		abstract: abstract{
 			root:       strings.TrimLeft(root, "/"),
@@ -181,13 +187,23 @@ func (f *remoteClientFactory) getClient(ctx context.Context) (context.Context, c
 	if err != nil {
 		return nil, nil, err
 	}
-	// create registry
-	microClient := microgrpc.NewClient(
+	opts := []client.Option{
 		client.Registry(f.registry.Micro),
 		client.Wrap(func(i client.Client) client.Client {
 			return &RegistryRefreshClient{w: i, r: f.registry}
 		}),
-	)
+	}
+	u, _ := url.Parse(f.config.Url)
+	if u.Scheme == "https" {
+		if pool, err := f.serverCerts(); err == nil {
+			opts = append(opts, microgrpc.AuthTLS(&tls.Config{
+				InsecureSkipVerify: f.config.SkipVerify,
+				RootCAs:            pool,
+			}))
+		}
+	}
+
+	microClient := microgrpc.NewClient(opts...)
 	var md metadata.Metadata
 	if m, ok := metadata.FromContext(ctx); ok {
 		md = m
@@ -198,4 +214,39 @@ func (f *remoteClientFactory) getClient(ctx context.Context) (context.Context, c
 	ctx = metadata.NewContext(ctx, md)
 	return ctx, microClient, nil
 
+}
+
+var memCerts map[string]*x509.CertPool
+
+// serverCerts loads certificates from https served server to be set inside the client
+func (f *remoteClientFactory) serverCerts() (*x509.CertPool, error) {
+	if memCerts == nil {
+		memCerts = make(map[string]*x509.CertPool)
+	}
+	if pool, ok := memCerts[f.config.Url]; ok {
+		return pool, nil
+	}
+	u, _ := url.Parse(f.config.Url)
+	d := &net.Dialer{
+		Timeout: time.Duration(1) * time.Second,
+	}
+	h := u.Host
+	if _, p, _ := net.SplitHostPort(u.Host); p == "" {
+		h += ":443"
+	}
+	conn, err := tls.DialWithDialer(d, "tcp", h, &tls.Config{
+		InsecureSkipVerify: f.config.SkipVerify,
+	})
+	if err != nil {
+		return nil, err
+	}
+	defer conn.Close()
+	cert := conn.ConnectionState().PeerCertificates
+
+	pool := x509.NewCertPool()
+	for _, c := range cert {
+		pool.AddCert(c)
+	}
+	memCerts[f.config.Url] = pool
+	return pool, nil
 }

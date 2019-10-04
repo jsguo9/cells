@@ -930,9 +930,9 @@ var PluginsList = React.createClass({
         };
 
         if (displaySmall) {
-            columns = [{ name: 'enabled', label: m('column.enabled'), style: { width: 80 }, headerStyle: { width: 80 }, renderCell: renderEnabled }, { name: 'label', label: m('column.label'), style: { fontSize: 15 } }, { name: 'action', label: '', style: { width: 80 }, headerStyle: { width: 80 }, renderCell: renderEditButton }];
+            columns = [{ name: 'enabled', label: m('column.enabled'), style: { width: 80 }, headerStyle: { width: 80 }, renderCell: renderEnabled }, { name: 'label', label: m('column.label'), style: { fontSize: 15 } }, { name: 'action', label: '', style: { width: 80, textOverflow: 'inherit' }, headerStyle: { width: 80 }, renderCell: renderEditButton }];
         } else {
-            columns = [{ name: 'enabled', label: m('column.enabled'), style: { width: 80 }, headerStyle: { width: 80 }, renderCell: renderEnabled }, { name: 'label', label: m('column.label'), style: { width: '20%', fontSize: 15 }, headerStyle: { width: '20%' } }, { name: 'id', label: m('column.id'), style: { width: '15%' }, headerStyle: { width: '15%' }, hideSmall: true }, { name: 'description', label: m('column.description'), hideSmall: true }, { name: 'action', label: '', style: { width: 80 }, headerStyle: { width: 80 }, renderCell: renderEditButton }];
+            columns = [{ name: 'enabled', label: m('column.enabled'), style: { width: 80 }, headerStyle: { width: 80 }, renderCell: renderEnabled }, { name: 'label', label: m('column.label'), style: { width: '20%', fontSize: 15 }, headerStyle: { width: '20%' } }, { name: 'id', label: m('column.id'), style: { width: '15%' }, headerStyle: { width: '15%' }, hideSmall: true }, { name: 'description', label: m('column.description'), hideSmall: true }, { name: 'action', label: '', style: { width: 80, textOverflow: 'inherit' }, headerStyle: { width: 80 }, renderCell: renderEditButton }];
         }
 
         var data = this.computeTableData();
@@ -2832,6 +2832,21 @@ var UpgraderWizard = (function (_React$Component) {
                                         );
                                     })
                                 )
+                            )
+                        ),
+                        !versionLoading && !versionAvailable && (!versionsNoMatch || versionsNoMatch.length === 0) && _react2['default'].createElement(
+                            'div',
+                            null,
+                            _react2['default'].createElement(
+                                'h5',
+                                null,
+                                '3. ',
+                                m('version.nomatch')
+                            ),
+                            _react2['default'].createElement(
+                                'div',
+                                null,
+                                m('version.nomatch.legend1')
                             )
                         )
                     );

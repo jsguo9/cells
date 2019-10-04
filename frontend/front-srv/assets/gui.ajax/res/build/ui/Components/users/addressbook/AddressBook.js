@@ -522,12 +522,12 @@ var AddressBook = _react2['default'].createClass({
             } else if (selectedItem.id === 'ext') {
                 emptyStatePrimary = getMessage(585, '');
                 emptyStateSecondary = getMessage(586, '');
-            } else if (selectedItem.IdmUser && selectedItem.IdmUser.IsGroup || selectedItem.id === 'PYDIO_GRP_/') {
+            } else if (selectedItem.IdmUser && selectedItem.IdmUser.IsGroup || selectedItem.id === 'PYDIO_GRP_/' || selectedItem.IdmRole && selectedItem.IdmRole.IsTeam) {
                 otherProps = {
                     showSubheaders: true,
                     paginatorType: !(selectedItem.currentParams && selectedItem.currentParams.has_search) && 'alpha',
                     paginatorCallback: this.reloadCurrentAtPage.bind(this),
-                    enableSearch: !this.props.disableSearch,
+                    enableSearch: !this.props.disableSearch && !(selectedItem.IdmRole && selectedItem.IdmRole.IsTeam), // do not enable inside teams
                     searchLabel: getMessage(595, ''),
                     onSearch: this.reloadCurrentWithSearch.bind(this)
                 };
@@ -643,7 +643,7 @@ var AddressBook = _react2['default'].createClass({
                 dialogTitle = getMessage(484, '');
                 dialogContent = _react2['default'].createElement(_UserCreationForm2['default'], {
                     zDepth: 0,
-                    style: { display: 'flex', flexDirection: 'column', flex: 1, marginTop: -40 },
+                    style: { display: 'flex', flexDirection: 'column', flex: 1 },
                     newUserName: "",
                     onUserCreated: this.closeCreateDialogAndReload.bind(this),
                     onCancel: function () {

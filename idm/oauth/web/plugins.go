@@ -25,21 +25,15 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/jmoiron/sqlx"
-
 	"github.com/micro/go-micro"
-	"github.com/ory/hydra/client"
 	"github.com/ory/hydra/consent"
 	"github.com/ory/hydra/driver"
 	"github.com/ory/hydra/driver/configuration"
 	"github.com/ory/hydra/jwk"
 	"github.com/ory/hydra/oauth2"
 	"github.com/ory/hydra/x"
-	"github.com/ory/x/sqlcon"
-	"github.com/pkg/errors"
 
 	"github.com/pydio/cells/common"
-	"github.com/pydio/cells/common/config"
 	defaults "github.com/pydio/cells/common/micro"
 	"github.com/pydio/cells/common/plugins"
 	"github.com/pydio/cells/common/service"
@@ -71,22 +65,20 @@ func init() {
 					}), nil
 			},
 				serve,
-				wrapAfterStart(initialize),
-			))
+			),
+			service.BeforeStart(initialize),
+		)
 	})
 }
 
 func serve(s service.Service) (micro.Option, error) {
 	srv := defaults.NewHTTPServer()
 
-	externalURL := config.Get("defaults", "url").String("")
-
-	conf = NewProvider(externalURL, servicecontext.GetConfig(s.Options().Context))
-
 	admin := x.NewRouterAdmin()
 	public := x.NewRouterPublic()
 
-	reg = driver.NewRegistrySQL().WithConfig(conf)
+	reg := oauth.GetRegistry()
+	conf := oauth.GetConfigurationProvider()
 
 	oauth2Handler := oauth2.NewHandler(reg, conf)
 	oauth2Handler.SetRoutes(admin, public, driver.OAuth2AwareCORSMiddleware("public", reg, conf))
@@ -110,108 +102,11 @@ func serve(s service.Service) (micro.Option, error) {
 	return micro.Server(srv), nil
 }
 
-func wrapAfterStart(f func(service.Service) error) func(service.Service) (micro.Option, error) {
-	return func(s service.Service) (micro.Option, error) {
-		return micro.AfterStart(func() error {
-			return f(s)
-		}), nil
-	}
-}
-
 func initialize(s service.Service) error {
-	dao := servicecontext.GetDAO(s.Options().Context).(sql.DAO)
-	db := sqlx.NewDb(dao.DB(), dao.Driver())
 
-	r := reg.(*driver.RegistrySQL).WithDB(db)
-	r.Init()
-	sql.LockMigratePackage()
-	defer func() {
-		sql.UnlockMigratePackage()
-	}()
-	if _, err := r.ClientManager().(*client.SQLManager).CreateSchemas(dao.Driver()); err != nil {
-		return err
-	}
+	ctx := s.Options().Context
 
-	if _, err := r.KeyManager().(*jwk.SQLManager).CreateSchemas(dao.Driver()); err != nil {
-		return err
-	}
-
-	if _, err := r.ConsentManager().(*consent.SQLManager).CreateSchemas(dao.Driver()); err != nil {
-		return err
-	}
-
-	store = oauth2.NewFositeSQLStore(db, r, conf)
-	store.CreateSchemas(dao.Driver())
-
-	c := servicecontext.GetConfig(s.Options().Context)
-
-	if err := syncClients(s.Options().Context, r.ClientManager(), c.Array("staticClients")); err != nil {
-		return err
-	}
-
-	w, err := config.Watch("services", common.SERVICE_REST_NAMESPACE_+common.SERVICE_OAUTH)
-	if err != nil {
-		return err
-	}
-
-	go func() {
-		defer w.Stop()
-		for {
-			_, err := w.Next()
-			if err != nil {
-				break
-			}
-
-			syncClients(s.Options().Context, r.ClientManager(), c.Array("staticClients"))
-		}
-	}()
-
-	return nil
-}
-
-func syncClients(ctx context.Context, s client.Storage, c common.Scanner) error {
-	var clients []*client.Client
-
-	if c == nil {
-		return nil
-	}
-
-	if err := c.Scan(&clients); err != nil {
-		return err
-	}
-
-	n, err := s.CountClients(ctx)
-	if err != nil {
-		return err
-	}
-
-	old, err := s.GetClients(ctx, n, 0)
-	if err != nil {
-		return err
-	}
-
-	for _, cli := range clients {
-		_, err := s.GetClient(ctx, cli.GetID())
-
-		if errors.Cause(err) == sqlcon.ErrNoRows {
-			// Let's create it
-			if err := s.CreateClient(ctx, cli); err != nil {
-				return err
-			}
-		} else {
-			if err := s.UpdateClient(ctx, cli); err != nil {
-				return err
-			}
-		}
-
-		delete(old, cli.GetID())
-	}
-
-	for _, cli := range old {
-		if err := s.DeleteClient(ctx, cli.GetID()); err != nil {
-			return err
-		}
-	}
+	oauth.InitRegistry(servicecontext.GetConfig(ctx), servicecontext.GetDAO(ctx).(sql.DAO))
 
 	return nil
 }

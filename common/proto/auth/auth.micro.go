@@ -16,6 +16,8 @@ It has these top-level messages:
 	RevokeTokenResponse
 	PruneTokensRequest
 	PruneTokensResponse
+	VerifyTokenRequest
+	VerifyTokenResponse
 	LdapSearchFilter
 	LdapMapping
 	LdapMemberOfMapping
@@ -137,4 +139,58 @@ func (h *AuthTokenRevoker) Revoke(ctx context.Context, in *RevokeTokenRequest, o
 
 func (h *AuthTokenRevoker) PruneTokens(ctx context.Context, in *PruneTokensRequest, out *PruneTokensResponse) error {
 	return h.AuthTokenRevokerHandler.PruneTokens(ctx, in, out)
+}
+
+// Client API for AuthTokenVerifier service
+
+type AuthTokenVerifierClient interface {
+	// Verifies a token and returns claims
+	Verify(ctx context.Context, in *VerifyTokenRequest, opts ...client.CallOption) (*VerifyTokenResponse, error)
+}
+
+type authTokenVerifierClient struct {
+	c           client.Client
+	serviceName string
+}
+
+func NewAuthTokenVerifierClient(serviceName string, c client.Client) AuthTokenVerifierClient {
+	if c == nil {
+		c = client.NewClient()
+	}
+	if len(serviceName) == 0 {
+		serviceName = "auth"
+	}
+	return &authTokenVerifierClient{
+		c:           c,
+		serviceName: serviceName,
+	}
+}
+
+func (c *authTokenVerifierClient) Verify(ctx context.Context, in *VerifyTokenRequest, opts ...client.CallOption) (*VerifyTokenResponse, error) {
+	req := c.c.NewRequest(c.serviceName, "AuthTokenVerifier.Verify", in)
+	out := new(VerifyTokenResponse)
+	err := c.c.Call(ctx, req, out, opts...)
+	if err != nil {
+		return nil, err
+	}
+	return out, nil
+}
+
+// Server API for AuthTokenVerifier service
+
+type AuthTokenVerifierHandler interface {
+	// Verifies a token and returns claims
+	Verify(context.Context, *VerifyTokenRequest, *VerifyTokenResponse) error
+}
+
+func RegisterAuthTokenVerifierHandler(s server.Server, hdlr AuthTokenVerifierHandler, opts ...server.HandlerOption) {
+	s.Handle(s.NewHandler(&AuthTokenVerifier{hdlr}, opts...))
+}
+
+type AuthTokenVerifier struct {
+	AuthTokenVerifierHandler
+}
+
+func (h *AuthTokenVerifier) Verify(ctx context.Context, in *VerifyTokenRequest, out *VerifyTokenResponse) error {
+	return h.AuthTokenVerifierHandler.Verify(ctx, in, out)
 }
