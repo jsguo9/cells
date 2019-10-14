@@ -27,23 +27,25 @@ import browserHistory from 'react-router/lib/browserHistory';
 import MainRouter from './MainRouter';
 import WorkspaceRouter from './WorkspaceRouter';
 import PathRouter from './PathRouter';
-import {OAuthLoginRouter, OAuthConsentRouter} from './OAuthRouter';
+import {OAuthLoginRouter, OAuthConsentRouter, OAuthOOBRouter, OAuthFallbacksRouter} from './OAuthRouter';
 import LoginRouter from './LoginRouter';
 import LoginCallbackRouter from './LoginCallbackRouter';
 import LogoutRouter from './LogoutRouter';
 
 function getRoutes(pydio){
-    const routes = (
+    return (
         <Switch>
-            <Route path="login">
+            <Route path="/login">
                 <IndexRoute component={LoginRouter(pydio)}/>
                 <Route path="callback" component={LoginCallbackRouter(pydio)} />
             </Route>
-            <Route path="logout" component={LogoutRouter(pydio)} />
-            <Route path="oauth2">
+            <Route path="/logout" component={LogoutRouter(pydio)} />
+            <Route path="/oauth2">
                 <Route path="login" component={OAuthLoginRouter(pydio)} />
                 <Route path="consent" component={OAuthConsentRouter(pydio)} />
-            </Route> 
+                <Route path="oob" component={OAuthOOBRouter(pydio)}/>
+                <Route path="fallbacks/error" component={OAuthFallbacksRouter(pydio)}/>
+            </Route>
             <Route path="/" component={MainRouter(pydio)}>
                 <Route path=":workspaceId" component={WorkspaceRouter(pydio)}>
                     <IndexRoute component={PathRouter(pydio)}/>
@@ -51,14 +53,12 @@ function getRoutes(pydio){
                 </Route>
             </Route>
         </Switch>
-    )
-    return routes;
+    );
 }
 
 class PydioRouter extends React.PureComponent {
     constructor(props) {
-        super(props)
-
+        super(props);
         this.state = {
             renderOnce: true
         }

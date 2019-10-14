@@ -73,21 +73,23 @@ var _LogoutRouter = require('./LogoutRouter');
 var _LogoutRouter2 = _interopRequireDefault(_LogoutRouter);
 
 function getRoutes(pydio) {
-    var routes = React.createElement(
+    return React.createElement(
         _reactRouterDom.Switch,
         null,
         React.createElement(
             _reactRouterLibRoute2['default'],
-            { path: 'login' },
+            { path: '/login' },
             React.createElement(_reactRouterLibIndexRoute2['default'], { component: _LoginRouter2['default'](pydio) }),
             React.createElement(_reactRouterLibRoute2['default'], { path: 'callback', component: _LoginCallbackRouter2['default'](pydio) })
         ),
-        React.createElement(_reactRouterLibRoute2['default'], { path: 'logout', component: _LogoutRouter2['default'](pydio) }),
+        React.createElement(_reactRouterLibRoute2['default'], { path: '/logout', component: _LogoutRouter2['default'](pydio) }),
         React.createElement(
             _reactRouterLibRoute2['default'],
-            { path: 'oauth2' },
+            { path: '/oauth2' },
             React.createElement(_reactRouterLibRoute2['default'], { path: 'login', component: _OAuthRouter.OAuthLoginRouter(pydio) }),
-            React.createElement(_reactRouterLibRoute2['default'], { path: 'consent', component: _OAuthRouter.OAuthConsentRouter(pydio) })
+            React.createElement(_reactRouterLibRoute2['default'], { path: 'consent', component: _OAuthRouter.OAuthConsentRouter(pydio) }),
+            React.createElement(_reactRouterLibRoute2['default'], { path: 'oob', component: _OAuthRouter.OAuthOOBRouter(pydio) }),
+            React.createElement(_reactRouterLibRoute2['default'], { path: 'fallbacks/error', component: _OAuthRouter.OAuthFallbacksRouter(pydio) })
         ),
         React.createElement(
             _reactRouterLibRoute2['default'],
@@ -100,7 +102,6 @@ function getRoutes(pydio) {
             )
         )
     );
-    return routes;
 }
 
 var PydioRouter = (function (_React$PureComponent) {
@@ -110,7 +111,6 @@ var PydioRouter = (function (_React$PureComponent) {
         _classCallCheck(this, PydioRouter);
 
         _React$PureComponent.call(this, props);
-
         this.state = {
             renderOnce: true
         };
