@@ -30,7 +30,7 @@ import (
 
 var docPath string
 
-// versionCmd represents the versioning command
+// docCmd represents the versioning command
 var docCmd = &cobra.Command{
 	Use:   "doc",
 	Short: "Generate ReST documentation for this command",

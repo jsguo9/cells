@@ -1,42 +1,63 @@
 package cmd
 
 import (
-	"fmt"
-	"io/ioutil"
 	"os"
-	"path"
 
 	"github.com/spf13/cobra"
 )
+
+var shType string
 
 // completionCmd represents the completion command
 var completionCmd = &cobra.Command{
 	Use:   "completion",
 	Short: "Auto completion for Pydio Cells",
-	Long: `Completion for Pydio Cells binary
-
-
-	# Add to current session
-	source <(./cells completion)
+	Long: `Completion for Pydio Cells Client
 	
-	# Add bashcompletion file (might require root)
-	./cells completion > /etc/bash_completion.d/cells`,
+	# Add to current session
+	source <(cec completion bash)
 
+	# Add to current zsh session
+	source <(cec completion zsh)
+	
+	# Add bashcompletion file (might require sudo)
+	cec completion bash > /etc/bash_completion.d/cec
+
+	# Add zshcompletion file
+	cec	completion zsh > ~/.zsh/completion/_cec
+	`,
+	Run: func(cmd *cobra.Command, args []string) {
+		cmd.Help()
+	},
+	ValidArgs: []string{"zsh", "bash"},
+}
+
+var bashCompletionCmd = &cobra.Command{
+	Use: "bash",
 	Run: func(cmd *cobra.Command, args []string) {
 		bashAutocomplete()
 	},
 }
 
-func init() {
-	RootCmd.AddCommand(completionCmd)
+var zshCompletionCmd = &cobra.Command{
+	Use: "zsh",
+	Run: func(cmd *cobra.Command, args []string) {
+		zshAutocomplete()
+	},
 }
 
+func init() {
+	RootCmd.AddCommand(completionCmd)
+	completionCmd.AddCommand(bashCompletionCmd)
+	completionCmd.AddCommand(zshCompletionCmd)
+
+}
+
+// Reads the bash autocomplete file and prints it to stdout
 func bashAutocomplete() {
-	wd, _ := os.Getwd()
-	file, err := ioutil.ReadFile(path.Join(wd, "tools", "bash_autocompletion", "cells_autocompletion.bash"))
-	if err != nil {
-		fmt.Println("Could not read file")
-		return
-	}
-	fmt.Fprint(os.Stdout, string(file))
+	RootCmd.GenBashCompletion(os.Stdout)
+}
+
+func zshAutocomplete() {
+	RootCmd.GenZshCompletion(os.Stdout)
 }
