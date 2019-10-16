@@ -131,19 +131,37 @@ func (a *PathWorkspaceHandler) ListNodes(ctx context.Context, in *tree.ListNodes
 		streamer := NewWrappingStreamer()
 		go func() {
 			defer streamer.Close()
-			for _, ws := range accessList.Workspaces {
+			wss := accessList.Workspaces
+			for wsId, wsPermissions := range accessList.GetAccessibleWorkspaces(ctx) {
+				ws, o := wss[wsId]
+				if !o {
+					// This is the case if wsId is "settings" or "homepage" => ignore!
+					continue
+				}
 				if len(ws.RootUUIDs) > 0 {
 					node := &tree.Node{
 						Type: tree.NodeType_COLLECTION,
 						Uuid: ws.RootUUIDs[0],
 						Path: ws.Slug,
 					}
+					// Pass workspace data along in node MetaStore
 					node.SetMeta(common.META_FLAG_WORKSPACE_SCOPE, ws.Scope.String())
+					node.SetMeta(common.META_FLAG_WORKSPACE_PERMISSIONS, wsPermissions)
+					node.SetMeta(common.META_FLAG_WORKSPACE_LABEL, ws.Label)
+					node.SetMeta(common.META_FLAG_WORKSPACE_DESCRIPTION, ws.Description)
+					node.SetMeta(common.META_FLAG_WORKSPACE_SLUG, ws.Slug)
+					node.SetMeta(common.META_FLAG_WORKSPACE_UUID, ws.UUID)
 					if ws.Attributes != "" && ws.Attributes != "{}" {
 						var aa map[string]interface{}
 						if e := json.Unmarshal([]byte(ws.Attributes), &aa); e == nil {
-							if canSync, ok := aa["ALLOW_SYNC"]; ok && canSync.(bool) {
-								node.SetMeta(common.META_FLAG_WORKSPACE_SYNCABLE, canSync)
+							if canSync, ok := aa["ALLOW_SYNC"]; ok {
+								if b, o := canSync.(bool); o {
+									node.SetMeta(common.META_FLAG_WORKSPACE_SYNCABLE, b)
+								} else if s, o := canSync.(string); o {
+									if s == "true" {
+										node.SetMeta(common.META_FLAG_WORKSPACE_SYNCABLE, true)
+									}
+								}
 							}
 						}
 					}
