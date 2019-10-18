@@ -174,7 +174,7 @@ func (d *daocache) Prepare(name string, args interface{}) error {
 }
 
 // GetStmt returns a statement that had been already prepared
-func (d *daocache) GetStmt(name string, args ...interface{}) *sql.Stmt {
+func (d *daocache) GetStmt(name string, args ...interface{}) (*sql.Stmt, error) {
 	return d.DAO.(commonsql.DAO).GetStmt(name, args...)
 }
 
@@ -383,6 +383,13 @@ func (d *daocache) GetNode(path mtree.MPath) (*mtree.TreeNode, error) {
 }
 
 func (d *daocache) GetNodeByUUID(uuid string) (*mtree.TreeNode, error) {
+	d.mutex.RLock()
+	defer d.mutex.RUnlock()
+	for _, n := range d.cache {
+		if n.Uuid == uuid {
+			return n, nil
+		}
+	}
 	return d.DAO.GetNodeByUUID(uuid)
 }
 

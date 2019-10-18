@@ -1360,7 +1360,7 @@ exports['default'] = _react2['default'].createClass({
         rootNode: _react2['default'].PropTypes.instanceOf(_pydioModelNode2['default']).isRequired,
         currentNode: _react2['default'].PropTypes.instanceOf(_pydioModelNode2['default']).isRequired,
         openSelection: _react2['default'].PropTypes.func,
-        filter: _react2['default'].PropTypes.string
+        advanced: _react2['default'].PropTypes.boolean
     },
 
     getInitialState: function getInitialState() {
@@ -1426,7 +1426,9 @@ exports['default'] = _react2['default'].createClass({
     },
 
     render: function render() {
-        var pydio = this.props.pydio;
+        var _props = this.props;
+        var pydio = _props.pydio;
+        var advanced = _props.advanced;
 
         var m = function m(id) {
             return pydio.MessageHash['ajxp_admin.' + id];
@@ -1435,9 +1437,16 @@ exports['default'] = _react2['default'].createClass({
             return pydio.MessageHash['settings.' + id];
         };
 
-        var columns = [{ name: 'label', label: s('8'), style: { width: '20%', fontSize: 15 }, headerStyle: { width: '20%' } }, { name: 'description', label: s('103'), hideSmall: true, style: { width: '25%' }, headerStyle: { width: '25%' } }, { name: 'summary', label: m('ws.board.summary'), hideSmall: true, style: { width: '25%' }, headerStyle: { width: '25%' } }, { name: 'syncable', label: m('ws.board.syncable'), style: { width: '10%', textAlign: 'center' }, headerStyle: { width: '10%', textAlign: 'center' }, renderCell: function renderCell(row) {
-                return _react2['default'].createElement('span', { className: "mdi mdi-check", style: { fontSize: 18, opacity: row.syncable ? 1 : 0 } });
-            } }, { name: 'slug', label: m('ws.5'), style: { width: '20%' }, headerStyle: { width: '20%' } }];
+        var columns = [{ name: 'label', label: s('8'), style: { width: '20%', fontSize: 15 }, headerStyle: { width: '20%' } }, { name: 'description', label: s('103'), hideSmall: true, style: { width: '25%' }, headerStyle: { width: '25%' } }, { name: 'summary', label: m('ws.board.summary'), hideSmall: true, style: { width: '25%' }, headerStyle: { width: '25%' } }];
+        if (advanced) {
+            columns.push({
+                name: 'syncable', label: m('ws.board.syncable'), style: { width: '10%', textAlign: 'center' }, headerStyle: { width: '10%', textAlign: 'center' }, renderCell: function renderCell(row) {
+                    return _react2['default'].createElement('span', { className: "mdi mdi-check", style: { fontSize: 18, opacity: row.syncable ? 1 : 0 } });
+                } });
+        }
+
+        columns.push({ name: 'slug', label: m('ws.5'), style: { width: '20%' }, headerStyle: { width: '20%' } });
+
         var loading = this.state.loading;
 
         var data = this.computeTableData();
@@ -1517,11 +1526,11 @@ exports['default'] = _react2['default'].createClass({
         openEditor: _react2['default'].PropTypes.func.isRequired,
         openRightPane: _react2['default'].PropTypes.func.isRequired,
         closeRightPane: _react2['default'].PropTypes.func.isRequired,
-        filter: _react2['default'].PropTypes.string
+        advanced: _react2['default'].PropTypes.boolean
     },
 
     getInitialState: function getInitialState() {
-        return { selectedNode: null, filter: this.props.filter || 'workspaces' };
+        return { selectedNode: null };
     },
 
     componentDidMount: function componentDidMount() {
@@ -1564,7 +1573,9 @@ exports['default'] = _react2['default'].createClass({
         if (editorNode) {
             editor = editorNode.getAttribute('namespace') + '.' + editorNode.getAttribute('component');
         }
-        var pydio = this.props.pydio;
+        var _props = this.props;
+        var pydio = _props.pydio;
+        var advanced = _props.advanced;
 
         var editorData = {
             COMPONENT: editor,
@@ -1573,6 +1584,7 @@ exports['default'] = _react2['default'].createClass({
                 pydio: pydio,
                 workspace: workspace,
                 closeEditor: this.closeWorkspace,
+                advanced: advanced,
                 reloadList: function reloadList() {
                     _this2.refs['workspacesList'].reload();
                 }
@@ -1591,7 +1603,9 @@ exports['default'] = _react2['default'].createClass({
     showWorkspaceCreator: function showWorkspaceCreator(type) {
         var _this3 = this;
 
-        var pydio = this.props.pydio;
+        var _props2 = this.props;
+        var pydio = _props2.pydio;
+        var advanced = _props2.advanced;
 
         var editorData = {
             COMPONENT: _editorWsEditor2['default'],
@@ -1599,6 +1613,7 @@ exports['default'] = _react2['default'].createClass({
                 ref: "editor",
                 type: type,
                 pydio: pydio,
+                advanced: advanced,
                 closeEditor: this.closeWorkspace,
                 reloadList: function reloadList() {
                     _this3.refs['workspacesList'].reload();
@@ -1646,7 +1661,7 @@ exports['default'] = _react2['default'].createClass({
                             rootNode: this.props.rootNode,
                             currentNode: this.props.currentNode,
                             openSelection: this.openWorkspace,
-                            filter: this.state.filter
+                            advanced: this.props.advanced
                         })
                     )
                 )
@@ -2020,7 +2035,7 @@ var DataSourceEditor = (function (_React$Component) {
                         onRequestClose: function () {
                             _this6.confirmEncryption(!dialogTargetValue);
                         },
-                        actions: [_react2['default'].createElement(_materialUi.FlatButton, { label: "Cancel", onTouchTap: function () {
+                        actions: [_react2['default'].createElement(_materialUi.FlatButton, { label: pydio.MessageHash['54'], onTouchTap: function () {
                                 _this6.confirmEncryption(!dialogTargetValue);
                             } }), _react2['default'].createElement(_materialUi.FlatButton, { label: m('enc.validate'), onTouchTap: function () {
                                 _this6.confirmEncryption(dialogTargetValue);
@@ -4100,11 +4115,29 @@ var WsEditor = (function (_React$Component) {
         this.state = {
             workspace: workspace.getModel(),
             container: workspace,
-            newFolderKey: Math.random()
+            newFolderKey: Math.random(),
+            showDialog: false
         };
     }
 
     _createClass(WsEditor, [{
+        key: 'enableSync',
+        value: function enableSync(value) {
+            if (value) {
+                this.setState({ showDialog: 'enableSync', dialogTargetValue: value });
+            } else {
+                this.setState({ showDialog: 'disableSync', dialogTargetValue: value });
+            }
+        }
+    }, {
+        key: 'confirmSync',
+        value: function confirmSync(value) {
+            var workspace = this.state.workspace;
+
+            workspace.Attributes['ALLOW_SYNC'] = value;
+            this.setState({ showDialog: false, dialogTargetValue: null });
+        }
+    }, {
         key: 'revert',
         value: function revert() {
             var _this2 = this;
@@ -4167,11 +4200,14 @@ var WsEditor = (function (_React$Component) {
             var _props3 = this.props;
             var closeEditor = _props3.closeEditor;
             var pydio = _props3.pydio;
+            var advanced = _props3.advanced;
             var _state = this.state;
             var workspace = _state.workspace;
             var container = _state.container;
             var newFolderKey = _state.newFolderKey;
             var saving = _state.saving;
+            var showDialog = _state.showDialog;
+            var dialogTargetValue = _state.dialogTargetValue;
 
             var m = function m(id) {
                 return pydio.MessageHash['ajxp_admin.' + id] || id;
@@ -4282,6 +4318,31 @@ var WsEditor = (function (_React$Component) {
                     contentFill: false
                 },
                 _react2['default'].createElement(
+                    _materialUi.Dialog,
+                    {
+                        open: showDialog,
+                        title: m('ws.editor.sync.warning'),
+                        onRequestClose: function () {
+                            _this4.confirmSync(!dialogTargetValue);
+                        },
+                        actions: [_react2['default'].createElement(_materialUi.FlatButton, { label: pydio.MessageHash['54'], onTouchTap: function () {
+                                _this4.confirmSync(!dialogTargetValue);
+                            } }), _react2['default'].createElement(_materialUi.FlatButton, { label: m('ws.editor.sync.warning.validate'), onTouchTap: function () {
+                                _this4.confirmSync(dialogTargetValue);
+                            } })]
+                    },
+                    showDialog === 'enableSync' && _react2['default'].createElement(
+                        'div',
+                        null,
+                        m('ws.editor.sync.warning.enable')
+                    ),
+                    showDialog === 'disableSync' && _react2['default'].createElement(
+                        'div',
+                        null,
+                        m('ws.editor.sync.warning.disable')
+                    )
+                ),
+                _react2['default'].createElement(
                     _materialUi.Paper,
                     { zDepth: 1, style: styles.section },
                     _react2['default'].createElement(
@@ -4360,7 +4421,7 @@ var WsEditor = (function (_React$Component) {
                         _react2['default'].createElement(_materialUi.MenuItem, { primaryText: m('ws.editor.default_rights.write'), value: "w" })
                     )
                 ),
-                _react2['default'].createElement(
+                advanced && _react2['default'].createElement(
                     _materialUi.Paper,
                     { zDepth: 1, style: styles.section },
                     _react2['default'].createElement(
@@ -4370,13 +4431,24 @@ var WsEditor = (function (_React$Component) {
                     ),
                     _react2['default'].createElement(
                         'div',
+                        { style: _extends({}, styles.legend, { marginTop: 8 }) },
+                        m('ws.editor.other.sync.legend')
+                    ),
+                    _react2['default'].createElement(
+                        'div',
                         { style: styles.toggleDiv },
                         _react2['default'].createElement(_materialUi.Toggle, _extends({
                             label: m('ws.editor.other.sync'),
                             labelPosition: "right",
                             toggled: workspace.Attributes['ALLOW_SYNC'],
                             onToggle: function (e, v) {
-                                workspace.Attributes['ALLOW_SYNC'] = v;
+                                if (!container.hasTemplatePath() && v) {
+                                    _this4.enableSync(v);
+                                } else if (!v) {
+                                    _this4.enableSync(v);
+                                } else {
+                                    workspace.Attributes['ALLOW_SYNC'] = v;
+                                }
                             }
                         }, ModernStyles.toggleField))
                     ),
